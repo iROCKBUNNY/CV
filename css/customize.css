@@ -6,3 +6,11 @@
     font-weight: normal;
     color: #94d0ff;
 }
+
+.bs-docs-footer .teelab-logo {
+    margin-bottom: 5px;
+}
+
+.bs-docs-footer .teelab-logo img {
+    width: 90px;
+}
