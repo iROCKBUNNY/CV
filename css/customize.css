@@ -2,6 +2,18 @@ body {
     /*padding-top: 70px;*/
 }
 
+.avatar, .qutong-name h1 {
+    margin: 0 auto 30px;
+}
+
+.avatar img {
+    width: 180px;
+}
+
+.qutong-name h1 {
+    font-weight: 400;
+}
+
 .bs-docs-header h1, .bs-docs-header p {
     margin-right: 0;
 }
