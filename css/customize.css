@@ -1,3 +1,7 @@
+body {
+    /*padding-top: 70px;*/
+}
+
 .bs-docs-header h1, .bs-docs-header p {
     margin-right: 0;
 }
