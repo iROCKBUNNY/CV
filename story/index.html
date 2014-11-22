@@ -8,7 +8,7 @@
     <meta name="description" content="Tong Qu - R & D Engineer at SGRI, HKPolyU Alumni, BUPT Alumni, Researcher, Programmer, Designer, Photographer, Writer, Guitar Player, Skateboard Beginner, Motorcycle Amateur.">
     <meta name="keywords" content="Tong Qu, Curriculum Vitae, CV, Resume, Portfolio, Research, Design">
     <meta name="author" content="Tong Qu">
-    <title>Tong Qu &middot; Hello</title>
+    <title>Tong Qu &middot; Portfolio</title>
 
     <!-- Bootstrap CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -62,40 +62,46 @@
           <ul class="nav navbar-nav">
             <li><a href="../cv/">Curriculum Vit&aelig;</a></li>
             <li><a href="../portfolio/">Portfolio</a></li>
-            <li><a href="../story/">Story</a></li>
+            <li class="active"><a href="../story/">Story</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="http://cn.linkedin.com/in/qutong" target="_blank">LinkedIn</a></li>
-            <li><a href="http://github.com/iROCKBUNNY" target="_blank">GitHub</a></li>
+            <li><a href="http://cn.linkedin.com/in/qutong" target="_blank" onclick="ga('send', 'event', 'Navbar', 'Social links', 'LinkedIn');">LinkedIn</a></li>
+            <li><a href="http://github.com/iROCKBUNNY" target="_blank" onclick="ga('send', 'event', 'Navbar', 'Social links', 'GitHub');">GitHub</a></li>
           </ul>
         </nav>
       </div>
     </header>
 
     <!-- Page contents -->
-    <main class="bs-docs-masthead" id="content" role="main">
+    <div class="bs-docs-header" id="content">
       <div class="container">
-        <p class="lead">Tong Qu</p>
-        <!-- <p class="lead"><a href="../cv/" class="btn btn-outline-inverse btn-lg">View Curriculum Vit&aelig;</a></p> -->
-        <div class="lead btn-group btn-group-justified" role="group">
-          <a href="../cv/" class="btn btn-outline-inverse btn-lg">View Curriculum Vit&aelig;</a>
-          <a href="../portfolio/" class="btn btn-outline-inverse btn-lg">View Portfolio</a>
-        </div>
-        <p>R &amp; D Engineer at SGRI &middot; HKPolyU Alumni &middot; BUPT Alumni</p>
-        <p>Researcher &middot; Programmer &middot; Designer &middot; Photographer &middot; Writer &middot; Guitar Player &middot; Skateboard Beginner &middot; Motorcycle Amateur</p>
+        <h1>Story</h1>
+        <!-- <p>R &amp; D Engineer at SGRI &middot; HKPolyU Alumni &middot; BUPT Alumni &middot; Researcher &middot; Programmer &middot; Designer &middot; Photographer &middot; Writer &middot; Guitar Player &middot; Skateboard Beginner &middot; Motorcycle Amateur</p> -->
       </div>
-    </main>
-
-    <div class="bs-docs-featurette">
-      <h2 class="bs-docs-featurette-title">Research</h2>
     </div>
 
-    <div class="bs-docs-featurette">
-      <h2 class="bs-docs-featurette-title">Design</h2>
-    </div>
-
-    <div class="bs-docs-featurette">
-      <h2 class="bs-docs-featurette-title">Story</h2>
+    <div class="container bs-docs-container">
+      <div class="row">
+        <!-- Main contents -->
+        <div class="col-md-9" role="main">
+          <div class="bs-docs-section">
+            <h1 id="summary" class="page-header">Summary</h1>
+          </div>
+          <div class="bs-docs-section">
+            <h1 id="additional-info" class="page-header">Additional Info</h1>
+          </div>
+        </div>
+        <!-- Sidebar nav-->
+        <div class="col-md-3">
+          <div class="bs-docs-sidebar hidden-print hidden-xs hidden-sm" role="complementary">
+            <ul class="nav bs-docs-sidenav">
+              <li><a href="#summary">Summary</a></li>
+              <li><a href="#additional-info">Additional Info</a></li>
+            </ul>
+            <a class="back-to-top" href="#top">Back to Top</a>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Footer -->
