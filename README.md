@@ -1,10 +1,8 @@
-cv
-==
-
-Curriculum Vitae
-
 Tong Qu
--------
+=======
+
+Curriculum vitae, portfolio and more.
+
 * R & D Engineer at SGRI
 * HKPolyU Alumni
 * BUPT Alumni
