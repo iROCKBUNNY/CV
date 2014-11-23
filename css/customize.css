@@ -10,7 +10,7 @@ body {
 }
 
 .nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
-background-color: #f9f9f9;
+    background-color: #f9f9f9;
 }
 
 .dropdown-menu li a {
