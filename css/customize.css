@@ -12,18 +12,11 @@
     color: #555;
 }
 
-/* Carousel */
-.carousel-control {
-    text-shadow: inherit;
-}
-.carousel-control.left, .carousel-control.right {
-    background: transparent;
-}
 
+/* Avatar */
 .avatar, .qutong-name h1 {
     margin: 0 auto 30px;
 }
-
 .avatar img {
     width: 180px;
 }
