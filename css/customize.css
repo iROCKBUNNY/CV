@@ -1,25 +1,23 @@
-body {
-    /*padding-top: 70px;*/
-}
-
+/* Dropdown menu */
 .dropdown-menu {
     border: none;
     border-radius: inherit;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
-
 .nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
     background-color: #f9f9f9;
 }
-
-.dropdown-menu li a {
-    padding: 3px 15px;
+.dropdown-menu li a, .dropdown-menu li a:hover {
     color: #555;
 }
 
-.dropdown-menu li a:hover {
-    color: #444;
+/* Carousel */
+.carousel-control {
+    text-shadow: inherit;
+}
+.carousel-control.left, .carousel-control.right {
+    background: transparent;
 }
 
 .avatar, .qutong-name h1 {
@@ -32,21 +30,4 @@ body {
 
 .qutong-name h1 {
     font-weight: 400;
-}
-
-.bs-docs-header h1, .bs-docs-header p {
-    margin-right: 0;
-}
-
-.bs-docs-header h1 span {
-    font-weight: normal;
-    color: #94d0ff;
-}
-
-.bs-docs-footer .teelab-logo {
-    margin-bottom: 5px;
-}
-
-.bs-docs-footer .teelab-logo img {
-    width: 90px;
 }
