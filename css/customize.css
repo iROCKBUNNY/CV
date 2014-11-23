@@ -2,6 +2,26 @@ body {
     /*padding-top: 70px;*/
 }
 
+.dropdown-menu {
+    border: none;
+    border-radius: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+background-color: #f9f9f9;
+}
+
+.dropdown-menu li a {
+    padding: 3px 15px;
+    color: #555;
+}
+
+.dropdown-menu li a:hover {
+    color: #444;
+}
+
 .avatar, .qutong-name h1 {
     margin: 0 auto 30px;
 }
