@@ -1,3 +1,26 @@
+/* Color swatches */
+.blue-1 {
+    color: #eef8ff;
+}
+.blue-2 {
+    color: #cae8ff;
+}
+.blue-3 {
+    color: #94d0ff;
+}
+.blue-4 {
+    color: #64b7f8;
+}
+.blue-5 {
+    color: #2098f5;
+}
+.blue-6 {
+    color: #047edd;
+}
+.blue-7 {
+    color: #0469b7;
+}
+
 /* Dropdown menu */
 .dropdown-menu {
     border: none;
@@ -12,6 +35,34 @@
     color: #555;
 }
 
+/* Label color swatches*/
+.label-blue-1 {
+    background-color: #eef8ff;
+}
+.label-blue-2 {
+    background-color: #cae8ff;
+}
+.label-blue-3 {
+    background-color: #94d0ff;
+}
+.label-blue-4 {
+    background-color: #64b7f8;
+}
+.label-blue-5 {
+    background-color: #2098f5;
+}
+.label-blue-6 {
+    background-color: #047edd;
+}
+.label-blue-7 {
+    background-color: #0469b7;
+}
+
+/* Label */
+.label-group .label {
+    /*display: inline-block;*/
+    /*padding: 0.4em 0.6em;*/
+}
 
 /* Avatar */
 .avatar, .qutong-name h1 {
