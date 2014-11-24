@@ -58,12 +58,6 @@
     background-color: #0469b7;
 }
 
-/* Label */
-.label-group .label {
-    /*display: inline-block;*/
-    /*padding: 0.4em 0.6em;*/
-}
-
 /* Avatar */
 .avatar, .qutong-name h1 {
     margin: 0 auto 30px;
