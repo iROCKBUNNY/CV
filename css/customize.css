@@ -80,6 +80,11 @@ a:hover, a:focus {
     background-color: #0469b7;
 }
 
+/* Header */
+.bs-docs-header h1, .bs-docs-header p {
+    margin-right: inherit;
+}
+
 /* Avatar */
 .avatar, .qutong-name h1 {
     margin: 0 auto 30px;
