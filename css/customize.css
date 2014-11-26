@@ -36,6 +36,12 @@ a:hover, a:focus {
 .text-blue-7 {
     color: #0469b7;
 }
+.text-grey {
+    color: #777;
+}
+.text-grey-lighter {
+    color: #999;
+}
 
 /* Dropdown menu */
 .dropdown-menu {
@@ -87,6 +93,38 @@ a:hover, a:focus {
 }
 
 /* CV */
+.cv-avatar {
+    margin-bottom: 10px;
+}
+.cv-avatar img {
+    width: 180px;
+}
+.cv-name {
+    font-family: inherit;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+.cv-title {
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 400;
+    color: inherit;
+}
+.cv-location {
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 400;
+    color: #777;
+    margin-bottom: 10px;
+}
+.cv-brief-summary-left {
+    width: 12%;
+}
+.cv-brief-summary-right {
+    width: 88%;
+}
 .cv-entry .cv-header {
     font-family: inherit;
     font-size: 18px;
