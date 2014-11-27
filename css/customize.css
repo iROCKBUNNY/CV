@@ -124,10 +124,10 @@ a:hover, a:focus {
     color: #777;
     margin-bottom: 10px;
 }
-.cv-brief-summary-left {
+.cv-summary-left {
     width: 12%;
 }
-.cv-brief-summary-right {
+.cv-summary-right {
     width: 88%;
 }
 .cv-entry .cv-header {
@@ -151,4 +151,26 @@ a:hover, a:focus {
 .cv-entry .cv-sub-2 {
     margin-bottom: 10px;
     color: #777;
+}
+
+/* Activities */
+.act-entry {
+    margin-bottom: 40px;
+}
+.act-entry .act-poster a {
+    cursor: pointer;
+}
+.act-entry .act-poster img {
+    width: 180px;
+}
+.act-entry .act-poster .modal img {
+    width: inherit;
+    margin-left: auto;
+    margin-right: auto;
+}
+.act-info-left {
+    width: 14%;
+}
+.act-info-right {
+    width: 86%;
 }
