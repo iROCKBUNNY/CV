@@ -57,6 +57,12 @@ a:hover, a:focus {
     color: #555;
 }
 
+/* Modal */
+.modal-content {
+    border: none;
+    border-radius: 0;
+}
+
 /* Label color swatches*/
 .label-blue-1 {
     background-color: #eef8ff;
