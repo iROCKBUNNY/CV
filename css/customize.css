@@ -177,3 +177,6 @@ a:hover, a:focus {
 .act-info-right {
     width: 86%;
 }
+.act-entry .act-photos {
+    margin-top: 10px;
+}
