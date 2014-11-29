@@ -177,6 +177,11 @@ a:hover, a:focus {
 .act-info-right {
     width: 86%;
 }
-.act-entry .act-photos {
+.act-entry .act-extra {
     margin-top: 10px;
+}
+.act-entry .act-extra .modal iframe {
+    width: inherit;
+    margin-left: auto;
+    margin-right: auto;
 }
