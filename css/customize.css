@@ -160,9 +160,6 @@ a:hover, a:focus {
 }
 
 /* Activities */
-.act-entry {
-    margin-bottom: 40px;
-}
 .act-entry .act-poster a {
     cursor: pointer;
 }
