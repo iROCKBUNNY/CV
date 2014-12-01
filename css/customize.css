@@ -109,6 +109,7 @@ a:hover, a:focus {
 }
 .cv-avatar img {
     width: 180px;
+    height: 180px;
 }
 .cv-name {
     font-family: inherit;
