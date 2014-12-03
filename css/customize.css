@@ -172,16 +172,16 @@ a:hover, a:focus {
     margin-left: auto;
     margin-right: auto;
 }
-.act-info-left {
+.act-entry .act-info-left {
     width: 14%;
 }
-.act-info-right {
+.act-entry .act-info-right {
     width: 86%;
 }
 .act-entry .act-extra {
     margin-top: 10px;
 }
-.act-entry .act-extra .modal iframe {
+.act-entry .act-extra .modal img {
     width: inherit;
     margin-left: auto;
     margin-right: auto;
