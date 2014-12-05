@@ -33,7 +33,7 @@ excerpt_separator: "\n\n"
 
 # Serving
 detach:  false
-port:    4000
+port:    4001
 host:    0.0.0.0
 baseurl: "" # does not include hostname
 
