@@ -23,7 +23,7 @@ footer_data = {
       "name" : "jQuery"
     },
     {
-      "version" : "v3.0.3",
+      "version" : "v4.0.0",
       "link" : "http:\/\/necolas.github.io\/normalize.css\/",
       "name" : "normalize.css"
     },
