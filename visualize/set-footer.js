@@ -1,7 +1,7 @@
 // set-footer.js
 
 // $('#footer-info').append($('<p>').html(footer_data.website.name + ' ' + footer_data.website.version));
-// $('#footer-info').append($('<p>').attr('id', 'powered_by').html('Powered by '));
+$('#footer-info').append($('<p>').attr('id', 'powered-by').html('Powered by '));
 for (var i in footer_data.powered_by) {
     powered_by = footer_data.powered_by[i]
     if (i < 1) {
