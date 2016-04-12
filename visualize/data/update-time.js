@@ -1,1 +1,0 @@
-update_time = {"condensed": "20150604", "full": "2015\u5e7406\u670804\u65e5"};
