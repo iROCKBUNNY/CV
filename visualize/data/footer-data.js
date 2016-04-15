@@ -28,7 +28,7 @@ footer_data = {
       "name" : "normalize.css"
     },
     {
-      "version" : "v4.6.0",
+      "version" : "v4.6.1",
       "link" : "http:\/\/fortawesome.github.io\/Font-Awesome\/",
       "name" : "Font Awesome"
     }
