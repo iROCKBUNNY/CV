@@ -1,10 +1,12 @@
+var currentDate = new Date()
+
 footer_data = {
   "copyright" : {
     "organization" : {
       "link" : "http:\/\/teelab.net\/",
       "name" : "TEELAB"
     },
-    "year" : "2016"
+    "year" : currentDate.getFullYear()
   },
   "powered_by" : [
     {
