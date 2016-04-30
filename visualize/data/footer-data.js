@@ -2,37 +2,38 @@ var currentDate = new Date()
 
 footer_data = {
   "copyright" : {
-    "organization" : {
-      "link" : "http:\/\/teelab.net\/",
-      "name" : "TEELAB"
-    },
     "year" : currentDate.getFullYear()
+    "organization" : {
+      "name" : "TEELAB"
+      "link" : "http:\/\/teelab.net\/",
+      "type" : ", Inc."
+    },
   },
   "powered_by" : [
     {
-      "version" : "",
-      "link" : "http:\/\/github.io\/",
       "name" : "GitHub Pages"
+      "link" : "http:\/\/github.io\/",
+      "version" : "",
     },
     {
-      "version" : "v3.3.6",
-      "link" : "http:\/\/getbootstrap.com\/",
       "name" : "Bootstrap"
+      "link" : "http:\/\/getbootstrap.com\/",
+      "version" : "v3.3.6",
     },
     {
-      "version" : "v1.11.3",
-      "link" : "http:\/\/jquery.com\/",
       "name" : "jQuery"
+      "link" : "http:\/\/jquery.com\/",
+      "version" : "v1.11.3",
     },
     {
-      "version" : "v4.0.0",
-      "link" : "http:\/\/necolas.github.io\/normalize.css\/",
       "name" : "normalize.css"
+      "link" : "http:\/\/necolas.github.io\/normalize.css\/",
+      "version" : "v4.0.0",
     },
     {
-      "version" : "v4.6.1",
-      "link" : "http:\/\/fortawesome.github.io\/Font-Awesome\/",
       "name" : "Font Awesome"
+      "link" : "http:\/\/fortawesome.github.io\/Font-Awesome\/",
+      "version" : "v4.6.1",
     }
   ]
 };

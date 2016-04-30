@@ -11,5 +11,5 @@ for (var i in footer_data.powered_by) {
     }
 }
 $('#footer-info').append($('<p>').html('&copy; ' + footer_data.copyright.year + ' ')
-    .append($('<a>').attr('href', footer_data.copyright.organization.link).attr('target', '_blank').html(footer_data.copyright.organization.name)).append(', Inc.')
+    .append($('<a>').attr('href', footer_data.copyright.organization.link).attr('target', '_blank').html(footer_data.copyright.organization.name)).append(footer_data.copyright.organization.type)
 );
