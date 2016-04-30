@@ -6,7 +6,7 @@ footer_data = {
     "organization" : {
       "name" : "TEELAB",
       "link" : "http:\/\/teelab.net\/",
-      "type" : ", Inc.",
+      "suffix" : ", Inc.",
     },
   },
   "powered_by" : [
