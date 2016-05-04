@@ -33,7 +33,7 @@ footer_data = {
     {
       "name" : "Font Awesome",
       "link" : "http:\/\/fortawesome.github.io\/Font-Awesome\/",
-      "version" : "v4.6.1",
+      "version" : "v4.6.2",
     },
   ],
 };
