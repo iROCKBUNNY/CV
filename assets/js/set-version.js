@@ -6,7 +6,7 @@ var version = moment(lastCommitTime, 'YYYY-MM-DDTh:mm:ss').utcOffset(8).fromNow(
 $('#version')
     .append(
         $('<i>')
-        .addClass('fa fa-spinner fa-pulse')
+        .addClass('fa fa-rocket')
     )
     .append(' Updated ')
     .append(version);
