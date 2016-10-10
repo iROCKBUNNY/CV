@@ -25,11 +25,6 @@
             "name": "Moment.js",
             "version": "v2.15.1"
         },
-        // {
-        //     "link": "http://necolas.github.io/normalize.css/",
-        //     "name": "normalize.css",
-        //     "version": "v4.0.0"
-        // },
         {
             "link": "http://fortawesome.github.io/Font-Awesome/",
             "name": "Font Awesome",
