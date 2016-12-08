@@ -4,7 +4,7 @@ Tong Qu
 Curriculum vitae, portfolio and more.
 
 * Full-Stack Web Developer at Y-English
-* (Former) R & D Engineer at SGRI
+* Former R & D Engineer at GEIRI (aka. SGRI)
 * HKPolyU Alumni
 * BUPT Alumni
 * Researcher
