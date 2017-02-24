@@ -27,7 +27,7 @@ logo: /img/Avatar-2.png
 
 gems:
 - jekyll-seo-tag
-- jekyll-sitemap
+# - jekyll-sitemap
 
 exclude:
 - .gitignore
