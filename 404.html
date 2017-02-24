@@ -1,12 +1,14 @@
 ---
 layout: default
-title: Backstory
-backstory: true
+title: 404
+error: true
+permalink: /404.html
+sitemap: false
 ---
 <div class="bs-docs-header" id="content">
   <div class="container">
-    <h1>Backstory</h1>
-    <p>Coming soon...</p>
+    <h1>404</h1>
+    <p>Page Not Found</p>
   </div>
 </div>
 
@@ -15,20 +17,16 @@ backstory: true
     <!-- Main contents -->
     <div class="col-md-9" role="main">
       <div class="bs-docs-section">
-        <h1 id="summary" class="page-header">Summary</h1>
-        <p>Coming soon...</p>
-      </div>
-      <div class="bs-docs-section">
-        <h1 id="additional-info" class="page-header">Additional Info</h1>
-        <p>Coming soon...</p>
+        <h1 id="page-not-found" class="page-header">404</h1>
+        <p>啊咧？页面不存在喏！(>_<)</p>
+        <a href="{{ '/' | relative_url }}" class="btn btn-outline" role="button"><i class="fa fa-arrow-left"></i> 回到首页</a>
       </div>
     </div>
     <!-- Sidebar nav-->
     <div class="col-md-3">
       <div class="bs-docs-sidebar hidden-print hidden-xs hidden-sm" role="complementary">
         <ul class="nav bs-docs-sidenav">
-          <li><a href="#summary">Summary</a></li>
-          <li><a href="#additional-info">Additional Info</a></li>
+          <li><a href="#page-not-found">404</a></li>
         </ul>
         <a class="back-to-top" href="#top">Back to Top</a>
       </div>
