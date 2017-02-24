@@ -12,6 +12,7 @@ repository: https://github.com/iROCKBUNNY/about-qutong
 timezone: Asia/Shanghai
 
 name: About · Tong QU
+alias: Tong QU
 author: iROCKBUNNY
 author_url: http://irockbunny.com
 organization: TEELAB
@@ -27,7 +28,6 @@ logo: /img/Avatar-2.png
 
 gems:
 - jekyll-seo-tag
-# - jekyll-sitemap
 
 exclude:
 - .gitignore
