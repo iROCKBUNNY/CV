@@ -1,0 +1,33 @@
+version:
+  jquery: 3.1.1
+  bootstrap: 3.3.7
+  font_awesome: 4.7.0
+  moment: 2.17.1
+
+google_analytics_id: UA-56996624-2
+
+repository: https://github.com/iROCKBUNNY/about-qutong
+
+timezone: Asia/Shanghai
+
+name: About · Tong QU
+author: iROCKBUNNY
+organization: TEELAB
+description: Tong QU - Full-Stack Web Developer at Y-English, HKPolyU Alumni, BUPT Alumni, Researcher, Programmer, Designer, Photographer, Blogger, Guitar Player, Skateboard Beginner, Motorcycle Amateur.
+keywords: Tong QU, Curriculum Vitae, CV, Resume, Portfolio, Research, Design
+url: http://about.qutong.me
+
+logo: /img/Avatar-2.png
+
+gems:
+- jekyll-seo-tag
+- jekyll-sitemap
+
+exclude:
+- .gitignore
+- LICENSE
+- README.md
+- CNAME
+- Gemfile
+- script
+- vendor
