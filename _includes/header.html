@@ -20,7 +20,7 @@
           <ul class="dropdown-menu" aria-labelledby="links" role="menu">
             {% for item in site.data.links %}
               <li role="presentation" class="dropdown-header">{{ item.category }}</li>
-              {% for link in item.links %}<li role="presentation"><a role="menuitem" tabindex="-1" href="{{ link.url }}" target="_blank">{% if link.icon  %}<i class="fa {{ link.icon }} fa-fw" aria-hidden="true"></i> {% endif %}{{ link.name }}</a></li>{% endfor %}
+              {% for link in item.links %}<li role="presentation"><a role="menuitem" tabindex="-1" href="{{ link.url }}" target="_blank">{% if link.icon  %}<i class="fa {{ link.icon }} fa-fw" aria-hidden="true"></i>{% endif %}{{ link.name }}</a></li>{% endfor %}
             {% endfor %}
           </ul>
         </li>
