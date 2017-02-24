@@ -1,5 +1,6 @@
 version:
   jquery: 3.1.1
+  jquery_migrate: 3.0.0
   bootstrap: 3.3.7
   font_awesome: 4.7.0
   moment: 2.17.1
@@ -12,10 +13,15 @@ timezone: Asia/Shanghai
 
 name: About · Tong QU
 author: iROCKBUNNY
+author_url: http://irockbunny.com
 organization: TEELAB
-description: Tong QU - Full-Stack Web Developer at Y-English, HKPolyU Alumni, BUPT Alumni, Researcher, Programmer, Designer, Photographer, Blogger, Guitar Player, Skateboard Beginner, Motorcycle Amateur.
+organization_url: http://teelab.net
+description: Curriculum vitae, portfolio, and more.
 keywords: Tong QU, Curriculum Vitae, CV, Resume, Portfolio, Research, Design
 url: http://about.qutong.me
+contact: hello@qutong.me
+linkedin: http://cn.linkedin.com/in/qutong
+github: https://github.com/iROCKBUNNY
 
 logo: /img/Avatar-2.png
 
@@ -28,6 +34,7 @@ exclude:
 - LICENSE
 - README.md
 - CNAME
+- archive
 - Gemfile
 - script
 - vendor
