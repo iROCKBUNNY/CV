@@ -1,6 +1,3 @@
-- name: GitHub Pages
-  url: http://github.io/
-
 - name: Bootstrap
   version: 3.3.7
   url: http://getbootstrap.com/
