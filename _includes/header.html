@@ -16,7 +16,7 @@
         <li{% if page.activities %} class="active"{% endif %}><a href="{{ '/activities/' | relative_url }}">Activities</a></li>
         <li{% if page.backstory %} class="active"{% endif %}><a href="{{ '/backstory/' | relative_url }}">Backstory</a></li>
         <li class="dropdown">
-          <a id="links" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Links <span class="caret"></span></a>
+          <a id="links" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Links<span class="caret"></span></a>
           <ul class="dropdown-menu" aria-labelledby="links" role="menu">
             {% for item in site.data.links %}
               {% unless forloop.first %}<li role="presentation" class="divider"></li>{% endunless %}
