@@ -1,9 +1,15 @@
 // set-version.js
 
-function updateVersion() {
-    $.getJSON('https://api.github.com/repos/iROCKBUNNY/about-qutong', function(data) {
-        $('#version').html('<i class="fa fa-refresh fa-spin fa-fw"></i>Updated ' + moment(data.pushed_at).fromNow());
-    });
+var pushedAt = 'loading';
+$.getJSON('https://api.github.com/repos/iROCKBUNNY/about-qutong', function(data) {
+    pushedAt = data.pushed_at;
+});
+function updateVersion(timestamp) {
+    if (timestamp !== 'loading') {
+        $('#version').html('<i class="fa fa-refresh fa-spin fa-fw"></i>Updated ' + moment(timestamp).fromNow());
+    };
 };
-updateVersion();
-setInterval(updateVersion(), 15000);
+updateVersion(pushedAt);
+setInterval(function() {
+    updateVersion(pushedAt)
+}, 15000);
