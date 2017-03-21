@@ -10,6 +10,6 @@ function updateVersion(timestamp) {
     };
 };
 updateVersion(pushedAt);
-setInterval(function() {
+setInterval(function () {
     updateVersion(pushedAt)
 }, 15000);
