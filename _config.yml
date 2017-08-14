@@ -19,7 +19,7 @@ github: https://github.com/iROCKBUNNY
 
 logo: /img/Avatar-2.png
 
-gems:
+plugins:
 - jekyll-seo-tag
 
 exclude:
