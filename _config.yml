@@ -4,19 +4,22 @@ repository: https://github.com/iROCKBUNNY/about-qutong
 
 timezone: Asia/Shanghai
 
-name: About · Tong QU
+title: About · Tong QU
 alias: Tong QU
+description: Curriculum vitae, portfolio, and more.
+keywords: Tong QU, Curriculum Vitae, CV, Resume, Portfolio, Research, Design
+url: http://about.qutong.me
+
 author: iROCKBUNNY
 author_url: http://irockbunny.com
 organization: TEELAB
 organization_url: http://teelab.net
-description: Curriculum vitae, portfolio, and more.
-keywords: Tong QU, Curriculum Vitae, CV, Resume, Portfolio, Research, Design
-url: http://about.qutong.me
+
 contact: hello@qutong.me
 linkedin: http://cn.linkedin.com/in/qutong
 github: https://github.com/iROCKBUNNY
 
+image: /img/Avatar-2.png
 logo: /img/Avatar-2.png
 
 plugins:
