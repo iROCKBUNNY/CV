@@ -2,14 +2,17 @@
 
 .ui.borderless.menu .toc.item {
     display: none;
+    font-size: 1.2rem;
 }
 
 .ui.menu .header.item {
     font-size: 1.2rem;
 }
 
-.ui.main.container {
-    margin-top: 3rem;
+.ui.main.segment,
+.ui.footer.segment {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
 }
 
 @media only screen and (max-width: 767px) {

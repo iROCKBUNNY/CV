@@ -2,8 +2,8 @@
   icon: user circle outline
   id: basic-info
 
-- name: Stats
-  icon: bar chart
+- name: Summary
+  icon: quote left
   id: summary
 
 - name: Education

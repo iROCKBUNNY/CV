@@ -2,23 +2,25 @@
 layout: default
 ---
 
-<div class="ui main internally celled stackable grid container">
-    <div class="row">
-        <div class="four wide column">
-            {% include basic_info.html %}
-        </div>
-        <div class="twelve wide column">
-            {% include stats.html %}
-            {% include education.html %}
-            {% include experience.html %}
-            {% include projects.html %}
-            {% include courses.html %}
-            {% include awards.html %}
-            {% include publications.html %}
-            {% include patents.html %}
-            {% include languages.html %}
-            {% include skills.html %}
-            {% include additional_info.html %}
+<div class="ui main vertical segment">
+    <div class="ui internally celled stackable grid container">
+        <div class="row">
+            <div class="four wide column">
+                {% include basic_info.html %}
+            </div>
+            <div class="twelve wide column">
+                {% include summary.html %}
+                {% include education.html %}
+                {% include experience.html %}
+                {% include projects.html %}
+                {% include courses.html %}
+                {% include awards.html %}
+                {% include publications.html %}
+                {% include patents.html %}
+                {% include languages.html %}
+                {% include skills.html %}
+                {% include additional_info.html %}
+            </div>
         </div>
     </div>
 </div>

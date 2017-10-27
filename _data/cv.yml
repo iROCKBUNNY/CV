@@ -23,6 +23,19 @@ publications:
 patents:
 
 languages:
+  - name: Mandarin
+    flag: cn
+    level: Native proficiency
+  - name: English
+    flag: us
+    level: Professional working proficiency
+    certificates:
+      - CET-4
+      - CET-6
+  - name: German
+    flag: de
+    level: Elementary proficiency
+    remark: One year study in Germany
 
 skills:
 
