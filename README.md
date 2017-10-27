@@ -4,4 +4,4 @@
 
 # Tong Qu
 
-Curriculum vitae, portfolio and more.
+Curriculum vitae

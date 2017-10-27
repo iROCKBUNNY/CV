@@ -6,8 +6,8 @@ timezone: Asia/Shanghai
 
 title: About · Tong QU
 alias: Tong QU
-description: Curriculum vitae, portfolio, and more.
-keywords: Tong QU, Curriculum Vitae, CV, Resume, Portfolio, Research, Design
+description: Tong QU's Curriculum Vitae
+keywords: Tong QU, Curriculum Vitae, CV, Resume
 url: http://about.qutong.me
 
 author: iROCKBUNNY
@@ -19,8 +19,7 @@ contact: hello@qutong.me
 linkedin: http://cn.linkedin.com/in/qutong
 github: https://github.com/iROCKBUNNY
 
-image: /img/Avatar-2.png
-logo: /img/Avatar-2.png
+image: /images/avatar.jpg
 
 plugins:
 - jekyll-seo-tag
