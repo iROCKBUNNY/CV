@@ -13,3 +13,5 @@ updateVersion(updateAt);
 setInterval(function () {
     updateVersion(updateAt);
 }, 15000);
+
+$('.ui.dropdown').dropdown();

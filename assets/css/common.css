@@ -4,6 +4,10 @@
     display: none;
 }
 
+.ui.menu .header.item {
+    font-size: 1.2rem;
+}
+
 .ui.main.container {
     margin-top: 3rem;
 }

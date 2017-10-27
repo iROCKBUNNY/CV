@@ -1,0 +1,47 @@
+- name: Basic Info
+  icon: user circle outline
+  id: basic-info
+
+- name: Stats
+  icon: bar chart
+  id: summary
+
+- name: Education
+  icon: student
+  id: education
+
+- name: Experience
+  icon: suitcase
+  id: experience
+
+- name: Projects
+  icon: rocket
+  id: projects
+
+- name: Courses
+  icon: book
+  id: courses
+
+- name: Awards
+  icon: trophy
+  id: awards
+
+- name: Publications
+  icon: file text outline
+  id: publications
+
+- name: Patents
+  icon: legal
+  id: patents
+
+- name: Languages
+  icon: translate
+  id: languages
+
+- name: Skills
+  icon: magic
+  id: skills
+
+- name: Additional Info
+  icon: info
+  id: additional-info
