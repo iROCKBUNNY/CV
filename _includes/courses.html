@@ -1,3 +1,11 @@
 <div id="courses" class="ui vertical segment">
-    <h3 class="ui header"><i class="book icon"></i>Courses</h3>
+    <h2 class="ui header"><i class="book icon"></i>Courses</h2>
+    {% for institution in site.data.cv.education %}
+        {% if institution.courses %}
+        <h3 class="ui header">{{ institution.name }}</h3>
+        <div class="ui bulleted list">
+            {% for course in institution.courses %}<div class="item">{{ course.name }}{% if course.code %} <span class="text-grey">({{ course.code }})</span>{% endif %}</div>{% endfor %}
+        </div>
+        {% endif %}
+    {% endfor %}
 </div>

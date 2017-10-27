@@ -1,3 +1,15 @@
 <div id="education" class="ui vertical segment">
-    <h3 class="ui header"><i class="student icon"></i>Education</h3>
+    <h2 class="ui header"><i class="student icon"></i>Education</h2>
+    <div class="ui relaxed items">
+        {% for institution in site.data.cv.education %}
+            <div class="item">
+                <div class="content">
+                    <div class="header">{{ institution.name }}</div>
+                    <div class="meta">{{ institution.degree }}</div>
+                    <div class="extra">{{ institution.from }} - {{ institution.to }} &middot; {{ institution.city }}</div>
+                    <div class="description">Description</div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
 </div>

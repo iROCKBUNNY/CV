@@ -1,14 +1,14 @@
 <div id="languages" class="ui vertical segment">
-    <h3 class="ui header"><i class="translate icon"></i>Languages</h3>
+    <h2 class="ui header"><i class="translate icon"></i>Languages</h2>
     <div class="ui equal width stackable grid">
         {% for language in site.data.cv.languages %}
             <div class="column">
-                <h4 class="ui header">
+                <h3 class="ui header">
                     <div class="content">
                         <i class="{{ language.flag }} flag"></i>{{ language.name }}
                         <div class="sub header">{{ language.level }}</div>
                     </div>
-                </h4>
+                </h3>
                 {% if language.certificates %}
                     <div class="ui labels">
                         {% for certificate in language.certificates %}<div class="ui label">{{ certificate }}</div>{% endfor %}

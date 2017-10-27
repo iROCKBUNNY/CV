@@ -11,6 +11,57 @@ basic_info:
 summary:
 
 education:
+  - name: The Hong Kong Polytechnic University
+    degree: Master of Science in Electronic and Information Engineering
+    from: September 2012
+    to: October 2013
+    city: Hong Kong
+    courses:
+      - name: Digital Data Transmission
+        code: EIE528
+      - name: Digital Image Processing
+        code: EIE529
+      - name: Digital Signal Processing
+        code: EIE541
+      - name: Computational Intelligence and Its Applications
+        code: EIE557
+      - name: Speech Processing and Recognition
+        code: EIE558
+      - name: Advanced Telecommunication Systems
+        code: EIE579
+      - name: OFDM & MIMO Wireless Communications
+        code: EIE585
+
+  - name: Beijing University of Posts and Telecommunications
+    degree: Bachelor of Engineering in Communication Engineering
+    from: September 2008
+    to: June 2012
+    city: Beijing
+    courses:
+      - name: Advanced Mathematics
+      - name: Linear Algebra
+      - name: Discrete Mathematics
+      - name: Probability Theory and Stochastic Processes
+      - name: Information Theory
+      - name: Signals and Systems
+      - name: Digital Signal Processing
+      - name: Digital Image Processing
+      - name: C++ Programming
+      - name: Java Programming
+      - name: Data Structure
+      - name: Computer Networks
+      - name: Database and Its Applications
+      - name: Circuit Design
+      - name: Microcomputer Principles and Interface Technology
+      - name: Communication Principles
+      - name: Electromagnetic Field and Waves
+      - name: Microwave Technology
+      - name: Communication Networks
+      - name: Optical Fiber Communications
+      - name: Modern Communication Technologies
+      - name: Multimedia Technologies
+      - name: Pattern Recognition
+      - name: Intelligent Information Security
 
 experience:
 
