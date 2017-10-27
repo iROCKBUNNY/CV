@@ -15,6 +15,10 @@
     padding-bottom: 6rem;
 }
 
+.ui.stripe.segment {
+    padding-bottom: 4rem;
+}
+
 @media only screen and (max-width: 767px) {
     .ui.borderless.menu .item,
     .ui.borderless.menu .menu {

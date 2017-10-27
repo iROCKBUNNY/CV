@@ -1,5 +1,5 @@
-<div id="courses" class="ui vertical segment">
-    <h1 class="ui header"><i class="book icon"></i>Courses</h1>
+<div id="courses" class="ui basic vertical stripe segment">
+    <h1 class="ui dividing header"><i class="book icon"></i>Courses</h1>
     {% for institution in site.data.cv.education %}
         {% if institution.courses %}
             <h3 id="{{ institution.id }}-courses" class="ui header">{{ institution.name }}</h3>
