@@ -11,11 +11,24 @@ basic_info:
 summary:
 
 education:
-  - name: The Hong Kong Polytechnic University
+  - id: polyu
+    name: The Hong Kong Polytechnic University
     degree: Master of Science in Electronic and Information Engineering
-    from: September 2012
-    to: October 2013
+    time: September 2012 - October 2013
     city: Hong Kong
+    coursework_projects:
+      - name: Simulated a basic OFDM system using MATLAB
+        time: 05/2013
+      - name: Implemented continuous digit recognition using HTK
+        time: 04/2013
+      - name: Analyzed the TRF6900A demodulator
+        time: 04/2013
+      - name: Evaluated the performance of a 915-MHz FSK SoC radio transceiver
+        time: 04/2013
+      - name: Trained a multilayer feed-forward neural networks for pattern recognition using JavaNNS
+        time: 12/2012
+      - name: Studied the bit error rate (BER) performance of a baseband transmission systems
+        time: 11/2012
     courses:
       - name: Digital Data Transmission
         code: EIE528
@@ -32,11 +45,34 @@ education:
       - name: OFDM & MIMO Wireless Communications
         code: EIE585
 
-  - name: Beijing University of Posts and Telecommunications
+  - id: bupt
+    name: Beijing University of Posts and Telecommunications
     degree: Bachelor of Engineering in Communication Engineering
-    from: September 2008
-    to: June 2012
+    time: September 2008 - June 2012
     city: Beijing
+    coursework_projects:
+      - name: Vehicle (cars and motorbikes) identification using LIBSVM
+        time: 01/2012
+      - name: Studied and implementated the RSA encryption algorithm using Java
+        time: 12/2011
+      - name: Designed and simulated a 3-stub tuner for narrow-band impedance matching in microstrip circuit
+        time: 06/2011
+      - name: Simulated and analyzed the performance of the Rayleigh fading based on the Jakes Model
+        time: 05/2011
+      - name: Designed and implementated a dot matrix display controller on FPGA using VHDL
+        time: 01/2011
+      - name: Built a campus network using H3C or CISCO routers and switches
+        time: 11/2010
+      - name: Implementated an automatic obstacle-avoidance car based on PIC microcontroller programming
+        time: 09/2010
+      - name: Designed and implementated a library management system with PowerBuilder and SQL Server
+        time: 06/2010
+      - name: Made an interactive Flash film with ActionScript 2.0
+        time: 06/2010
+      - name: Designed and implementated an infrared transceiver circuit
+        time: 05/2010
+      - name: Designed and implementated the Mine Sweeper game using C++ with MFC
+        time: 08/2009
     courses:
       - name: Advanced Mathematics
       - name: Linear Algebra

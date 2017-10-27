@@ -1,13 +1,18 @@
 <div id="education" class="ui vertical segment">
-    <h2 class="ui header"><i class="student icon"></i>Education</h2>
+    <h1 class="ui header"><i class="student icon"></i>Education</h1>
     <div class="ui relaxed items">
         {% for institution in site.data.cv.education %}
             <div class="item">
                 <div class="content">
                     <div class="header">{{ institution.name }}</div>
                     <div class="meta">{{ institution.degree }}</div>
-                    <div class="extra">{{ institution.from }} - {{ institution.to }} &middot; {{ institution.city }}</div>
-                    <div class="description">Description</div>
+                    <div class="extra">{{ institution.time }} &middot; {{ institution.city }}</div>
+                    <div class="description">
+                        <div class="ui bulleted list">
+                            {% if institution.coursework_projects %}<a class="item" href="{{ '/' | relative_url }}#{{ institution.id }}-coursework-projects">{{ institution.coursework_projects.size }} coursework projects</a>{% endif %}
+                            {% if institution.courses %}<a class="item" href="{{ '/' | relative_url }}#{{ institution.id }}-courses">{{ institution.courses.size }} major courses</a>{% endif %}
+                        </div>
+                    </div>
                 </div>
             </div>
         {% endfor %}

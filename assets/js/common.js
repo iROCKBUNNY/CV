@@ -15,3 +15,9 @@ setInterval(function () {
 }, 15000);
 
 $('.ui.dropdown').dropdown();
+
+if ($(window).width() >= 768) {
+    $('.ui.sticky').sticky({
+        offset: 60
+    });
+};
