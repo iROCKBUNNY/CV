@@ -10,9 +10,13 @@
                     </div>
                 </h3>
                 {% if language.certificates %}
-                    <div class="ui labels">
-                        {% for certificate in language.certificates %}<div class="ui label">{{ certificate }}</div>{% endfor %}
-                    </div>
+                    {% if language.certificates.size == 1 %}
+                        {% for certificate in language.certificates %}<div class="ui label"><i class="certificate icon"></i>{{ certificate }}</div>{% endfor %}
+                    {% else %}
+                        <div class="ui labels">
+                            {% for certificate in language.certificates %}<div class="ui label"><i class="certificate icon"></i>{{ certificate }}</div>{% endfor %}
+                        </div>
+                    {% endif %}
                 {% endif %}
                 {% if language.remark %}<div>{{ language.remark }}</div>{% endif %}
             </div>
