@@ -18,6 +18,9 @@
 .ui.stripe.segment {
     padding-bottom: 4rem;
 }
+.ui.stripe.segment:last-child {
+    padding-bottom: 1rem;
+}
 
 @media only screen and (max-width: 767px) {
     .ui.borderless.menu .item,
