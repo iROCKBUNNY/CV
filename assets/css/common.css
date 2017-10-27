@@ -2,24 +2,24 @@
 
 .ui.borderless.menu .toc.item {
     display: none;
-    font-size: 1.2rem;
+    font-size: 1.2em;
 }
 
 .ui.menu .header.item {
-    font-size: 1.2rem;
+    font-size: 1.2em;
 }
 
 .ui.main.segment,
 .ui.footer.segment {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 6em;
+    padding-bottom: 6em;
 }
 
 .ui.stripe.segment {
-    padding-bottom: 4rem;
+    padding-bottom: 4em;
 }
 .ui.stripe.segment:last-child {
-    padding-bottom: 1rem;
+    padding-bottom: 1em;
 }
 
 @media only screen and (max-width: 767px) {
