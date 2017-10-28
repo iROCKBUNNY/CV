@@ -12,9 +12,14 @@
 .ui.main.segment {
     padding-bottom: 6em;
 }
+.ui.error.segment,
 .ui.footer.segment {
     padding-top: 6em;
     padding-bottom: 6em;
+}
+
+.ui.error.header {
+    font-size: 8em;
 }
 
 .ui.following.menu .item.active {

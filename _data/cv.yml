@@ -23,7 +23,7 @@ summary:
     - Experienced in C++, Java, SQL, UNIX/Linux Shell, and LaTeX.
     - Contributed to various open source projects.
     - 15 years of computer graphic design experience.
-    - Solid expertise in Photoshop, Illustrator, Flash.
+    - Solid expertise in Photoshop, Illustrator, and Flash.
     - Work out 7+ hours per week; completed a full marathon every year since 2016.
 
 education:
@@ -253,6 +253,15 @@ experience:
         - "Organized or provide help for CEAIE-AFS annual regular activities, including: CEAIE-AFS National Volunteer Conference, Selection Camp of CEAIE-AFS Program Students, Pre-departure Orientation, Arrival Orientation, End-of-stay Orientation, and CEAIE-AFS Beijing Volunteers New Year's Party."
 
 projects:
+  research:
+    id: low-resolution-face-recognition
+    name: Low-Resolution Face Recognition
+    time: November 2012 - August 2013
+    location: Hong Kong
+
+  competition:
+
+  undergraduate:
 
 awards:
   - id: bupt-auta-data-mining-challenge
@@ -435,6 +444,8 @@ skills:
         color: blue
       - name: Illustrator
         color: orange
+      - name: Flash
+        color: red
       - name: OmniGraffle
         color: green
 
