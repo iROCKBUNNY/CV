@@ -1,8 +1,8 @@
 <div id="experience" class="ui cv-section basic vertical segment">
     <h1 class="ui dividing header"><i class="suitcase icon"></i>Experience</h1>
-    <h2 class="ui header">Professional Experience</h2>
+    <h2 class="ui teal sub-section header">Vocational Experience</h2>
     <div class="ui relaxed items">
-        {% for entry in site.data.cv.experience.professional %}
+        {% for entry in site.data.cv.experience.vocational %}
             <div id="{{ entry.id }}" class="item">
                 <div class="content">
                     <div class="header">{{ entry.employer }}</div>
@@ -19,7 +19,7 @@
             </div>
         {% endfor %}
     </div>
-    <h2 class="ui header">Research Experience</h2>
+    <h2 class="ui teal sub-section header">Research Experience</h2>
     <div class="ui relaxed items">
         {% for entry in site.data.cv.experience.research %}
             <div id="{{ entry.id }}" class="item">
@@ -38,7 +38,26 @@
             </div>
         {% endfor %}
     </div>
-    <h2 class="ui header">Exchange Experience</h2>
+    <h2 class="ui teal sub-section header">Part-Time Experience</h2>
+    <div class="ui relaxed items">
+        {% for entry in site.data.cv.experience.part_time %}
+            <div id="{{ entry.id }}" class="item">
+                <div class="content">
+                    <div class="header">{{ entry.employer }}</div>
+                    <div class="meta">{{ entry.position }}</div>
+                    <div class="extra">{{ entry.time }} &middot; {{ entry.location }}</div>
+                    {% if entry.details %}
+                        <div class="description">
+                            <div class="ui bulleted list">
+                                {% for detail in entry.details %}<div class="item">{{ detail }}</div>{% endfor %}
+                            </div>
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+    <h2 class="ui teal sub-section header">Exchange Experience</h2>
     <div class="ui relaxed items">
         {% for entry in site.data.cv.experience.exchange %}
             <div id="{{ entry.id }}" class="item">
@@ -57,7 +76,7 @@
             </div>
         {% endfor %}
     </div>
-    <h2 class="ui header">University Service</h2>
+    <h2 class="ui teal sub-section header">University Service</h2>
     <div class="ui relaxed items">
         {% for entry in site.data.cv.experience.university_service %}
             <div id="{{ entry.id }}" class="item">
@@ -76,7 +95,7 @@
             </div>
         {% endfor %}
     </div>
-    <h2 class="ui header">Volunteer Experience</h2>
+    <h2 class="ui teal sub-section header">Volunteer Experience</h2>
     <div class="ui relaxed items">
         {% for entry in site.data.cv.experience.volunteer %}
             <div id="{{ entry.id }}" class="item">

@@ -34,12 +34,12 @@ education:
     gpa: 3.75/4.0
     time: September 2012 - October 2013
     location: Hong Kong
-    dissertation:
-      title: Low-Resolution Face Recognition
-      project_id: low-resolution-face-recognition
-      publication_id: publication-b21501021
     details:
       - Top 1 student among non-local post-graduates in the department.
+    projects:
+      - title: "Dissertation: Low-Resolution Face Recognition"
+        project_id: low-resolution-face-recognition
+        publication_id: publication-b21501021
     coursework_projects:
       - name: Simulated a basic OFDM system using MATLAB
         time: 05/2013
@@ -77,6 +77,13 @@ education:
     gpa: 86.7/100
     time: September 2008 - June 2012
     location: Beijing
+    projects:
+      - title: "Final Year Project: Submission Management System"
+        project_id: submission-management-system
+      - title: "Baidu PM Star Internet Product Design Contest: Here"
+        project_id: here
+      - title: "Microsoft Imagine Cup: ECOSENS System"
+        project_id: ecosens
     coursework_projects:
       - name: Vehicle (cars and motorbikes) identification using LIBSVM
         time: 01/2012
@@ -133,7 +140,7 @@ education:
       - Photography Club
 
 experience:
-  professional:
+  vocational:
     - id: y-english
       employer: Beijing Y-English Education and Technology Co., Ltd.
       position: Full-Stack Web Developer · Chief Engineer
@@ -169,6 +176,37 @@ experience:
       details:
         - Surveyed on web image retrieval related publications, and proposed three approaches based on user clicked data.
         - Implemented and evaluated proposed approaches on several real-world datasets.
+
+  part_time:
+    - id: p3-publishing
+      employer: P3 Publishing
+      position: Layout Designer
+      time: March 2013 - June 2013
+      location: Hong Kong
+      details:
+        - Designed teaching materials in the Mandarin Matrix™ product line.
+        - Designed stroke orders of 56 Chinese characters using Adobe Illustrator.
+        - Edited layouts of 14 books using Adobe InDesign.
+
+    - id: byr-team
+      employer: BYR-Team, BUPT
+      position: Chief Designer
+      time: September 2009 - September 2012
+      location: Beijing
+      details:
+        - Organized two annual membership recruitments (in 2010 and 2011).
+        - Organized three BYR Forum T-shirt Design Contests (in 2010, 2011 and 2012).
+        - Designed 6 generations of BYR Forum winter wears (the 3rd, 4th, 5th, 6th, 7th, 8th generation).
+        - Designed a submission management system for T-shirt Design Contest (in 2012).
+        - Designed massive banners and posters for the BYR Forum.
+
+    - id: wrd-tech
+      employer: Beijing WRD Technology Co., Ltd
+      position: Graphic Designer
+      time: September 2010 - September 2012
+      location: Beijing
+      details:
+        - "Designed the WRD company logo (registered trademark ID: 9183471)"
 
   exchange:
     - id: afs

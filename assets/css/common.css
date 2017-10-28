@@ -29,6 +29,10 @@
     padding-top: 1em;
 }
 
+.ui.cv-section.segment h2.ui.sub-section.header {
+    font-weight: normal;
+}
+
 @media only screen and (max-width: 767px) {
     .ui.borderless.menu .item,
     .ui.borderless.menu .menu {
