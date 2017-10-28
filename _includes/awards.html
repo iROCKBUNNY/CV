@@ -1,3 +1,14 @@
 <div id="awards" class="ui cv-section basic vertical segment">
     <h1 class="ui dividing header"><i class="trophy icon"></i>Awards</h1>
+    <div class="ui relaxed items">
+        {% for award in site.data.cv.awards %}
+            <div id="{{ award.id }}" class="item">
+                <div class="content">
+                    <div class="header">{{ award.name }}{% if award.prize %} &middot; <span class="text-orange">{{ award.prize }}</span>{% endif %}</div>
+                    <div class="meta">{{ award.issuer }} &middot; <span class="text-teal">{{ award.rank }}</span></div>
+                    <div class="extra">{{ award.time }}</div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
 </div>

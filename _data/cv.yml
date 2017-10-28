@@ -9,13 +9,32 @@ basic_info:
   email: hello[at]qutong[dot]me
 
 summary:
+  brief_biography:
+    - Tong QU is currently a full-stack web developer at Y-English, building various web applications.
+    - He received his master's degree in electronic and information engineering (with distinction) from the Hong Kong Polytechnic University in 2013, and his bachelor's degree in communication engineering from Beijing University of Posts and Telecommunications in 2012.
+    - From July 2014 to March 2016, he was a research and development engineer at Global Energy Interconnection Research Institute (aka. State Grid Smart Grid Research Institute), working on power quality data analysis.
+    - From December 2013 to June 2014, he was a research assistant at Multimedia Computing Lab, Renmin University of China, studying web image retrieval.
+    - His postgraduate research at PolyU was focused on human face recognition with low-resolution face images.
+    - He participated in various contests/competitions/challenges and winning awards in the fields of data mining, web design, programming, etc.
+    - His job/research interests lies in the general area of computer science, including artificial intelligence, natural language processing, data mining, computer vision, and machine learning.
+  highlights:
+    - 10 years of programming and engineering experience.
+    - Solid expertise in Python (>120k lines), MATLAB (>50k lines), HTML, CSS, JavaScript, and various algorithms/frameworks.
+    - Experienced in C++, Java, SQL, PHP, UNIX/Linux Shell, R, and LaTeX.
+    - Contributed to various open source projects.
+    - 15 years of computer graphic design experience.
+    - Solid expertise in Photoshop, Illustrator, and Flash.
+    - Work out 7+ hours per week; completed a full marathon every year since 2016.
 
 education:
   - id: polyu
-    name: The Hong Kong Polytechnic University
-    degree: Master of Science in Electronic and Information Engineering
+    institution: The Hong Kong Polytechnic University
+    degree: Master of Science in Electronic and Information Engineering (with Distinction)
+    gpa: 3.75/4.0
     time: September 2012 - October 2013
     location: Hong Kong
+    details:
+      - Top 1 student among non-local post-graduates in the department.
     coursework_projects:
       - name: Simulated a basic OFDM system using MATLAB
         time: 05/2013
@@ -46,10 +65,13 @@ education:
         code: EIE585
 
   - id: bupt
-    name: Beijing University of Posts and Telecommunications
+    institution: Beijing University of Posts and Telecommunications
     degree: Bachelor of Engineering in Communication Engineering
+    gpa: 86.7/100
     time: September 2008 - June 2012
     location: Beijing
+    awards:
+
     coursework_projects:
       - name: Vehicle (cars and motorbikes) identification using LIBSVM
         time: 01/2012
@@ -103,14 +125,22 @@ experience:
   professional:
     - id: y-english
       employer: Beijing Y-English Education and Technology Co., Ltd.
-      position: Full-Stack Web Developer, Chief Engineer
+      position: Full-Stack Web Developer · Chief Engineer
       time: April 2016 - Present
       location: Beijing
+      details:
+        - Rapidly designed, developed and deployed a state-of-the-art, full-featured, web-based teaching management system.
+        - Proposed and applied an improved resource allocation algorithm based on ranking, proved to be highly efficient.
+
     - id: geiri
       employer: Global Energy Interconnection Research Institute
       position: Research and Development Engineer
       time: July 2014 - March 2016
       location: Beijing
+      details:
+        - Performed massive analytics on power quality data collected from real world power grid monitoring network.
+        - Built a robust data analysis platform, and participated in the state grid harmonics monitoring project.
+
   research:
     - id: thu
       institution: Tsinghua University
@@ -118,24 +148,69 @@ experience:
       position: Research Assistant
       time: May 2017 - Present
       location: Beijing
+
     - id: ruc
       institution: Remin University of China
       department: Multimedia Computing Lab, School of Information
-      position: Visiting Scholar
+      position: Research Assistant
       time: December 2013 - June 2014
       location: Beijing
+      details:
+        - Surveyed on web image retrieval related publications, and proposed three approaches based on user clicked data.
+        - Implemented and evaluated proposed approaches on several real-world datasets.
+
   exchange:
     - id: afs
       institution: Simpert-Krämer-Gymnasium Krumbach
       department: AFS Komitee Ulm, AFS Intercultural Exchange Programs, Germany
       time: August 2004 - July 2005
       location: Krumbach, Germany
+      details:
+        - Mastered daily German communication within 3 months (starting from zero).
+
   university:
+
   volunteer:
 
-projects:
-
 awards:
+  - id: bupt-auta-data-mining-challenge
+    name: BUPT AUTA Data Mining Challenge
+    prize: 3rd Prize
+    rank: Top 6 among 200+
+    issuer: Alibaba University Technology Alliance
+    time: December 2015
+
+  - id: jdsu-scholarship
+    name: JDSU Scholarship
+    rank: Top 1%
+    issuer: JDS Uniphase Corporation
+    time: December 2011
+
+  - id: baidu-pm-star
+    name: Baidu PM Star Internet Product Design Contest
+    prize: 2nd Prize
+    rank: Top 3 among 288
+    issuer: Baidu Inc
+    time: May 2011
+
+  - id: microsoft-imagine-cup
+    name: Microsoft Imagine Cup Embedded Development China Final
+    prize: 3rd Prize
+    rank: Top 6 among 150+
+    issuer: Microsoft Corporation
+    time: April 2011
+
+  - id: bupt-scholarship
+    name: BUPT Academic Excellence Awards
+    rank: Top 10%
+    issuer: Beijing University of Posts and Telecommunications
+    time: 2009 · 2010 · 2011
+
+  - id: daimlerchrysler-scholarship
+    name: DaimlerChrysler Scholarship
+    rank: Top 10%
+    issuer: Alibaba University Technology Alliance
+    time: May 2004
 
 publications:
 

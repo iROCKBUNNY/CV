@@ -2,16 +2,16 @@
     <h1 class="ui dividing header"><i class="suitcase icon"></i>Experience</h1>
     <h2 class="ui header">Professional Experience</h2>
     <div class="ui relaxed items">
-        {% for experience_entry in site.data.cv.experience.professional %}
-            <div id="{{ experience_entry.id }}" class="item">
+        {% for entry in site.data.cv.experience.professional %}
+            <div id="{{ entry.id }}" class="item">
                 <div class="content">
-                    <div class="header">{{ experience_entry.employer }}</div>
-                    <div class="meta">{{ experience_entry.position }}</div>
-                    <div class="extra">{{ experience_entry.time }} &middot; {{ experience_entry.location }}</div>
-                    {% if experience_entry.details %}
+                    <div class="header">{{ entry.employer }}</div>
+                    <div class="meta">{{ entry.position }}</div>
+                    <div class="extra">{{ entry.time }} &middot; {{ entry.location }}</div>
+                    {% if entry.details %}
                         <div class="description">
-                            <div class="ui bulled list">
-                                {% for detail in experience_entry.details %}<div class="item">{{ detail }}</div>{% endfor %}
+                            <div class="ui bulleted list">
+                                {% for detail in entry.details %}<div class="item">{{ detail }}</div>{% endfor %}
                             </div>
                         </div>
                     {% endif %}
@@ -21,16 +21,16 @@
     </div>
     <h2 class="ui header">Research Experience</h2>
     <div class="ui relaxed items">
-        {% for experience_entry in site.data.cv.experience.research %}
-            <div id="{{ experience_entry.id }}" class="item">
+        {% for entry in site.data.cv.experience.research %}
+            <div id="{{ entry.id }}" class="item">
                 <div class="content">
-                    <div class="header">{{ experience_entry.institution }}</div>
-                    <div class="meta">{{ experience_entry.position }} &middot; {{ experience_entry.department }}</div>
-                    <div class="extra">{{ experience_entry.time }} &middot; {{ experience_entry.location }}</div>
-                    {% if experience_entry.details %}
+                    <div class="header">{{ entry.institution }}</div>
+                    <div class="meta">{{ entry.position }} &middot; {{ entry.department }}</div>
+                    <div class="extra">{{ entry.time }} &middot; {{ entry.location }}</div>
+                    {% if entry.details %}
                         <div class="description">
-                            <div class="ui bulled list">
-                                {% for detail in experience_entry.details %}<div class="item">{{ detail }}</div>{% endfor %}
+                            <div class="ui bulleted list">
+                                {% for detail in entry.details %}<div class="item">{{ detail }}</div>{% endfor %}
                             </div>
                         </div>
                     {% endif %}
@@ -40,16 +40,16 @@
     </div>
     <h2 class="ui header">Exchange Experience</h2>
     <div class="ui relaxed items">
-        {% for experience_entry in site.data.cv.experience.exchange %}
-            <div id="{{ experience_entry.id }}" class="item">
+        {% for entry in site.data.cv.experience.exchange %}
+            <div id="{{ entry.id }}" class="item">
                 <div class="content">
-                    <div class="header">{{ experience_entry.institution }}</div>
-                    <div class="meta">{{ experience_entry.department }}</div>
-                    <div class="extra">{{ experience_entry.time }} &middot; {{ experience_entry.location }}</div>
-                    {% if experience_entry.details %}
+                    <div class="header">{{ entry.institution }}</div>
+                    <div class="meta">{{ entry.department }}</div>
+                    <div class="extra">{{ entry.time }} &middot; {{ entry.location }}</div>
+                    {% if entry.details %}
                         <div class="description">
-                            <div class="ui bulled list">
-                                {% for detail in experience_entry.details %}<div class="item">{{ detail }}</div>{% endfor %}
+                            <div class="ui bulleted list">
+                                {% for detail in entry.details %}<div class="item">{{ detail }}</div>{% endfor %}
                             </div>
                         </div>
                     {% endif %}

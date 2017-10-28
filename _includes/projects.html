@@ -2,15 +2,15 @@
     <h1 class="ui dividing header"><i class="rocket icon"></i>Projects</h1>
     <h2 class="ui header">Coursework Projects</h2>
     <div class="ui relaxed items">
-        {% for institution in site.data.cv.education %}
-            {% if institution.coursework_projects %}
-                <div id="{{ institution.id }}-coursework-projects" class="item">
+        {% for entry in site.data.cv.education %}
+            {% if entry.coursework_projects %}
+                <div id="{{ entry.id }}-coursework-projects" class="item">
                     <div class="content">
-                        <div class="header">{{ institution.name }}</div>
-                        <div class="meta">{{ institution.coursework_projects.size }} coursework projects</div>
+                        <div class="header">{{ entry.institution }}</div>
+                        <div class="meta">{{ entry.coursework_projects.size }} coursework projects</div>
                         <div class="description">
                             <div class="ui bulleted list">
-                                {% for coursework_project in institution.coursework_projects %}<div class="item"><b>{{ coursework_project.time }}: </b>{{ coursework_project.name }}</div>{% endfor %}
+                                {% for coursework_project in entry.coursework_projects %}<div class="item"><b>{{ coursework_project.time }}: </b>{{ coursework_project.name }}</div>{% endfor %}
                             </div>
                         </div>
                     </div>
