@@ -1,3 +1,14 @@
 <div id="patents" class="ui cv-section basic vertical segment">
     <h1 class="ui dividing header"><i class="legal icon"></i>Patents</h1>
+    <div class="ui relaxed items">
+        {% for patent in site.data.cv.patents %}
+            <div id="{{ patent.id }}" class="item">
+                <div class="content">
+                    <div class="header">{{ patent.name }}</div>
+                    <div class="meta">{% if patent.inventors.size == 1 %}Inventor:{% else %}Inventors:{% endif %} {% for author in patent.inventors %}{% unless forloop.first %} &middot; {% endunless %}{{ author }}{% endfor %}</div>
+                    <div class="extra">{{ patent.number }} &middot; Filed on {{ patent.time }}</div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
 </div>

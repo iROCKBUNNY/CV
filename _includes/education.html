@@ -5,13 +5,14 @@
             <div class="item">
                 <div class="content">
                     <div class="header">{{ entry.institution }}</div>
-                    <div class="meta">{{ entry.degree }} &middot; GPA: {{ entry.gpa }}</div>
+                    <div class="meta">{{ entry.degree }}{% if entry.label %} <span class="text-teal">{{ entry.label }}</span>{% endif %} &middot; GPA: {{ entry.gpa }}</div>
                     <div class="extra">{{ entry.time }} &middot; {{ entry.location }}</div>
                     <div class="description">
                         <div class="ui bulleted list">
                             {% if entry.details %}{% for detail in entry.details %}<div class="item">{{ detail }}</div>{% endfor %}{% endif %}
                             {% if entry.coursework_projects %}<a class="item" href="{{ '/' | relative_url }}#{{ entry.id }}-coursework-projects">{{ entry.coursework_projects.size }} coursework projects</a>{% endif %}
                             {% if entry.courses %}<a class="item" href="{{ '/' | relative_url }}#{{ entry.id }}-courses">{{ entry.courses.size }} major courses</a>{% endif %}
+                            {% if entry.activities_and_societies %}<div class="item">Activities and societies: {% for item in entry.activities_and_societies %}{% unless forloop.first %} &middot; {% endunless %}{{ item }}{% endfor %}</div>{% endif %}
                         </div>
                     </div>
                 </div>

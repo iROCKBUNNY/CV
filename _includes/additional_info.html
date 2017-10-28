@@ -1,3 +1,7 @@
 <div id="additional-info" class="ui cv-section basic vertical segment">
     <h1 class="ui dividing header"><i class="info icon"></i>Additional Info</h1>
+    <h3 class="ui header">Hobbies</h3>
+    <div class="ui labels">
+        {% for hobby in site.data.cv.additional_info.hobbies %}<div class="ui label">{% if hobby.icon %}<i class="{{ hobby.icon }} icon"></i>{% endif %}{{ hobby.name }}</div>{% endfor %}
+    </div>
 </div>

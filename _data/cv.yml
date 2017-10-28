@@ -20,19 +20,24 @@ summary:
   highlights:
     - 10 years of programming and engineering experience.
     - Solid expertise in Python (>120k lines), MATLAB (>50k lines), HTML, CSS, JavaScript, and various algorithms/frameworks.
-    - Experienced in C++, Java, SQL, PHP, UNIX/Linux Shell, R, and LaTeX.
+    - Experienced in C++, Java, SQL, UNIX/Linux Shell, and LaTeX.
     - Contributed to various open source projects.
     - 15 years of computer graphic design experience.
-    - Solid expertise in Photoshop, Illustrator, and Flash.
+    - Solid expertise in Photoshop, Illustrator, Flash.
     - Work out 7+ hours per week; completed a full marathon every year since 2016.
 
 education:
   - id: polyu
     institution: The Hong Kong Polytechnic University
-    degree: Master of Science in Electronic and Information Engineering (with Distinction)
+    degree: Master of Science in Electronic and Information Engineering
+    label: with Distinction
     gpa: 3.75/4.0
     time: September 2012 - October 2013
     location: Hong Kong
+    dissertation:
+      title: Low-Resolution Face Recognition
+      project_id: low-resolution-face-recognition
+      publication_id: publication-b21501021
     details:
       - Top 1 student among non-local post-graduates in the department.
     coursework_projects:
@@ -63,6 +68,8 @@ education:
         code: EIE579
       - name: OFDM & MIMO Wireless Communications
         code: EIE585
+    activities_and_societies:
+      - PolyU EIE Dragon Boat Team
 
   - id: bupt
     institution: Beijing University of Posts and Telecommunications
@@ -70,8 +77,6 @@ education:
     gpa: 86.7/100
     time: September 2008 - June 2012
     location: Beijing
-    awards:
-
     coursework_projects:
       - name: Vehicle (cars and motorbikes) identification using LIBSVM
         time: 01/2012
@@ -120,6 +125,12 @@ education:
       - name: Multimedia Technologies
       - name: Pattern Recognition
       - name: Intelligent Information Security
+    activities_and_societies:
+      - BYR-Team
+      - Track and Field Team
+      - Student Union
+      - Guitar Club
+      - Photography Club
 
 experience:
   professional:
@@ -172,6 +183,8 @@ experience:
 
   volunteer:
 
+projects:
+
 awards:
   - id: bupt-auta-data-mining-challenge
     name: BUPT AUTA Data Mining Challenge
@@ -213,8 +226,63 @@ awards:
     time: May 2004
 
 publications:
+  - id: publication-sg201602003
+    title: Parameter Estimation for External Network Static Equivalent Model Based on Nonlinear Programming Genetic Algorithm
+    authors:
+      - Jiayi Zhang
+      - Shun Tao
+      - Kunyu Liao
+      - Xiangning Xiao
+      - Tong Qu
+      - Hui Wen
+    details:
+      - key: Journal
+        value: Smart Grid
+      - key: Year
+        value: 2016
+      - key: Volume
+        value: 4
+      - key: Issue
+        value: 2
+      - key: Pages
+        value: 133-140
+    link: http://www.cnki.com.cn/Article/CJFDTotal-ZNDW201602006.htm
+    full_text: /downloads/publications/sg201602003.pdf
+
+  - id: publication-b21501021
+    title: Low-Resolution Face Recognition
+    label: MSc Dissertation
+    authors:
+      - Tong Qu
+    abstract: 'Traditional face recognition algorithms are not best suited for matching face images captured at a low resolution to a set of high-resolution gallery face images. To perform matching between face images of different resolutions, this work proposes a coupled-projection method. Based on local relationships in the data, two sets of projections are learned: one for low-resolution face images and the other for high-resolution face images, respectively. Then, both low-resolution probe face images and high-resolution gallery face images are projected into a common subspace. Hence, subsequent matching can be done in the subspace directly.'
+    details:
+      - key: Supervisor
+        value: Prof. Kenneth K. M. Lam
+    link: http://hkall.hku.hk/record=b21501021
+    full_text: /downloads/publications/b26443107.pdf
 
 patents:
+  - id: patent-cn-201410590042-5
+    name: A Method for Estimating Negative Sequence Impedance Parameters Applicable to Unbalanced Three-Phase Disturbance Source Localization
+    number: China 201410590042.5
+    time: October 28, 2014
+    inventors:
+      - Yingying Liu
+      - Tongxun Wang
+      - Tong Qu
+      - Yuanyuan Sun
+      - Peixin Li
+
+  - id: patent-cn-201410590044-4
+    name: A Method for Localizing Unbalanced Three-Phase Disturbance Sources in Power Systems
+    number: China 201410590044.4
+    time: October 28, 2014
+    inventors:
+      - Yingying Liu
+      - Tongxun Wang
+      - Tong Qu
+      - Yuanyuan Sun
+      - Peixin Li
 
 languages:
   - name: Mandarin
@@ -232,5 +300,98 @@ languages:
     remark: One year study in Germany
 
 skills:
+  - name: Programming
+    items:
+      - name: Python
+        color: blue
+      - name: HTML
+        color: red
+        icon: html5
+      - name: CSS
+        color: violet
+        icon: css3
+      - name: JavaScript
+        color: yellow
+      - name: MATLAB
+        color: red
+      - name: Shell Script
+        color: green
+      - name: SQL
+        color: grey
+        icon: database
+      - name: C++
+        color: pink
+      - name: Java
+        color: brown
+      - name: VHDL
+        color: grey
+        icon: microchip
+      - name: Assembly
+        color: brown
+      - name: LaTeX
+        color: olive
+
+  - name: Web Development
+    items:
+      - name: Flask
+        color: black
+      - name: jQuery
+        color: blue
+      - name: Semantic UI
+        color: teal
+      - name: Bootstrap
+        color: violet
+      - name: Lodash
+        color: blue
+      - name: Echarts
+        color: red
+      - name: Font Awesome
+        color: green
+        icon: font awesome
+
+  - name: Platforms
+    items:
+      - name: macOS
+        color: grey
+        icon: apple
+      - name: Ubuntu
+        color: red
+      - name: Windows
+        color: blue
+        icon: windows
+
+  - name: Graphic Design
+    items:
+      - name: Photoshop
+        color: blue
+      - name: Illustrator
+        color: orange
+      - name: OmniGraffle
+        color: green
+
+  - name: Productivity
+    items:
+      - name: Word
+        color: blue
+      - name: Excel
+        color: green
+      - name: PowerPoint
+        color: orange
+      - name: Visio
+        color: blue
+      - name: Publisher
+        color: teal
 
 additional_info:
+  hobbies:
+    - name: Digital Photography
+      icon: photo
+    - name: Guitar
+    - name: Fitness
+    - name: Running
+    - name: Swimming
+    - name: Skateboard
+    - name: Snowboard
+    - name: Motorcycle Riding
+      color: red
+      icon: motorcycle

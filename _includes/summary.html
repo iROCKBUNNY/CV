@@ -1,15 +1,11 @@
 <div id="summary" class="ui cv-section basic vertical segment">
     <h1 class="ui dividing header"><i class="quote left icon"></i>Summary</h1>
-    {% if site.data.cv.summary.brief_biography %}
-        <h2 class="ui header">Brief Biography</h2>
-        <div class="ui bulleted list">
-            {% for entry in site.data.cv.summary.brief_biography %}<div class="item">{{ entry }}</div>{% endfor %}
-        </div>
-    {% endif %}
-    {% if site.data.cv.summary.highlights %}
-        <h2 class="ui header">Highlights</h2>
-        <div class="ui bulleted list">
-            {% for highlight in site.data.cv.summary.highlights %}<div class="item">{{ highlight }}</div>{% endfor %}
-        </div>
-    {% endif %}
+    <h2 class="ui header">Brief Biography</h2>
+    <div class="ui bulleted list">
+        {% for entry in site.data.cv.summary.brief_biography %}<div class="item">{{ entry }}</div>{% endfor %}
+    </div>
+    <h2 class="ui header">Highlights</h2>
+    <div class="ui bulleted list">
+        {% for highlight in site.data.cv.summary.highlights %}<div class="item">{{ highlight }}</div>{% endfor %}
+    </div>
 </div>
