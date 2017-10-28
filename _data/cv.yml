@@ -15,7 +15,7 @@ education:
     name: The Hong Kong Polytechnic University
     degree: Master of Science in Electronic and Information Engineering
     time: September 2012 - October 2013
-    city: Hong Kong
+    location: Hong Kong
     coursework_projects:
       - name: Simulated a basic OFDM system using MATLAB
         time: 05/2013
@@ -49,7 +49,7 @@ education:
     name: Beijing University of Posts and Telecommunications
     degree: Bachelor of Engineering in Communication Engineering
     time: September 2008 - June 2012
-    city: Beijing
+    location: Beijing
     coursework_projects:
       - name: Vehicle (cars and motorbikes) identification using LIBSVM
         time: 01/2012
@@ -100,6 +100,31 @@ education:
       - name: Intelligent Information Security
 
 experience:
+  professional:
+    - id: y-english
+      employer: Beijing Y-English Education and Technology Co., Ltd.
+      position: Full-Stack Web Developer, Chief Engineer
+      time: April 2016 - Present
+      location: Beijing
+    - id: geiri
+      employer: Global Energy Interconnection Research Institute
+      position: Research and Development Engineer
+      time: July 2014 – March 2016
+      location: Beijing
+  research:
+    - institution:
+      department:
+      position:
+      time:
+      location:
+  exchange:
+    - id: afs
+      institution: Simpert-Krämer-Gymnasium Krumbach
+      department: AFS Komitee Ulm, AFS Intercultural Exchange Programs, Germany
+      time: August 2004 - July 2005
+      location: Krumbach, Germany
+  university:
+  volunteer:
 
 projects:
 

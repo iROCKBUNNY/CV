@@ -6,7 +6,7 @@
                 <div class="content">
                     <div class="header">{{ institution.name }}</div>
                     <div class="meta">{{ institution.degree }}</div>
-                    <div class="extra">{{ institution.time }} &middot; {{ institution.city }}</div>
+                    <div class="extra">{{ institution.time }} &middot; {{ institution.location }}</div>
                     <div class="description">
                         <div class="ui bulleted list">
                             {% if institution.coursework_projects %}<a class="item" href="{{ '/' | relative_url }}#{{ institution.id }}-coursework-projects">{{ institution.coursework_projects.size }} coursework projects</a>{% endif %}

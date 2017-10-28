@@ -1,3 +1,24 @@
 <div id="experience" class="ui cv-section basic vertical segment">
     <h1 class="ui dividing header"><i class="suitcase icon"></i>Experience</h1>
+    <h2 class="ui header">Professional Experience</h2>
+    <h2 class="ui header">Research Experience</h2>
+    <h2 class="ui header">Exchange Experience</h2>
+    <div class="ui relaxed items">
+        {% for program in site.data.cv.experience.exchange %}
+            <div id="{{ program.id }}" class="item">
+                <div class="content">
+                    <div class="header">{{ program.institution }}</div>
+                    <div class="meta">{{ program.department }}</div>
+                    <div class="extra">{{ program.time }} &middot; {{ program.location }}</div>
+                    {% if program.details %}
+                        <div class="description">
+                            <div class="ui bulled list">
+                                {% for detail in program.details %}<div class="item">{{ detail }}</div>{% endfor %}
+                            </div>
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+        {% endfor %}
+    </div>
 </div>

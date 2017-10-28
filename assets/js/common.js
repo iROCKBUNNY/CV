@@ -5,11 +5,15 @@ $(document).ready(function () {
         $('.cv-section').visibility({
             once: false,
             onTopPassed: function () {
-                $('.ui.following.menu .item.active').removeClass('active');
                 $('.ui.following.menu .item[href$=' + $(this).attr('id') + ']').addClass('active');
             },
+            onTopPassedReverse: function () {
+                $('.ui.following.menu .item[href$=' + $(this).attr('id') + ']').removeClass('active');
+            },
+            onBottomPassed: function () {
+                $('.ui.following.menu .item[href$=' + $(this).attr('id') + ']').removeClass('active');
+            },
             onBottomPassedReverse: function () {
-                $('.ui.following.menu .item.active').removeClass('active');
                 $('.ui.following.menu .item[href$=' + $(this).attr('id') + ']').addClass('active');
             }
         });
