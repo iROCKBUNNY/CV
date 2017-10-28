@@ -1,12 +1,21 @@
 <div id="projects" class="ui basic vertical stripe segment">
     <h1 class="ui dividing header"><i class="rocket icon"></i>Projects</h1>
     <h2 class="ui header">Coursework Projects</h2>
-    {% for institution in site.data.cv.education %}
-        {% if institution.coursework_projects %}
-            <h3 id="{{ institution.id }}-coursework-projects" class="ui header">{{ institution.name }}</h3>
-            <div class="ui bulleted list">
-                {% for coursework_project in institution.coursework_projects %}<div class="item"><b>{{ coursework_project.time }}: </b>{{ coursework_project.name }}</div>{% endfor %}
-            </div>
-        {% endif %}
-    {% endfor %}
+    <div class="ui relaxed items">
+        {% for institution in site.data.cv.education %}
+            {% if institution.coursework_projects %}
+                <div id="{{ institution.id }}-coursework-projects" class="item">
+                    <div class="content">
+                        <div class="header">{{ institution.name }}</div>
+                        <div class="meta">{{ institution.coursework_projects.size }} coursework projects</div>
+                        <div class="description">
+                            <div class="ui bulleted list">
+                                {% for coursework_project in institution.coursework_projects %}<div class="item"><b>{{ coursework_project.time }}: </b>{{ coursework_project.name }}</div>{% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
 </div>

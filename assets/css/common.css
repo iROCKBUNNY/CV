@@ -9,7 +9,9 @@
     font-size: 1.2em;
 }
 
-.ui.main.segment,
+.ui.main.segment {
+    padding-bottom: 6em;
+}
 .ui.footer.segment {
     padding-top: 6em;
     padding-bottom: 6em;
@@ -29,6 +31,9 @@
     }
     .ui.borderless.menu .toc.item {
         display: block;
+    }
+    .ui.following.menu {
+        display: none !important;
     }
 }
 

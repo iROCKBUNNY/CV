@@ -1,14 +1,15 @@
-<div class="ui fixed borderless menu">
+<div class="ui borderless menu">
     <div class="ui container">
-        <div class="toc link item"><i class="sidebar icon"></i>Menu</div>
-        <a class="header item" href="{{ '/' | relative_url }}">{{ site.alias }}</a>
-        <div class="ui dropdown item">
-            <i class="list layout icon"></i>Curriculum Vit&aelig;<i class="dropdown icon"></i>
-            <div class="menu">
-                {% include menu_items.html %}
-            </div>
-        </div>
+        <div class="toc link header item"><i class="sidebar icon"></i>Menu</div>
+        <a class="header item" href="{{ '/' | relative_url }}">{{ site.data.cv.basic_info.name }}</a>
+        <div class="item">{{ site.data.cv.basic_info.position }}</div>
         <div class="right menu">
+            <div class="ui dropdown item">
+                <i class="sidebar icon"></i>Curriculum Vit&aelig;<i class="dropdown icon"></i>
+                <div class="menu">
+                    {% include menu_items.html %}
+                </div>
+            </div>
             <a class="item" href="https://www.linkedin.com/in/qutong/" target="_blank"><i class="linkedin square icon"></i>LinkedIn</a>
         </div>
     </div>

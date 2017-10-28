@@ -17,7 +17,5 @@ setInterval(function () {
 $('.ui.dropdown').dropdown();
 
 if ($(window).width() >= 768) {
-    $('.ui.sticky').sticky({
-        offset: 60
-    });
+    $('.ui.sticky').sticky();
 };
