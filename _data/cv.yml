@@ -179,9 +179,40 @@ experience:
       details:
         - Mastered daily German communication within 3 months (starting from zero).
 
-  university:
+  university_service:
+    - id: university-service-polyu
+      university: The Hong Kong Polytechnic University
+      position: Student Helper
+      time: September 2012 - October 2012
+      location: Hong Kong
+      details:
+        - Served as Student Helper on the PolyU Education Info Days in 2012.
+        - Greeted the visitors as PolyU ambassadors.
+        - Answered visitors' questions on PolyU's admission and selection criteria for 2012 (and 2013) admission.
+        - Offered help and guidance at exhibition booths.
+        - Guided visitors from Podium to EIE laboratories.
+
+    - id: university-service-bupt
+      university: Beijing University of Posts and Telecommunications
+      position: Assistant Instructor
+      time: September 2010 - June 2012
+      location: Beijing
+      details:
+        - Assisted instructors to help freshmen quickly adapt to the new life at BUPT.
+        - Organized orientations and regular activities.
+        - Answered doubts about life or studies at any time.
+        - Assisted instructors to solve students issues.
+        - Reported regularly to the instructors.
 
   volunteer:
+    - id: volunteer-afs
+      employer: AFS Intercultural Programs
+      position: Volunteer
+      time: July 2005 - Present
+      location: Beijing
+      details:
+        - Served as a regular member of CEAIE-AFS Beijing Committee.
+        - "Organized or provide help for CEAIE-AFS annual regular activities, including: CEAIE-AFS National Volunteer Conference, Selection Camp of CEAIE-AFS Program Students, Pre-departure Orientation, Arrival Orientation, End-of-stay Orientation, and CEAIE-AFS Beijing Volunteers New Year's Party."
 
 projects:
 
@@ -254,7 +285,7 @@ publications:
     label: MSc Dissertation
     authors:
       - Tong Qu
-    abstract: 'Traditional face recognition algorithms are not best suited for matching face images captured at a low resolution to a set of high-resolution gallery face images. To perform matching between face images of different resolutions, this work proposes a coupled-projection method. Based on local relationships in the data, two sets of projections are learned: one for low-resolution face images and the other for high-resolution face images, respectively. Then, both low-resolution probe face images and high-resolution gallery face images are projected into a common subspace. Hence, subsequent matching can be done in the subspace directly.'
+    abstract: "Traditional face recognition algorithms are not best suited for matching face images captured at a low resolution to a set of high-resolution gallery face images. To perform matching between face images of different resolutions, this work proposes a coupled-projection method. Based on local relationships in the data, two sets of projections are learned: one for low-resolution face images and the other for high-resolution face images, respectively. Then, both low-resolution probe face images and high-resolution gallery face images are projected into a common subspace. Hence, subsequent matching can be done in the subspace directly."
     details:
       - key: Supervisor
         value: Prof. Kenneth K. M. Lam

@@ -57,4 +57,42 @@
             </div>
         {% endfor %}
     </div>
+    <h2 class="ui header">University Service</h2>
+    <div class="ui relaxed items">
+        {% for entry in site.data.cv.experience.university_service %}
+            <div id="{{ entry.id }}" class="item">
+                <div class="content">
+                    <div class="header">{{ entry.position }}</div>
+                    <div class="meta">{{ entry.university }}</div>
+                    <div class="extra">{{ entry.time }} &middot; {{ entry.location }}</div>
+                    {% if entry.details %}
+                        <div class="description">
+                            <div class="ui bulleted list">
+                                {% for detail in entry.details %}<div class="item">{{ detail }}</div>{% endfor %}
+                            </div>
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+    <h2 class="ui header">Volunteer Experience</h2>
+    <div class="ui relaxed items">
+        {% for entry in site.data.cv.experience.volunteer %}
+            <div id="{{ entry.id }}" class="item">
+                <div class="content">
+                    <div class="header">{{ entry.position }}</div>
+                    <div class="meta">{{ entry.employer }}</div>
+                    <div class="extra">{{ entry.time }} &middot; {{ entry.location }}</div>
+                    {% if entry.details %}
+                        <div class="description">
+                            <div class="ui bulleted list">
+                                {% for detail in entry.details %}<div class="item">{{ detail }}</div>{% endfor %}
+                            </div>
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+        {% endfor %}
+    </div>
 </div>
