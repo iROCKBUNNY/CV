@@ -109,14 +109,21 @@ experience:
     - id: geiri
       employer: Global Energy Interconnection Research Institute
       position: Research and Development Engineer
-      time: July 2014 – March 2016
+      time: July 2014 - March 2016
       location: Beijing
   research:
-    - institution:
-      department:
-      position:
-      time:
-      location:
+    - id: thu
+      institution: Tsinghua University
+      department: Research Institute of Information Technology
+      position: Research Assistant
+      time: May 2017 - Present
+      location: Beijing
+    - id: ruc
+      institution: Remin University of China
+      department: Multimedia Computing Lab, School of Information
+      position: Visiting Scholar
+      time: December 2013 - June 2014
+      location: Beijing
   exchange:
     - id: afs
       institution: Simpert-Krämer-Gymnasium Krumbach
