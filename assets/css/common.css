@@ -17,10 +17,14 @@
     padding-bottom: 6em;
 }
 
-.ui.stripe.segment {
+.ui.following.menu .item.active {
+    padding-left: 1em;
+}
+
+.ui.cv-section.segment {
     padding-bottom: 4em;
 }
-.ui.stripe.segment:last-child {
+.ui.cv-section.segment:last-child {
     padding-bottom: 1em;
 }
 
@@ -32,7 +36,10 @@
     .ui.borderless.menu .toc.item {
         display: block;
     }
-    .ui.following.menu {
+    .ui.cv-basic.segment.last {
+        border-bottom: none;
+    }
+    .ui.sticky {
         display: none !important;
     }
 }

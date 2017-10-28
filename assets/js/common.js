@@ -1,7 +1,21 @@
 // common.js
 
 $(document).ready(function () {
-    $('.ui.sidebar').sidebar('attach events', '.toc.item');
+    if ($(window).width() >= 768) {
+        $('.cv-section').visibility({
+            once: false,
+            onTopPassed: function () {
+                $('.ui.following.menu .item.active').removeClass('active');
+                $('.ui.following.menu .item[href$=' + $(this).attr('id') + ']').addClass('active');
+            },
+            onBottomPassedReverse: function () {
+                $('.ui.following.menu .item.active').removeClass('active');
+                $('.ui.following.menu .item[href$=' + $(this).attr('id') + ']').addClass('active');
+            }
+        });
+    } else {
+        $('.ui.sidebar').sidebar('attach events', '.toc.item');
+    };
 });
 
 // version
