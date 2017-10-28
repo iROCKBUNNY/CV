@@ -413,6 +413,8 @@ skills:
     items:
       - name: Flask
         color: black
+      - name: Jekyll
+        color: brown
       - name: jQuery
         color: blue
       - name: Semantic UI
