@@ -258,6 +258,11 @@ projects:
     name: Low-Resolution Face Recognition
     time: November 2012 - August 2013
     location: Hong Kong
+    details:
+      - Proposed a novel coupled-projection method.
+      - Implemented algorithms using MATLAB.
+      - Accelerated Gabor feature extraction process through FFT.
+      - Accelerated simulations using mexopencv, GPU computing (CUDA), and parallel computing (parallel for-loops).
 
   competition:
 

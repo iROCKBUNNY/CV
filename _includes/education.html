@@ -10,7 +10,7 @@
                     <div class="description">
                         <div class="ui bulleted list">
                             {% if entry.details %}{% for detail in entry.details %}<div class="item">{{ detail }}</div>{% endfor %}{% endif %}
-                            {% if entry.projects %}{% for project in entry.projects %}<div class="item">{{ project.title }}{% if project.project_id %} [<a href="{{ '/' | relative_url }}#{{ project.project_id }}">View Project</a>]{% endif %}{% if project.publication_id %} [<a href="{{ '/' | relative_url }}#{{ project.publication_id }}">View Article</a>]{% endif %}</div>{% endfor %}{% endif %}
+                            {% if entry.projects %}{% for project in entry.projects %}<div class="item">{{ project.title }}{% if project.project_id %} [<a href="{{ '/' | relative_url }}#{{ project.project_id }}"><i class="rocket icon"></i>View Project</a>]{% endif %}{% if project.publication_id %} [<a href="{{ '/' | relative_url }}#{{ project.publication_id }}"><i class="text file outline icon"></i>View Article</a>]{% endif %}</div>{% endfor %}{% endif %}
                             {% if entry.coursework_projects %}<a class="item" href="{{ '/' | relative_url }}#{{ entry.id }}-coursework-projects">{{ entry.coursework_projects.size }} coursework projects</a>{% endif %}
                             {% if entry.courses %}<a class="item" href="{{ '/' | relative_url }}#{{ entry.id }}-courses">{{ entry.courses.size }} major courses</a>{% endif %}
                             {% if entry.activities_and_societies %}<div class="item">Activities and societies: {% for item in entry.activities_and_societies %}{% unless forloop.first %} &middot; {% endunless %}{{ item }}{% endfor %}</div>{% endif %}
