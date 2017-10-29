@@ -39,8 +39,11 @@ education:
     achievements:
       - title: Dissertation
         content: Low-Resolution Face Recognition
-        project_id: low-resolution-face-recognition
-        publication_id: publication-b21501021
+        links:
+          - id: low-resolution-face-recognition
+            icon: rocket
+          - id: publication-b21501021
+            icon: file text outline
     coursework_projects:
       - name: Simulated a basic OFDM system using MATLAB
         time: 05/2013
@@ -81,13 +84,24 @@ education:
     achievements:
       - title: Final Year Project
         content: Submission Management System
-        project_id: submission-management-system
+        links:
+          - id: submission-management-system
+            icon: rocket
       - title: Baidu PM Star Internet Product Design Contest
         content: Here
-        project_id: here
+        links:
+          - id: here
+            icon: rocket
       - title: Microsoft Imagine Cup
         content: ECOSENS System
-        project_id: ecosens
+        links:
+          - id: ecosens
+            icon: rocket
+      - title: Innovation Project
+        content: Grain Moisture Content Tester
+        links:
+          - id: grain-moisture-content-tester
+            icon: rocket
     coursework_projects:
       - name: Vehicle (cars and motorbikes) identification using LIBSVM
         time: 01/2012
@@ -268,12 +282,14 @@ projects:
       details:
         - Wrote an open source simulation framework (in Python) for further research, including associated tutorials.
         - Evaluated various classic genetic algorithm-based approaches to the problem.
-      github: https://github.com/iRB-Lab/py-ga-VRPTW
+      links:
+        - link: https://github.com/iRB-Lab/py-ga-VRPTW
+          icon: github
 
     - id: image-retrieval
       name: Large-Scale Image Retrieval Learned from User-Generated Data
       institution: Multimedia Computing Lab · School of Information · Renmin University of China
-      time: December 2013 – June 2014
+      time: December 2013 - June 2014
       location: Beijing
       details:
         - Evaluated three proposed image retrieval approaches based on user clicked data.
@@ -291,8 +307,9 @@ projects:
         - Implemented algorithms in MATLAB.
         - Accelerated Gabor feature extraction process through FFT.
         - Accelerated simulations using OpenCV (mexopencv), GPU computing (CUDA), and parallel computing (parallel for-loops).
-
-      publication_id: publication-b21501021
+      links:
+        - id: publication-b21501021
+          icon: file text outline
 
   competition:
     - id: consumer-data-mining
@@ -338,8 +355,32 @@ projects:
         - Designed the ECOSENS visual identity.
         - Made the project introduction videos and slides.
         - Management of technical documentation.
+      links:
+        - link: /downloads/publications/ecosens.pdf
+          icon: file pdf outline
 
   undergraduate:
+    - id: submission-management-system
+      name: Submission Management System
+      institution: Institute of Network Technology · Beijing University of Posts and Telecommunications
+      time: January 2012 - June 2012
+      location: Beijing
+      details:
+        - Implemented a web system to manage and display digital assignment submissions.
+        - Designed the front-end interface and the back-end system.
+      links:
+        - link: http://design.byr.cn/
+          icon: globe
+
+    - id: grain-moisture-content-tester
+      name: Grain Moisture Content Tester
+      institution: Innovation Lab · Beijing University of Posts and Telecommunications
+      time: July 2010 - June 2012
+      location: Beijing
+      details:
+        - Implemented an embedded device to detect grain moisture using self-developed humidity sensors.
+        - Designed and made six generations of humidity sensor front-end models.
+        - Designed and soldered the second generation humidity sensor prototype circuit.
 
 awards:
   - id: bupt-auta-data-mining-challenge

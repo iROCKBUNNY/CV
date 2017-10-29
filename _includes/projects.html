@@ -6,7 +6,7 @@
         {% for entry in site.data.cv.projects.research %}
             <div id="{{ entry.id }}" class="item">
                 <div class="content">
-                    <div class="header">{{ entry.name }}{% if entry.github %}<a href="{{ entry.github }}" target="_blank"><i class="github icon"></i></a>{% endif %}{% if entry.publication_id %}<a href="{{ '/' | relative_url }}#{{ entry.publication_id }}"><i class="file text outline icon"></i></a>{% endif %}</div>
+                    <div class="header">{{ entry.name }}{% for item in entry.links %}<a {% if item.id %}href="{{ '/' | relative_url }}#{{ item.id }}"{% else %}href="{{ item.link }}" target="_blank"{% endif %}><i class="{{ item.icon }} icon"></i></a>{% endfor %}</div>
                     <div class="meta">{{ entry.institution }}</div>
                     <div class="extra">{{ entry.time }} &middot; {{ entry.location }}</div>
                     {% if entry.details %}
@@ -25,8 +25,27 @@
         {% for entry in site.data.cv.projects.competition %}
             <div id="{{ entry.id }}" class="item">
                 <div class="content">
-                    <div class="header">{{ entry.name }}</div>
+                    <div class="header">{{ entry.name }}{% for item in entry.links %}<a {% if item.id %}href="{{ '/' | relative_url }}#{{ item.id }}"{% else %}href="{{ item.link }}" target="_blank"{% endif %}><i class="{{ item.icon }} icon"></i></a>{% endfor %}</div>
                     <div class="meta">{{ entry.competition }} &middot; <a href="{{ '/' | relative_url }}#{{ entry.award.id }}">{{ entry.award.prize }}</a></div>
+                    <div class="extra">{{ entry.time }} &middot; {{ entry.location }}</div>
+                    {% if entry.details %}
+                        <div class="description">
+                            <div class="ui bulleted list">
+                                {% for detail in entry.details %}<div class="item">{{ detail }}</div>{% endfor %}
+                            </div>
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+    <h2 class="ui teal sub-section header">Undergraduate Projects</h2>
+    <div class="ui relaxed items">
+        {% for entry in site.data.cv.projects.undergraduate %}
+            <div id="{{ entry.id }}" class="item">
+                <div class="content">
+                    <div class="header">{{ entry.name }}{% for item in entry.links %}<a {% if item.id %}href="{{ '/' | relative_url }}#{{ item.id }}"{% else %}href="{{ item.link }}" target="_blank"{% endif %}><i class="{{ item.icon }} icon"></i></a>{% endfor %}</div>
+                    <div class="meta">{{ entry.institution }}</div>
                     <div class="extra">{{ entry.time }} &middot; {{ entry.location }}</div>
                     {% if entry.details %}
                         <div class="description">
