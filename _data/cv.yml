@@ -295,6 +295,19 @@ projects:
       publication_id: publication-b21501021
 
   competition:
+    - id: consumer-data-mining
+      name: Consumer Gender and Age Mining based on User Online Shopping Data
+      competition: BUPT AUTA Data Mining Challenge
+      award:
+        prize: 3rd Prize
+        id: bupt-auta-data-mining-challenge
+      time: December 2015 - January 2016
+      location: Beijing
+      details:
+        - Won 3rd Prize in the BUPT AUTA Data Mining Challenge (top 1 in Phase 1, top 5 in Phase 2 among 200+).
+        - Extracted one-hot features from various data combinations.
+        - Trained fusion models based on popular algorithms.
+
     - id: here
       name: HERE
       competition: Baidu PM Star Internet Product Design Contest
@@ -309,6 +322,22 @@ projects:
         - Designed the browser-end and mobile-end websites.
         - Designed the mobile application user interface.
         - Made the project introduction slides.
+
+    - id: ecosens
+      name: ECOSENS System
+      competition: Microsoft Imagine Cup · Embedded Development
+      award:
+        prize: 3rd Prize
+        id: microsoft-imagine-cup
+      time: September 2010 - April 2011
+      location: Beijing
+      details:
+        - Designed a wireless sensor network system for grain food surveillance using embedded implementation.
+        - Designed the final three-layer system structure.
+        - Designed the ECOSENS System website.
+        - Designed the ECOSENS visual identity.
+        - Made the project introduction videos and slides.
+        - Management of technical documentation.
 
   undergraduate:
 
