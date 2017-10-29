@@ -21,6 +21,24 @@
         {% endfor %}
     </div>
     <h2 class="ui teal sub-section header">Competition Projects</h2>
+    <div class="ui relaxed items">
+        {% for entry in site.data.cv.projects.competition %}
+            <div id="{{ entry.id }}" class="item">
+                <div class="content">
+                    <div class="header">{{ entry.name }}</div>
+                    <div class="meta">{{ entry.competition }} &middot; <a href="{{ '/' | relative_url }}#{{ entry.award.id }}">{{ entry.award.prize }}</a></div>
+                    <div class="extra">{{ entry.time }} &middot; {{ entry.location }}</div>
+                    {% if entry.details %}
+                        <div class="description">
+                            <div class="ui bulleted list">
+                                {% for detail in entry.details %}<div class="item">{{ detail }}</div>{% endfor %}
+                            </div>
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+        {% endfor %}
+    </div>
     <h2 class="ui teal sub-section header">Coursework Projects</h2>
     <div class="ui relaxed items">
         {% for entry in site.data.cv.education %}

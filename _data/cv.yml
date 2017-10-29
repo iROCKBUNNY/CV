@@ -295,6 +295,20 @@ projects:
       publication_id: publication-b21501021
 
   competition:
+    - id: here
+      name: HERE
+      competition: Baidu PM Star Internet Product Design Contest
+      award:
+        prize: 2nd Prize
+        id: baidu-pm-star
+      time: March 2011 - May 2011
+      location: Beijing
+      details:
+        - Designed an LBS-based mobile phone app aiming at building connecting of nearby strangers.
+        - Designed the HERE visual identity.
+        - Designed the browser-end and mobile-end websites.
+        - Designed the mobile application user interface.
+        - Made the project introduction slides.
 
   undergraduate:
 
