@@ -46,12 +46,17 @@
     .ui.borderless.menu .toc.item {
         display: block;
     }
-    .ui.cv-basic.segment.last {
+    .ui.cv-status.segment.last {
         border-bottom: none;
     }
     .ui.sticky {
         display: none !important;
     }
+}
+
+.text-normal {
+    font-weight: normal;
+    font-style: normal;
 }
 
 /* text colors */

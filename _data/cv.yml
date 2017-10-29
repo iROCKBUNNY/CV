@@ -1,4 +1,4 @@
-basic_info:
+status:
   avatar: /images/avatar.jpg
   name: Tong QU
   employer: Beijing Y-English Education and Technology Co., Ltd.
@@ -36,8 +36,9 @@ education:
     location: Hong Kong
     details:
       - Top 1 student among non-local post-graduates in the department.
-    projects:
-      - title: "Dissertation: Low-Resolution Face Recognition"
+    achievements:
+      - title: Dissertation
+        content: Low-Resolution Face Recognition
         project_id: low-resolution-face-recognition
         publication_id: publication-b21501021
     coursework_projects:
@@ -77,12 +78,15 @@ education:
     gpa: 86.7/100
     time: September 2008 - June 2012
     location: Beijing
-    projects:
-      - title: "Final Year Project: Submission Management System"
+    achievements:
+      - title: Final Year Project
+        content: Submission Management System
         project_id: submission-management-system
-      - title: "Baidu PM Star Internet Product Design Contest: Here"
+      - title: Baidu PM Star Internet Product Design Contest
+        content: Here
         project_id: here
-      - title: "Microsoft Imagine Cup: ECOSENS System"
+      - title: Microsoft Imagine Cup
+        content: ECOSENS System
         project_id: ecosens
     coursework_projects:
       - name: Vehicle (cars and motorbikes) identification using LIBSVM
@@ -164,6 +168,7 @@ experience:
       institution: Tsinghua University
       department: Research Institute of Information Technology
       position: Research Assistant
+      advisor: Xiao Zhang, PhD Candidate
       time: May 2017 - Present
       location: Beijing
 
@@ -171,6 +176,7 @@ experience:
       institution: Remin University of China
       department: Multimedia Computing Lab, School of Information
       position: Research Assistant
+      advisor: Xirong Li, Associate Professor
       time: December 2013 - June 2014
       location: Beijing
       details:
@@ -196,7 +202,7 @@ experience:
       details:
         - Organized two annual membership recruitments (in 2010 and 2011).
         - Organized three BYR Forum T-shirt Design Contests (in 2010, 2011 and 2012).
-        - Designed 6 generations of BYR Forum winter wears (the 3rd, 4th, 5th, 6th, 7th, 8th generation).
+        - Designed 6 generations of BYR Forum winter wears (the 3rd, 4th, 5th, 6th, 7th, and 8th generation).
         - Designed a submission management system for T-shirt Design Contest (in 2012).
         - Designed massive banners and posters for the BYR Forum.
 
@@ -250,19 +256,43 @@ experience:
       location: Beijing
       details:
         - Served as a regular member of CEAIE-AFS Beijing Committee.
-        - "Organized or provide help for CEAIE-AFS annual regular activities, including: CEAIE-AFS National Volunteer Conference, Selection Camp of CEAIE-AFS Program Students, Pre-departure Orientation, Arrival Orientation, End-of-stay Orientation, and CEAIE-AFS Beijing Volunteers New Year's Party."
+        - Organized or provide help for CEAIE-AFS annual regular activities, including CEAIE-AFS National Volunteer Conference, Selection Camp of CEAIE-AFS Program Students, Pre-departure Orientation, Arrival Orientation, End-of-stay Orientation, and CEAIE-AFS Beijing Volunteers New Year's Party.
 
 projects:
   research:
-    id: low-resolution-face-recognition
-    name: Low-Resolution Face Recognition
-    time: November 2012 - August 2013
-    location: Hong Kong
-    details:
-      - Proposed a novel coupled-projection method.
-      - Implemented algorithms using MATLAB.
-      - Accelerated Gabor feature extraction process through FFT.
-      - Accelerated simulations using mexopencv, GPU computing (CUDA), and parallel computing (parallel for-loops).
+    - id: py-ga-vrptw
+      name: A Genetic Algorithm-based Solution to Vehicle Routing Problem with Time Windows
+      institution: School of Automation · Beijing University of Posts and Telecommunications
+      time: February 2016 - June 2016
+      location: Beijing
+      details:
+        - Wrote an open source simulation framework (in Python) for further research, including associated tutorials.
+        - Evaluated various classic genetic algorithm-based approaches to the problem.
+      github: https://github.com/iRB-Lab/py-ga-VRPTW
+
+    - id: image-retrieval
+      name: Large-Scale Image Retrieval Learned from User-Generated Data
+      institution: Multimedia Computing Lab · School of Information · Renmin University of China
+      time: December 2013 – June 2014
+      location: Beijing
+      details:
+        - Evaluated three proposed image retrieval approaches based on user clicked data.
+        - Implemented algorithms in Python.
+        - Implemented a text search engine using Whoosh.
+
+    - id: low-resolution-face-recognition
+      name: Low-Resolution Face Recognition
+      institution: Department of Electronic and Information Engineering · Faculty of Engineering · The Hong Kong Polytechnic University
+      time: November 2012 - August 2013
+      location: Hong Kong
+      details:
+        - Surveyed on low-resolution face recognition related publications, and studied prevailing approaches.
+        - Proposed a coupled-projection method, and increased recognition rates even at a very small resolution (e.g. 8-by-8 pixels).
+        - Implemented algorithms in MATLAB.
+        - Accelerated Gabor feature extraction process through FFT.
+        - Accelerated simulations using OpenCV (mexopencv), GPU computing (CUDA), and parallel computing (parallel for-loops).
+
+      publication_id: publication-b21501021
 
   competition:
 
@@ -339,8 +369,8 @@ publications:
       - Tong Qu
     abstract: "Traditional face recognition algorithms are not best suited for matching face images captured at a low resolution to a set of high-resolution gallery face images. To perform matching between face images of different resolutions, this work proposes a coupled-projection method. Based on local relationships in the data, two sets of projections are learned: one for low-resolution face images and the other for high-resolution face images, respectively. Then, both low-resolution probe face images and high-resolution gallery face images are projected into a common subspace. Hence, subsequent matching can be done in the subspace directly."
     details:
-      - key: Supervisor
-        value: Prof. Kenneth K. M. Lam
+      - key: Supervised by
+        value: Kenneth K. M. Lam, Professor & Associate Dean, Faculty of Engineering, HKPloyU
     link: http://hkall.hku.hk/record=b21501021
     full_text: /downloads/publications/b26443107.pdf
 

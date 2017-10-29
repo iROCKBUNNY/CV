@@ -1,6 +1,6 @@
-- name: Basic Info
+- name: Status
   icon: user circle outline
-  id: basic-info
+  id: status
 
 - name: Summary
   icon: quote left

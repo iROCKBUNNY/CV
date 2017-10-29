@@ -2,6 +2,24 @@
     <h1 class="ui dividing header"><i class="rocket icon"></i>Projects</h1>
     <h2 class="ui teal sub-section header">Web Development Projects</h2>
     <h2 class="ui teal sub-section header">Research Projects</h2>
+    <div class="ui relaxed items">
+        {% for entry in site.data.cv.projects.research %}
+            <div id="{{ entry.id }}" class="item">
+                <div class="content">
+                    <div class="header">{{ entry.name }}{% if entry.github %}<a href="{{ entry.github }}" target="_blank"><i class="github icon"></i></a>{% endif %}{% if entry.publication_id %}<a href="{{ '/' | relative_url }}#{{ entry.publication_id }}"><i class="file text outline icon"></i></a>{% endif %}</div>
+                    <div class="meta">{{ entry.institution }}</div>
+                    <div class="extra">{{ entry.time }} &middot; {{ entry.location }}</div>
+                    {% if entry.details %}
+                        <div class="description">
+                            <div class="ui bulleted list">
+                                {% for detail in entry.details %}<div class="item">{{ detail }}</div>{% endfor %}
+                            </div>
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+        {% endfor %}
+    </div>
     <h2 class="ui teal sub-section header">Competition Projects</h2>
     <h2 class="ui teal sub-section header">Coursework Projects</h2>
     <div class="ui relaxed items">

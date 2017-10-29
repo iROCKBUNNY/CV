@@ -5,7 +5,7 @@
             <div id="{{ patent.id }}" class="item">
                 <div class="content">
                     <div class="header">{{ patent.name }}</div>
-                    <div class="meta">{% if patent.inventors.size == 1 %}Inventor:{% else %}Inventors:{% endif %} {% for author in patent.inventors %}{% unless forloop.first %} &middot; {% endunless %}{{ author }}{% endfor %}</div>
+                    <div class="meta">Invented by: {% for author in patent.inventors %}{% unless forloop.first %} &middot; {% endunless %}{{ author }}{% endfor %}</div>
                     <div class="extra">{{ patent.number }} &middot; Filed on {{ patent.time }}</div>
                 </div>
             </div>

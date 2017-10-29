@@ -1,6 +1,6 @@
 <div id="experience" class="ui cv-section basic vertical segment">
     <h1 class="ui dividing header"><i class="suitcase icon"></i>Experience</h1>
-    <h2 class="ui teal sub-section header">Vocational Experience</h2>
+    <h2 class="ui teal sub-section header">Vocational</h2>
     <div class="ui relaxed items">
         {% for entry in site.data.cv.experience.vocational %}
             <div id="{{ entry.id }}" class="item">
@@ -19,13 +19,13 @@
             </div>
         {% endfor %}
     </div>
-    <h2 class="ui teal sub-section header">Research Experience</h2>
+    <h2 class="ui teal sub-section header">Research Internship</h2>
     <div class="ui relaxed items">
         {% for entry in site.data.cv.experience.research %}
             <div id="{{ entry.id }}" class="item">
                 <div class="content">
-                    <div class="header">{{ entry.institution }}</div>
-                    <div class="meta">{{ entry.position }} &middot; {{ entry.department }}</div>
+                    <div class="header">{{ entry.institution }} &middot; <span class="text-grey text-normal">{{ entry.department }}</span></div>
+                    <div class="meta">{{ entry.position }}{% if entry.advisor %} &middot; Supervised by: {{ entry.advisor }}{% endif %}</div>
                     <div class="extra">{{ entry.time }} &middot; {{ entry.location }}</div>
                     {% if entry.details %}
                         <div class="description">
@@ -38,7 +38,7 @@
             </div>
         {% endfor %}
     </div>
-    <h2 class="ui teal sub-section header">Part-Time Experience</h2>
+    <h2 class="ui teal sub-section header">Part-Time</h2>
     <div class="ui relaxed items">
         {% for entry in site.data.cv.experience.part_time %}
             <div id="{{ entry.id }}" class="item">
