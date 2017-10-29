@@ -1,0 +1,9 @@
+<div id="skills" class="ui cv-section basic vertical segment">
+    <h1 class="ui dividing header"><i class="magic icon"></i>Skills</h1>
+    {% for category in site.data.cv.skills %}
+        <h3 class="ui header">{{ category.name }}</h3>
+        <div class="ui labels">
+            {% for item in category.items %}<div class="ui {% if item.color %}{{ item.color }} {% endif %}label">{% if item.icon %}<i class="{{ item.icon }} icon"></i>{% endif %}{{ item.name }}</div>{% endfor %}
+        </div>
+    {% endfor %}
+</div>

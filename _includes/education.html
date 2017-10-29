@@ -1,0 +1,22 @@
+<div id="education" class="ui cv-section basic vertical segment">
+    <h1 class="ui dividing header"><i class="student icon"></i>Education</h1>
+    <div class="ui relaxed items">
+        {% for entry in site.data.cv.education %}
+            <div class="item">
+                <div class="content">
+                    <div class="header">{{ entry.institution }}</div>
+                    <div class="meta">{{ entry.degree }}{% if entry.label %} <span class="text-teal">{{ entry.label }}</span>{% endif %} &middot; GPA: {{ entry.gpa }}</div>
+                    <div class="extra">{{ entry.time }} &middot; {{ entry.location }}</div>
+                    <div class="description">
+                        <div class="ui bulleted list">
+                            {% if entry.details %}{% for detail in entry.details %}<div class="item">{% if detail.title %}<b>{{ detail.title }}:</b> {% endif %}{{ detail.content }}{% for item in detail.links %}<a {% if item.id %}href="{{ '/' | relative_url }}#{{ item.id }}"{% else %}href="{{ item.link }}" target="_blank"{% endif %}><i class="{{ item.icon }} icon"></i></a>{% endfor %}</div>{% endfor %}{% endif %}
+                            {% if entry.coursework_projects %}<a class="item" href="{{ '/' | relative_url }}#{{ entry.id }}-coursework-projects">{{ entry.coursework_projects.size }} coursework projects</a>{% endif %}
+                            {% if entry.courses %}<a class="item" href="{{ '/' | relative_url }}#{{ entry.id }}-courses">{{ entry.courses.size }} major courses</a>{% endif %}
+                            {% if entry.activities_and_societies %}<div class="item"><b>Activities and societies:</b> {% for item in entry.activities_and_societies %}{% unless forloop.first %} &middot; {% endunless %}{{ item }}{% endfor %}</div>{% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>

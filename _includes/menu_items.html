@@ -1,0 +1,1 @@
+{% for menu_item in site.data.menu_items %}<a class="item" href="{{ '/' | relative_url }}#{{ menu_item.id }}"><i class="{{ menu_item.icon }} icon"></i>{{ menu_item.name }}</a>{% endfor %}
