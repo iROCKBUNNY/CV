@@ -1,7 +1,7 @@
 <div class="ui borderless menu">
     <div class="ui container">
         <div class="toc link header item"><i class="sidebar icon"></i>Menu</div>
-        <a class="header item" href="{{ '/' | relative_url }}">{{ site.data.cv.status.name }}</a>
+        <a class="header item" href="{{ '/' | relative_url }}">{{ site.data.cv.status.first_name }} {{ site.data.cv.status.family_name | upcase }}</a>
         <div class="item">{{ site.data.cv.status.position }}</div>
         <div class="right menu">
             <div class="ui dropdown item">

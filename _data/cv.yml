@@ -1,6 +1,7 @@
 status:
   avatar: /images/avatar.jpg
-  name: Tong QU
+  first_name: Tong
+  family_name: Qu
   employer: Beijing Y-English Education and Technology Co., Ltd.
   position: Full-Stack Web Developer
   location: Beijing City, China
@@ -296,6 +297,16 @@ experience:
         - content: Organized or provide help for CEAIE-AFS annual regular activities, including CEAIE-AFS National Volunteer Conference, Selection Camp of CEAIE-AFS Program Students, Pre-departure Orientation, Arrival Orientation, End-of-stay Orientation, and CEAIE-AFS Beijing Volunteers New Year's Party.
 
 projects:
+  open_source:
+    - id: byr-navi
+      name: BYR-Navi
+      description: A Navigation Website for BYR
+      website: http://byr-navi.com
+      established_at: October 1, 2016
+      links:
+        - link: https://github.com/BYR-Navi/BYR-Navi
+          icon: github
+
   research:
     - id: py-ga-vrptw
       name: A Genetic Algorithm-based Solution to Vehicle Routing Problem with Time Windows
