@@ -4,4 +4,9 @@
     <div class="ui labels">
         {% for hobby in site.data.cv.additional_info.hobbies %}<div class="ui label">{% if hobby.icon %}<i class="{{ hobby.icon }} icon"></i>{% endif %}{{ hobby.name }}</div>{% endfor %}
     </div>
+    <h3 class="ui header">Advice for Contacting {{ site.data.cv.status.name }}</h3>
+    <div>Please contact {{ site.data.cv.status.name }} for:</div>
+    <div class="ui bulleted list">
+        {% for entry in site.data.cv.additional_info.contact_advice %}<div class="item">{{ entry }}</div>{% endfor %}
+    </div>
 </div>

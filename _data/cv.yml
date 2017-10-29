@@ -35,8 +35,7 @@ education:
     time: September 2012 - October 2013
     location: Hong Kong
     details:
-      - Top 1 student among non-local post-graduates in the department.
-    achievements:
+      - content: Top 1 student among non-local post-graduates in the department.
       - title: Dissertation
         content: Low-Resolution Face Recognition
         links:
@@ -45,7 +44,7 @@ education:
           - id: publication-b21501021
             icon: file text outline
     coursework_projects:
-      - name: Simulated a basic OFDM system using MATLAB
+      - name: Simulated a basic OFDM system in MATLAB
         time: 05/2013
       - name: Implemented continuous digit recognition using HTK
         time: 04/2013
@@ -81,7 +80,7 @@ education:
     gpa: 86.7/100
     time: September 2008 - June 2012
     location: Beijing
-    achievements:
+    details:
       - title: Final Year Project
         content: Submission Management System
         links:
@@ -105,13 +104,13 @@ education:
     coursework_projects:
       - name: Vehicle (cars and motorbikes) identification using LIBSVM
         time: 01/2012
-      - name: Studied and implementated the RSA encryption algorithm using Java
+      - name: Studied and implementated the RSA encryption algorithm in Java
         time: 12/2011
       - name: Designed and simulated a 3-stub tuner for narrow-band impedance matching in microstrip circuit
         time: 06/2011
       - name: Simulated and analyzed the performance of the Rayleigh fading based on the Jakes Model
         time: 05/2011
-      - name: Designed and implementated a dot matrix display controller on FPGA using VHDL
+      - name: Designed and implementated a dot matrix display controller on FPGA in VHDL
         time: 01/2011
       - name: Built a campus network using H3C or CISCO routers and switches
         time: 11/2010
@@ -123,7 +122,7 @@ education:
         time: 06/2010
       - name: Designed and implementated an infrared transceiver circuit
         time: 05/2010
-      - name: Designed and implementated the Mine Sweeper game using C++ with MFC
+      - name: Designed and implementated the Mine Sweeper game in C++ with MFC
         time: 08/2009
     courses:
       - name: Advanced Mathematics
@@ -165,8 +164,8 @@ experience:
       time: April 2016 - Present
       location: Beijing
       details:
-        - Rapidly designed, developed and deployed a state-of-the-art, full-featured, web-based teaching management system.
-        - Proposed and applied an improved resource allocation algorithm based on ranking, proved to be highly efficient.
+        - content: Rapidly designed, developed and deployed a state-of-the-art, full-featured, web-based teaching management system.
+        - content: Proposed and applied an improved resource allocation algorithm based on ranking, proved to be highly efficient.
 
     - id: geiri
       employer: Global Energy Interconnection Research Institute
@@ -174,8 +173,23 @@ experience:
       time: July 2014 - March 2016
       location: Beijing
       details:
-        - Performed massive analytics on power quality data collected from real world power grid monitoring network.
-        - Built a robust data analysis platform, and participated in the state grid harmonics monitoring project.
+        - content: Performed massive analytics on power quality data collected from real world power grid monitoring network.
+        - content: Built a robust data analysis platform, and participated in the state grid harmonics monitoring project.
+        - title: Co-authored a paper
+          content: Parameter Estimation for External Network Static Equivalent Model Based on Nonlinear Programming Genetic Algorithm
+          links:
+            - id: publication-sg201602003
+              icon: file text outline
+        - title: Contributed to patent
+          content: A Method for Estimating Negative Sequence Impedance Parameters Applicable to Unbalanced Three-Phase Disturbance Source Localization
+          links:
+            - id: patent-cn-201410590042-5
+              icon: legal
+        - title: Contributed to patent
+          content: A Method for Localizing Unbalanced Three-Phase Disturbance Sources in Power Systems
+          links:
+            - id: patent-cn-201410590044-4
+              icon: legal
 
   research:
     - id: thu
@@ -194,8 +208,11 @@ experience:
       time: December 2013 - June 2014
       location: Beijing
       details:
-        - Surveyed on web image retrieval related publications, and proposed three approaches based on user clicked data.
-        - Implemented and evaluated proposed approaches on several real-world datasets.
+        - content: Surveyed on web image retrieval related publications, and proposed three approaches based on user clicked data.
+        - content: Implemented and evaluated proposed approaches on several real-world datasets.
+          links:
+            - id: image-retrieval
+              icon: rocket
 
   part_time:
     - id: p3-publishing
@@ -204,9 +221,12 @@ experience:
       time: March 2013 - June 2013
       location: Hong Kong
       details:
-        - Designed teaching materials in the Mandarin Matrix™ product line.
-        - Designed stroke orders of 56 Chinese characters using Adobe Illustrator.
-        - Edited layouts of 14 books using Adobe InDesign.
+        - content: Designed teaching materials in the Mandarin Matrix™ product line.
+          links:
+            - link: http://mandarinmatrix.org/
+              icon: external square
+        - content: Designed stroke orders of 56 Chinese characters in Adobe Illustrator.
+        - content: Edited layouts of 14 books in Adobe InDesign.
 
     - id: byr-team
       employer: BYR-Team, BUPT
@@ -214,11 +234,11 @@ experience:
       time: September 2009 - September 2012
       location: Beijing
       details:
-        - Organized two annual membership recruitments (in 2010 and 2011).
-        - Organized three BYR Forum T-shirt Design Contests (in 2010, 2011 and 2012).
-        - Designed 6 generations of BYR Forum winter wears (the 3rd, 4th, 5th, 6th, 7th, and 8th generation).
-        - Designed a submission management system for T-shirt Design Contest (in 2012).
-        - Designed massive banners and posters for the BYR Forum.
+        - content: Organized two annual membership recruitments (in 2010 and 2011).
+        - content: Organized three BYR Forum T-shirt Design Contests (in 2010, 2011 and 2012).
+        - content: Designed 6 generations of BYR Forum winter wears (the 3rd, 4th, 5th, 6th, 7th, and 8th generation).
+        - content: Designed a submission management system for T-shirt Design Contest (in 2012).
+        - content: Designed massive banners and posters for the BYR Forum.
 
     - id: wrd-tech
       employer: Beijing WRD Technology Co., Ltd
@@ -226,7 +246,10 @@ experience:
       time: September 2010 - September 2012
       location: Beijing
       details:
-        - "Designed the WRD company logo (registered trademark ID: 9183471)"
+        - content: "Designed the WRD company logo (registered trademark ID: 9183471)"
+          links:
+            - link: http://www.wrdtech.com/content/content.php?p=6_28_53
+              icon: external square
 
   exchange:
     - id: afs
@@ -235,7 +258,7 @@ experience:
       time: August 2004 - July 2005
       location: Krumbach, Germany
       details:
-        - Mastered daily German communication within 3 months (starting from zero).
+        - content: Mastered daily German communication within 3 months (starting from zero).
 
   university_service:
     - id: university-service-polyu
@@ -244,11 +267,11 @@ experience:
       time: September 2012 - October 2012
       location: Hong Kong
       details:
-        - Served as Student Helper on the PolyU Education Info Days in 2012.
-        - Greeted the visitors as PolyU ambassadors.
-        - Answered visitors' questions on PolyU's admission and selection criteria for 2012 (and 2013) admission.
-        - Offered help and guidance at exhibition booths.
-        - Guided visitors from Podium to EIE laboratories.
+        - content: Served as Student Helper on the PolyU Education Info Days in 2012.
+        - content: Greeted the visitors as PolyU ambassadors.
+        - content: Answered visitors' questions on PolyU's admission and selection criteria for 2012 (and 2013) admission.
+        - content: Offered help and guidance at exhibition booths.
+        - content: Guided visitors from Podium to EIE laboratories.
 
     - id: university-service-bupt
       university: Beijing University of Posts and Telecommunications
@@ -256,11 +279,11 @@ experience:
       time: September 2010 - June 2012
       location: Beijing
       details:
-        - Assisted instructors to help freshmen quickly adapt to the new life at BUPT.
-        - Organized orientations and regular activities.
-        - Answered doubts about life or studies at any time.
-        - Assisted instructors to solve students issues.
-        - Reported regularly to the instructors.
+        - content: Assisted instructors to help freshmen quickly adapt to the new life at BUPT.
+        - content: Organized orientations and regular activities.
+        - content: Answered doubts about life or studies at any time.
+        - content: Assisted instructors to solve students issues.
+        - content: Reported regularly to the instructors.
 
   volunteer:
     - id: volunteer-afs
@@ -269,8 +292,8 @@ experience:
       time: July 2005 - Present
       location: Beijing
       details:
-        - Served as a regular member of CEAIE-AFS Beijing Committee.
-        - Organized or provide help for CEAIE-AFS annual regular activities, including CEAIE-AFS National Volunteer Conference, Selection Camp of CEAIE-AFS Program Students, Pre-departure Orientation, Arrival Orientation, End-of-stay Orientation, and CEAIE-AFS Beijing Volunteers New Year's Party.
+        - content: Served as a regular member of CEAIE-AFS Beijing Committee.
+        - content: Organized or provide help for CEAIE-AFS annual regular activities, including CEAIE-AFS National Volunteer Conference, Selection Camp of CEAIE-AFS Program Students, Pre-departure Orientation, Arrival Orientation, End-of-stay Orientation, and CEAIE-AFS Beijing Volunteers New Year's Party.
 
 projects:
   research:
@@ -280,8 +303,8 @@ projects:
       time: February 2016 - June 2016
       location: Beijing
       details:
-        - Wrote an open source simulation framework (in Python) for further research, including associated tutorials.
-        - Evaluated various classic genetic algorithm-based approaches to the problem.
+        - content: Wrote an open source simulation framework (in Python) for further research, including associated tutorials.
+        - content: Evaluated various classic genetic algorithm-based approaches to the problem.
       links:
         - link: https://github.com/iRB-Lab/py-ga-VRPTW
           icon: github
@@ -292,9 +315,9 @@ projects:
       time: December 2013 - June 2014
       location: Beijing
       details:
-        - Evaluated three proposed image retrieval approaches based on user clicked data.
-        - Implemented algorithms in Python.
-        - Implemented a text search engine using Whoosh.
+        - content: Evaluated three proposed image retrieval approaches based on user clicked data.
+        - content: Implemented algorithms in Python.
+        - content: Implemented a text search engine using Whoosh.
 
     - id: low-resolution-face-recognition
       name: Low-Resolution Face Recognition
@@ -302,11 +325,11 @@ projects:
       time: November 2012 - August 2013
       location: Hong Kong
       details:
-        - Surveyed on low-resolution face recognition related publications, and studied prevailing approaches.
-        - Proposed a coupled-projection method, and increased recognition rates even at a very small resolution (e.g. 8-by-8 pixels).
-        - Implemented algorithms in MATLAB.
-        - Accelerated Gabor feature extraction process through FFT.
-        - Accelerated simulations using OpenCV (mexopencv), GPU computing (CUDA), and parallel computing (parallel for-loops).
+        - content: Surveyed on low-resolution face recognition related publications, and studied prevailing approaches.
+        - content: Proposed a coupled-projection method, and increased recognition rates even at a very small resolution (e.g. 8-by-8 pixels).
+        - content: Implemented algorithms in MATLAB.
+        - content: Accelerated Gabor feature extraction process through FFT.
+        - content: Accelerated simulations using OpenCV (mexopencv), GPU computing (CUDA), and parallel computing (parallel for-loops).
       links:
         - id: publication-b21501021
           icon: file text outline
@@ -321,9 +344,9 @@ projects:
       time: December 2015 - January 2016
       location: Beijing
       details:
-        - Won 3rd Prize in the BUPT AUTA Data Mining Challenge (top 1 in Phase 1, top 5 in Phase 2 among 200+).
-        - Extracted one-hot features from various data combinations.
-        - Trained fusion models based on popular algorithms.
+        - content: Won 3rd Prize in the BUPT AUTA Data Mining Challenge (top 1 in Phase 1, top 5 in Phase 2 among 200+).
+        - content: Extracted one-hot features from various data combinations.
+        - content: Trained fusion models based on popular algorithms.
 
     - id: here
       name: HERE
@@ -334,11 +357,11 @@ projects:
       time: March 2011 - May 2011
       location: Beijing
       details:
-        - Designed an LBS-based mobile phone app aiming at building connecting of nearby strangers.
-        - Designed the HERE visual identity.
-        - Designed the browser-end and mobile-end websites.
-        - Designed the mobile application user interface.
-        - Made the project introduction slides.
+        - content: Designed an LBS-based mobile phone app aiming at building connecting of nearby strangers.
+        - content: Designed the HERE visual identity.
+        - content: Designed the browser-end and mobile-end websites.
+        - content: Designed the mobile application user interface.
+        - content: Made the project introduction slides.
 
     - id: ecosens
       name: ECOSENS System
@@ -349,12 +372,12 @@ projects:
       time: September 2010 - April 2011
       location: Beijing
       details:
-        - Designed a wireless sensor network system for grain food surveillance using embedded implementation.
-        - Designed the final three-layer system structure.
-        - Designed the ECOSENS System website.
-        - Designed the ECOSENS visual identity.
-        - Made the project introduction videos and slides.
-        - Management of technical documentation.
+        - content: Designed a wireless sensor network system for grain food surveillance using embedded implementation.
+        - content: Designed the final three-layer system structure.
+        - content: Designed the ECOSENS System website.
+        - content: Designed the ECOSENS visual identity.
+        - content: Made the project introduction videos and slides.
+        - content: Management of technical documentation.
       links:
         - link: /downloads/publications/ecosens.pdf
           icon: file pdf outline
@@ -366,8 +389,8 @@ projects:
       time: January 2012 - June 2012
       location: Beijing
       details:
-        - Implemented a web system to manage and display digital assignment submissions.
-        - Designed the front-end interface and the back-end system.
+        - content: Implemented a web system to manage and display digital assignment submissions.
+        - content: Designed the front-end interface and the back-end system.
       links:
         - link: http://design.byr.cn/
           icon: globe
@@ -378,9 +401,9 @@ projects:
       time: July 2010 - June 2012
       location: Beijing
       details:
-        - Implemented an embedded device to detect grain moisture using self-developed humidity sensors.
-        - Designed and made six generations of humidity sensor front-end models.
-        - Designed and soldered the second generation humidity sensor prototype circuit.
+        - content: Implemented an embedded device to detect grain moisture using self-developed humidity sensors.
+        - content: Designed and made six generations of humidity sensor front-end models.
+        - content: Designed and soldered the second generation humidity sensor prototype circuit.
 
 awards:
   - id: bupt-auta-data-mining-challenge
@@ -433,18 +456,21 @@ publications:
       - Tong Qu
       - Hui Wen
     details:
-      - key: Journal
-        value: Smart Grid
-      - key: Year
-        value: 2016
-      - key: Volume
-        value: 4
-      - key: Issue
-        value: 2
-      - key: Pages
-        value: 133-140
-    link: http://www.cnki.com.cn/Article/CJFDTotal-ZNDW201602006.htm
-    full_text: /downloads/publications/sg201602003.pdf
+      - title: Journal
+        content: Smart Grid
+      - title: Year
+        content: 2016
+      - title: Volume
+        content: 4
+      - title: Issue
+        content: 2
+      - title: Pages
+        content: 133-140
+    links:
+      - link: http://www.cnki.com.cn/Article/CJFDTotal-ZNDW201602006.htm
+        icon: external square
+      - link: /downloads/publications/sg201602003.pdf
+        icon: file pdf outline
 
   - id: publication-b21501021
     title: Low-Resolution Face Recognition
@@ -453,10 +479,13 @@ publications:
       - Tong Qu
     abstract: "Traditional face recognition algorithms are not best suited for matching face images captured at a low resolution to a set of high-resolution gallery face images. To perform matching between face images of different resolutions, this work proposes a coupled-projection method. Based on local relationships in the data, two sets of projections are learned: one for low-resolution face images and the other for high-resolution face images, respectively. Then, both low-resolution probe face images and high-resolution gallery face images are projected into a common subspace. Hence, subsequent matching can be done in the subspace directly."
     details:
-      - key: Supervised by
-        value: Kenneth K. M. Lam, Professor & Associate Dean, Faculty of Engineering, HKPloyU
-    link: http://hkall.hku.hk/record=b21501021
-    full_text: /downloads/publications/b26443107.pdf
+      - title: Supervised by
+        content: Kenneth K. M. Lam, Professor & Associate Dean, Faculty of Engineering, HKPloyU
+    links:
+      - link: http://hkall.hku.hk/record=b21501021
+        icon: external square
+      - link: /downloads/publications/b26443107.pdf
+        icon: file pdf outline
 
 patents:
   - id: patent-cn-201410590042-5
@@ -596,3 +625,6 @@ additional_info:
     - name: Motorcycle Riding
       color: red
       icon: motorcycle
+  contact_advice:
+    - PhD study or job opportunities in the general areas of artificial intelligence, natural language processing, data mining, computer vision, machine learning, etc.
+    - Job opportunities in web system/application development, data analytics, and data visualization etc.

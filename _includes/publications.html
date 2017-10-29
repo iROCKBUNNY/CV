@@ -1,14 +1,13 @@
 <div id="publications" class="ui cv-section basic vertical segment">
     <h1 class="ui dividing header"><i class="file text outline icon"></i>Publications</h1>
     <div class="ui relaxed items">
-        {% for publication in site.data.cv.publications %}
-            <div id="{{ publication.id }}" class="item">
+        {% for entry in site.data.cv.publications %}
+            <div id="{{ entry.id }}" class="item">
                 <div class="content">
-                    <div class="header">{{ publication.title }}{% if publication.label %} &middot; <span class="text-grey text-normal">{{ publication.label }}</span>{% endif %}{% if publication.link %}<a href="{{ publication.link }}" target="_blank"><i class="external square icon"></i></a>{% endif %}</div>
-                    <div class="meta">Authored by: {% for author in publication.authors %}{% unless forloop.first %} &middot; {% endunless %}{{ author }}{% endfor %}</div>
-                    {% if publication.details %}<div class="extra">{% for detail in publication.details %}{% unless forloop.first %} &middot; {% endunless %}{{ detail.key }}: {{ detail.value }}{% endfor %}</div>{% endif %}
-                    {% if publication.abstract %}<div class="description"><b>Abstract:</b> {{ publication.abstract }}</div>{% endif %}
-                    {% if publication.full_text %}<div class="extra"><a href="{{ publication.full_text }}" target="_blank"><i class="file pdf outline icon"></i>Access full text</a></div>{% endif %}
+                    <div class="header">{{ entry.title }}{% if entry.label %} &middot; <span class="text-grey text-normal">{{ entry.label }}</span>{% endif %}{% for item in entry.links %}<a {% if item.id %}href="{{ '/' | relative_url }}#{{ item.id }}"{% else %}href="{{ item.link }}" target="_blank"{% endif %}><i class="{{ item.icon }} icon"></i></a>{% endfor %}</div>
+                    <div class="meta">Authored by: {% for author in entry.authors %}{% unless forloop.first %} &middot; {% endunless %}{{ author }}{% endfor %}</div>
+                    {% if entry.details %}<div class="extra">{% for detail in entry.details %}{% unless forloop.first %} &middot; {% endunless %}{{ detail.title }}: {{ detail.content }}{% endfor %}</div>{% endif %}
+                    {% if entry.abstract %}<div class="description"><b>Abstract:</b> {{ entry.abstract }}</div>{% endif %}
                 </div>
             </div>
         {% endfor %}
