@@ -299,7 +299,8 @@ experience:
 projects:
   open_source:
     - id: byr-navi
-      repository: BYR-Navi/BYR-Navi
+      owner: BYR-Navi
+      repository: BYR-Navi
       description: A Navigation Website for BYR
       website: http://byr-navi.com
       created_at: October 1, 2016
@@ -308,7 +309,8 @@ projects:
           icon: github
 
     - id: py-ga-vrptw
-      repository: iRB-Lab/py-ga-VRPTW
+      owner: iRB-Lab
+      repository: py-ga-VRPTW
       description: A Python Implementation of a Genetic Algorithm-based Solution to Vehicle Routing Problem with Time Windows
       created_at: May 15, 2016
       links:
