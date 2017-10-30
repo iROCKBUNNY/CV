@@ -302,13 +302,21 @@ projects:
       name: BYR-Navi
       description: A Navigation Website for BYR
       website: http://byr-navi.com
-      established_at: October 1, 2016
+      created_at: October 1, 2016
       links:
         - link: https://github.com/BYR-Navi/BYR-Navi
           icon: github
 
-  research:
     - id: py-ga-vrptw
+      name: py-ga-VRPTW
+      description: A Python Implementation of a Genetic Algorithm-based Solution to Vehicle Routing Problem with Time Windows
+      created_at: May 15, 2016
+      links:
+        - link: https://github.com/iRB-Lab/py-ga-VRPTW
+          icon: github
+
+  research:
+    - id: ga-vrptw
       name: A Genetic Algorithm-based Solution to Vehicle Routing Problem with Time Windows
       institution: School of Automation · Beijing University of Posts and Telecommunications
       time: February 2016 - June 2016
