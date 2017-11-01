@@ -1,8 +1,11 @@
 /* common.css */
 
+.ui.borderless.menu {
+    border-radius: 0;
+}
+
 .ui.borderless.menu .toc.item {
     display: none;
-    font-size: 1.2em;
 }
 
 .ui.menu .header.item {

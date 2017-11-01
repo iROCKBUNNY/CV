@@ -1,16 +1,16 @@
 <div class="ui borderless menu">
     <div class="ui container">
-        <div class="toc link header item"><i class="sidebar icon"></i>Menu</div>
+        <div class="toc link icon item"><i class="sidebar icon"></i></div>
         <a class="header item" href="{{ '/' | relative_url }}">{{ site.data.cv.status.first_name }} {{ site.data.cv.status.family_name | upcase }}</a>
         <div class="item">{{ site.data.cv.status.position }}</div>
         <div class="right menu">
             <div class="ui dropdown item">
-                <i class="sidebar icon"></i>Curriculum Vit&aelig;<i class="dropdown icon"></i>
+                <i class="content icon"></i>Curriculum Vit&aelig;<i class="dropdown icon"></i>
                 <div class="menu">
                     {% include menu_items.html %}
                 </div>
             </div>
-            <a class="item" href="https://www.linkedin.com/in/qutong/" target="_blank"><i class="linkedin square icon"></i>LinkedIn</a>
+            <a class="icon item" href="https://www.linkedin.com/in/qutong/" target="_blank"><i class="linkedin square icon"></i></a>
         </div>
     </div>
 </div>
