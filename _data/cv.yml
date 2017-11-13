@@ -20,7 +20,7 @@ summary:
     - His job/research interests lies in the general area of computer science, including artificial intelligence, natural language processing, data mining, computer vision, and machine learning.
   highlights:
     - 10 years of programming and engineering experience.
-    - Solid expertise in Python (>120k lines), MATLAB (>50k lines), HTML, CSS, JavaScript, and various algorithms/frameworks.
+    - Solid expertise in Python (120k+ lines), MATLAB (50k+ lines), HTML, CSS, JavaScript, and various algorithms/frameworks.
     - Experienced in C++, Java, SQL, UNIX/Linux Shell, and LaTeX.
     - Contributed to various open source projects.
     - 15 years of computer graphic design experience.
@@ -200,6 +200,15 @@ experience:
       advisor: Xiao Zhang, PhD Candidate
       time: May 2017 - Present
       location: Beijing
+      details:
+        - content: Implemented the N-Back Task in JavaScript
+          links:
+            - link: https://github.com/iRB-Lab/N-Back
+              icon: github
+        - content: Studied photoplethysmogram-based cognitive load assessment using multi-feature fusion model in Python
+          links:
+            - link: https://github.com/iRB-Lab/PPG
+              icon: github
 
     - id: ruc
       institution: Remin University of China
