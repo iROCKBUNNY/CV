@@ -5,11 +5,13 @@ $(document).ready(function () {
     if ($(window).width() >= 768) {
         $('.cv-section').visibility({
             once: false,
-            onOnScreen: function () {
+            onTopPassed: function () {
+                $('.ui.following.menu .item.active').removeClass('active');
                 $('.ui.following.menu .item[href$=' + $(this).attr('id') + ']').addClass('active');
             },
-            onOffScreen: function () {
-                $('.ui.following.menu .item[href$=' + $(this).attr('id') + ']').removeClass('active');
+            onBottomPassedReverse: function () {
+                $('.ui.following.menu .item.active').removeClass('active');
+                $('.ui.following.menu .item[href$=' + $(this).attr('id') + ']').addClass('active');
             }
         });
     };
