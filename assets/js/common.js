@@ -5,6 +5,7 @@ $(document).ready(function () {
     if ($(window).width() >= 768) {
         $('.cv-section').visibility({
             once: false,
+            offset: 1,
             onTopPassed: function () {
                 $('.ui.following.menu .item.active').removeClass('active');
                 $('.ui.following.menu .item[href$=' + $(this).attr('id') + ']').addClass('active');
