@@ -54,6 +54,9 @@
     .ui.sticky {
         display: none !important;
     }
+    .ui.error.header {
+        font-size: 4em;
+    }
 }
 
 .text-normal {
