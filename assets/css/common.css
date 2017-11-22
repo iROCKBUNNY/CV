@@ -57,6 +57,9 @@
     .ui.error.header {
         font-size: 4em;
     }
+    .ui.cv-section.segment:first-child {
+        padding-top: 4em;
+    }
 }
 
 .text-normal {
