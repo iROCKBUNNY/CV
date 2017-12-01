@@ -568,6 +568,8 @@ skills:
         icon: css3
       - name: JavaScript
         color: yellow
+      - name: SVG
+        color: orange
       - name: MATLAB
         color: red
       - name: Shell Script
@@ -601,6 +603,8 @@ skills:
         color: violet
       - name: Lodash
         color: blue
+      - name: SVG.js
+        color: pink
       - name: Echarts
         color: red
       - name: Font Awesome
