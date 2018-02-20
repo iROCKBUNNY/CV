@@ -185,12 +185,12 @@ experience:
           content: A Method for Estimating Negative Sequence Impedance Parameters Applicable to Unbalanced Three-Phase Disturbance Source Localization
           links:
             - id: patent-cn-201410590042-5
-              icon: legal
+              icon: gavel
         - title: Contributed to patent
           content: A Method for Localizing Unbalanced Three-Phase Disturbance Sources in Power Systems
           links:
             - id: patent-cn-201410590044-4
-              icon: legal
+              icon: gavel
 
   research:
     - id: thu
@@ -234,7 +234,7 @@ experience:
         - content: Designed teaching materials in the Mandarin Matrix™ product line.
           links:
             - link: http://mandarinmatrix.org/
-              icon: external square
+              icon: external link alternate
         - content: Designed stroke orders of 56 Chinese characters in Adobe Illustrator.
         - content: Edited layouts of 14 books in Adobe InDesign.
 
@@ -259,7 +259,7 @@ experience:
         - content: "Designed the WRD company logo (registered trademark ID: 9183471)"
           links:
             - link: http://www.wrdtech.com/content/content.php?p=6_28_53
-              icon: external square
+              icon: external link alternate
 
   exchange:
     - id: afs
@@ -410,7 +410,7 @@ projects:
         - content: Management of technical documentation.
       links:
         - link: /downloads/publications/ecosens.pdf
-          icon: file pdf outline
+          icon: file pdf
 
   undergraduate:
     - id: submission-management-system
@@ -498,9 +498,9 @@ publications:
         content: 133-140
     links:
       - link: http://www.cnki.com.cn/Article/CJFDTotal-ZNDW201602006.htm
-        icon: external square
+        icon: external link alternate
       - link: /downloads/publications/sg201602003.pdf
-        icon: file pdf outline
+        icon: file pdf
 
   - id: publication-b21501021
     title: Low-Resolution Face Recognition
@@ -513,9 +513,9 @@ publications:
         content: Kenneth K. M. Lam, Professor & Associate Dean, Faculty of Engineering, HKPloyU
     links:
       - link: http://hkall.hku.hk/record=b21501021
-        icon: external square
+        icon: external link alternate
       - link: /downloads/publications/b26443107.pdf
-        icon: file pdf outline
+        icon: file pdf
 
 patents:
   - id: patent-cn-201410590042-5
