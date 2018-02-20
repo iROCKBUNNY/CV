@@ -1,5 +1,5 @@
 - name: Status
-  icon: user circle outline
+  icon: user circle
   id: status
 
 - name: Summary
@@ -27,7 +27,7 @@
   id: awards
 
 - name: Publications
-  icon: file text outline
+  icon: file alternate
   id: publications
 
 - name: Patents

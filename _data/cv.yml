@@ -43,7 +43,7 @@ education:
           - id: low-resolution-face-recognition
             icon: rocket
           - id: publication-b21501021
-            icon: file text outline
+            icon: file alternate
     coursework_projects:
       - name: Simulated a basic OFDM system in MATLAB
         time: 05/2013
@@ -180,7 +180,7 @@ experience:
           content: Parameter Estimation for External Network Static Equivalent Model Based on Nonlinear Programming Genetic Algorithm
           links:
             - id: publication-sg201602003
-              icon: file text outline
+              icon: file alternate
         - title: Contributed to patent
           content: A Method for Estimating Negative Sequence Impedance Parameters Applicable to Unbalanced Three-Phase Disturbance Source Localization
           links:
@@ -362,7 +362,7 @@ projects:
         - content: Accelerated simulations using OpenCV (mexopencv), GPU computing (CUDA), and parallel computing (parallel for-loops).
       links:
         - id: publication-b21501021
-          icon: file text outline
+          icon: file alternate
 
   competition:
     - id: consumer-data-mining
