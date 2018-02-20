@@ -560,14 +560,16 @@ skills:
     items:
       - name: Python
         color: blue
+        icon: python
       - name: HTML
         color: red
         icon: html5
       - name: CSS
         color: violet
-        icon: css3
+        icon: css3 alternate
       - name: JavaScript
         color: yellow
+        icon: js
       - name: SVG
         color: orange
       - name: MATLAB
@@ -609,7 +611,7 @@ skills:
         color: red
       - name: Font Awesome
         color: green
-        icon: font awesome
+        icon: font awesome flag
 
   - name: Platforms
     items:
@@ -649,7 +651,7 @@ skills:
 additional_info:
   hobbies:
     - name: Digital Photography
-      icon: photo
+      icon: camera
     - name: Guitar
     - name: Fitness
     - name: Running
