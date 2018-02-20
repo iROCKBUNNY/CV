@@ -234,7 +234,7 @@ experience:
         - content: Designed teaching materials in the Mandarin Matrix™ product line.
           links:
             - link: http://mandarinmatrix.org/
-              icon: external link square alternate
+              icon: globe
         - content: Designed stroke orders of 56 Chinese characters in Adobe Illustrator.
         - content: Edited layouts of 14 books in Adobe InDesign.
 
@@ -259,7 +259,7 @@ experience:
         - content: "Designed the WRD company logo (registered trademark ID: 9183471)"
           links:
             - link: http://www.wrdtech.com/content/content.php?p=6_28_53
-              icon: external link square alternate
+              icon: globe
 
   exchange:
     - id: afs
@@ -423,7 +423,7 @@ projects:
         - content: Designed the front-end interface and the back-end system.
       links:
         - link: http://design.byr.cn/
-          icon: external link square alternate
+          icon: globe
 
     - id: grain-moisture-content-tester
       name: Grain Moisture Content Tester
@@ -498,7 +498,7 @@ publications:
         content: 133-140
     links:
       - link: http://www.cnki.com.cn/Article/CJFDTotal-ZNDW201602006.htm
-        icon: external link square alternate
+        icon: globe
       - link: /downloads/publications/sg201602003.pdf
         icon: file pdf
 
@@ -513,7 +513,7 @@ publications:
         content: Kenneth K. M. Lam, Professor & Associate Dean, Faculty of Engineering, HKPloyU
     links:
       - link: http://hkall.hku.hk/record=b21501021
-        icon: external link square alternate
+        icon: globe
       - link: /downloads/publications/b26443107.pdf
         icon: file pdf
 
