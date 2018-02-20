@@ -7,7 +7,7 @@
   id: summary
 
 - name: Education
-  icon: student
+  icon: graduation cap
   id: education
 
 - name: Experience
