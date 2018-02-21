@@ -576,6 +576,7 @@ skills:
         color: red
       - name: Shell Script
         color: green
+        icon: terminal
       - name: SQL
         color: grey
         icon: database
@@ -639,10 +640,13 @@ skills:
     items:
       - name: Word
         color: blue
+        icon: file word
       - name: Excel
         color: green
+        icon: file excel
       - name: PowerPoint
         color: orange
+        icon: file powerpoint
       - name: Visio
         color: blue
       - name: Publisher
