@@ -42,8 +42,10 @@ education:
         links:
           - id: low-resolution-face-recognition
             icon: rocket
+            tooltip: View Project
           - id: publication-b21501021
             icon: file alternate
+            tooltip: View Thesis
     coursework_projects:
       - name: Simulated a basic OFDM system in MATLAB
         time: 05/2013
@@ -87,21 +89,25 @@ education:
         links:
           - id: submission-management-system
             icon: rocket
+            tooltip: View Project
       - title: Baidu PM Star Internet Product Design Contest
         content: Here
         links:
           - id: here
             icon: rocket
+            tooltip: View Project
       - title: Microsoft Imagine Cup
         content: ECOSENS System
         links:
           - id: ecosens
             icon: rocket
+            tooltip: View Project
       - title: Innovation Project
         content: Grain Moisture Content Tester
         links:
           - id: grain-moisture-content-tester
             icon: rocket
+            tooltip: View Project
     coursework_projects:
       - name: Vehicle (cars and motorbikes) identification using LIBSVM
         time: 01/2012
@@ -181,16 +187,19 @@ experience:
           links:
             - id: publication-sg201602003
               icon: file alternate
+              tooltip: View Publication
         - title: Contributed to patent
           content: A Method for Estimating Negative Sequence Impedance Parameters Applicable to Unbalanced Three-Phase Disturbance Source Localization
           links:
             - id: patent-cn-201410590042-5
               icon: gavel
+              tooltip: View Patent
         - title: Contributed to patent
           content: A Method for Localizing Unbalanced Three-Phase Disturbance Sources in Power Systems
           links:
             - id: patent-cn-201410590044-4
               icon: gavel
+              tooltip: View Patent
 
   research:
     - id: thu
@@ -205,10 +214,12 @@ experience:
           links:
             - link: https://github.com/iRB-Lab/N-Back
               icon: github
+              tooltip: View on Github
         - content: Studied photoplethysmogram-based cognitive load assessment using multi-feature fusion model in Python
           links:
             - link: https://github.com/iRB-Lab/PPG
               icon: github
+              tooltip: View on Github
 
     - id: ruc
       institution: Remin University of China
@@ -223,6 +234,7 @@ experience:
           links:
             - id: image-retrieval
               icon: rocket
+              tooltip: View Project
 
   part_time:
     - id: p3-publishing
@@ -235,6 +247,7 @@ experience:
           links:
             - link: http://mandarinmatrix.org/
               icon: globe
+              tooltip: View More
         - content: Designed stroke orders of 56 Chinese characters in Adobe Illustrator.
         - content: Edited layouts of 14 books in Adobe InDesign.
 
@@ -260,6 +273,7 @@ experience:
           links:
             - link: http://www.wrdtech.com/content/content.php?p=6_28_53
               icon: globe
+              tooltip: View More
 
   exchange:
     - id: afs
@@ -311,11 +325,15 @@ projects:
       owner: BYR-Navi
       repository: BYR-Navi
       description: A Navigation Website for BYR
-      website: http://byr-navi.com
+      website: http://byr-navi.com/
       created_at: October 1, 2016
       links:
         - link: https://github.com/BYR-Navi/BYR-Navi
           icon: github
+          tooltip: View on Github
+        - link: http://byr-navi.com/
+          icon: globe
+          tooltip: Access Website
 
     - id: py-ga-vrptw
       owner: iRB-Lab
@@ -325,8 +343,36 @@ projects:
       links:
         - link: https://github.com/iRB-Lab/py-ga-VRPTW
           icon: github
+          tooltip: View on Github
+
+    - id: n-back
+      owner: iRB-Lab
+      repository: N-Back
+      description: A JavaScript Implementation of the N-Back Task
+      website: http://n-back.irockbunnylab.com/
+      created_at: June 4, 2017
+      links:
+        - link: https://github.com/iRB-Lab/N-Back
+          icon: github
+          tooltip: View on Github
+        - link: http://n-back.irockbunnylab.com/
+          icon: globe
+          tooltip: Access Website
 
   research:
+    - id: ppg
+      name: Photoplethysmogram-based Real-time Cognitive Load Assessment Using Multi-feature Fusion Model
+      institution: Tsinghua National Laboratory for Information Science and Technology · Tsinghua University
+      time: June 2017 - December 2017
+      location: Beijing
+      details:
+        - content: Studied photoplethysmogram-based cognitive load assessment using multi-feature fusion model approaches.
+        - content: Implemented algorithms in Python.
+      links:
+        - link: https://github.com/iRB-Lab/PPG
+          icon: github
+          tooltip: View on Github
+
     - id: ga-vrptw
       name: A Genetic Algorithm-based Solution to Vehicle Routing Problem with Time Windows
       institution: School of Automation · Beijing University of Posts and Telecommunications
@@ -338,6 +384,7 @@ projects:
       links:
         - link: https://github.com/iRB-Lab/py-ga-VRPTW
           icon: github
+          tooltip: View on Github
 
     - id: image-retrieval
       name: Large-Scale Image Retrieval Learned from User-Generated Data
@@ -363,6 +410,7 @@ projects:
       links:
         - id: publication-b21501021
           icon: file alternate
+          tooltip: View Thesis
 
   competition:
     - id: consumer-data-mining
@@ -411,6 +459,7 @@ projects:
       links:
         - link: /downloads/publications/ecosens.pdf
           icon: file pdf
+          tooltip: Access Full Text
 
   undergraduate:
     - id: submission-management-system
@@ -424,6 +473,7 @@ projects:
       links:
         - link: http://design.byr.cn/
           icon: globe
+          tooltip: Access Website
 
     - id: grain-moisture-content-tester
       name: Grain Moisture Content Tester
@@ -499,8 +549,10 @@ publications:
     links:
       - link: http://www.cnki.com.cn/Article/CJFDTotal-ZNDW201602006.htm
         icon: globe
+        tooltip: View Publication
       - link: /downloads/publications/sg201602003.pdf
         icon: file pdf
+        tooltip: Access Full Text
 
   - id: publication-b21501021
     title: Low-Resolution Face Recognition
@@ -514,8 +566,10 @@ publications:
     links:
       - link: http://hkall.hku.hk/record=b21501021
         icon: globe
+        tooltip: View Publication
       - link: /downloads/publications/b26443107.pdf
         icon: file pdf
+        tooltip: Access Full Text
 
 patents:
   - id: patent-cn-201410590042-5
@@ -658,7 +712,9 @@ additional_info:
       icon: camera
     - name: Guitar
     - name: Fitness
-    - name: Running
+    - name: Marathon
+      link: https://github.com/iROCKBUNNY/Marathon
+      tooltip: View More
     - name: Swimming
     - name: Skateboard
     - name: Snowboard
