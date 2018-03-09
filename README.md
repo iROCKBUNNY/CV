@@ -3,5 +3,4 @@
 [![License](https://img.shields.io/badge/license-CC4.0%20BY--NC--ND-orange.svg)](/blob/master/LICENSE)
 
 # Tong Qu
-
 Curriculum vitae
