@@ -1,7 +1,7 @@
 <div id="languages" class="ui cv-section basic vertical segment">
     <h1 class="ui dividing header"><i class="translate icon"></i>Languages</h1>
     <div class="ui equal width stackable grid">
-        {% for entry in site.data.cv.languages %}
+        {%- for entry in site.data.cv.languages -%}
             <div class="column">
                 <h3 class="ui header">
                     <div class="content">
@@ -9,13 +9,13 @@
                         <div class="sub header">{{ entry.level }}</div>
                     </div>
                 </h3>
-                {% if entry.certificates %}
-                <div class="ui labels">
-                    {% for certificate in entry.certificates %}<div class="ui label"><i class="certificate icon"></i>{{ certificate }}</div>{% endfor %}
-                </div>
-                {% endif %}
+                {%- if entry.certificates -%}
+                    <div class="ui labels">
+                        {% for certificate in entry.certificates %}<div class="ui label"><i class="certificate icon"></i>{{ certificate }}</div>{% endfor %}
+                    </div>
+                {%- endif -%}
                 {% if entry.remark %}<div>{{ entry.remark }}</div>{% endif %}
             </div>
-        {% endfor %}
+        {%- endfor -%}
     </div>
 </div>

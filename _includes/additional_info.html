@@ -2,7 +2,13 @@
     <h1 class="ui dividing header"><i class="info icon"></i>Additional Info</h1>
     <h3 class="ui header">Hobbies</h3>
     <div class="ui labels">
-        {% for hobby in site.data.cv.additional_info.hobbies %}{% if hobby.link %}<a class="ui grey label" href="{{ hobby.link }}" target="_blank"{% if hobby.tooltip %} data-tooltip="{{ hobby.tooltip }}" data-position="top center" data-inverted=""{% endif %}>{% if hobby.icon %}<i class="{{ hobby.icon }} icon"></i>{% endif %}{{ hobby.name }}</a>{% else %}<div class="ui label"{% if hobby.tooltip %} data-tooltip="{{ hobby.tooltip }}" data-position="top center" data-inverted=""{% endif %}>{% if hobby.icon %}<i class="{{ hobby.icon }} icon"></i>{% endif %}{{ hobby.name }}</div>{% endif %}{% endfor %}
+        {%- for hobby in site.data.cv.additional_info.hobbies -%}
+            {%- if hobby.link -%}
+                <a class="ui grey label" href="{{ hobby.link }}" target="_blank"{% if hobby.tooltip %} data-tooltip="{{ hobby.tooltip }}" data-position="top center" data-inverted=""{% endif %}>{% if hobby.icon %}<i class="{{ hobby.icon }} icon"></i>{% endif %}{{ hobby.name }}</a>
+            {%- else -%}
+                <div class="ui label"{% if hobby.tooltip %} data-tooltip="{{ hobby.tooltip }}" data-position="top center" data-inverted=""{% endif %}>{% if hobby.icon %}<i class="{{ hobby.icon }} icon"></i>{% endif %}{{ hobby.name }}</div>
+            {%- endif -%}
+        {%- endfor -%}
     </div>
     <h3 class="ui header">Advice for Contacting {{ site.data.cv.status.first_name }}</h3>
     <div>Please contact {{ site.data.cv.status.first_name }} for:</div>

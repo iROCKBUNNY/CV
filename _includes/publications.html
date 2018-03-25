@@ -1,7 +1,7 @@
 <div id="publications" class="ui cv-section basic vertical segment">
     <h1 class="ui dividing header"><i class="file alternate icon"></i>Publications</h1>
     <div class="ui relaxed items">
-        {% for entry in site.data.cv.publications %}
+        {%- for entry in site.data.cv.publications -%}
             <div id="{{ entry.id }}" class="item">
                 <div class="content">
                     <div class="header">{{ entry.title }}{% if entry.label %} &middot; <span class="text-grey text-normal">{{ entry.label }}</span>{% endif %}{% for item in entry.links %}<a {% if item.id %}href="{{ '/' | relative_url }}#{{ item.id }}"{% else %}href="{{ item.link }}" target="_blank"{% endif %}{% if item.tooltip %} data-tooltip="{{ item.tooltip }}" data-position="top center" data-inverted=""{% endif %}><i class="{{ item.icon }} icon"></i></a>{% endfor %}</div>
@@ -10,6 +10,6 @@
                     {% if entry.abstract %}<div class="description"><b>Abstract:</b> {{ entry.abstract }}</div>{% endif %}
                 </div>
             </div>
-        {% endfor %}
+        {%- endfor -%}
     </div>
 </div>

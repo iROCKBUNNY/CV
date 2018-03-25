@@ -1,8 +1,8 @@
 <div id="courses" class="ui cv-section basic vertical segment">
     <h1 class="ui dividing header"><i class="book icon"></i>Courses</h1>
     <div class="ui relaxed items">
-        {% for entry in site.data.cv.education %}
-            {% if entry.courses %}
+        {%- for entry in site.data.cv.education -%}
+            {%- if entry.courses -%}
                 <div id="{{ entry.id }}-courses" class="item">
                     <div class="content">
                         <div class="header">{{ entry.institution }}</div>
@@ -14,7 +14,7 @@
                         </div>
                     </div>
                 </div>
-            {% endif %}
-        {% endfor %}
+            {%- endif -%}
+        {%- endfor -%}
     </div>
 </div>

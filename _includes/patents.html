@@ -1,7 +1,7 @@
 <div id="patents" class="ui cv-section basic vertical segment">
     <h1 class="ui dividing header"><i class="gavel icon"></i>Patents</h1>
     <div class="ui relaxed items">
-        {% for entry in site.data.cv.patents %}
+        {%- for entry in site.data.cv.patents -%}
             <div id="{{ entry.id }}" class="item">
                 <div class="content">
                     <div class="header">{{ entry.name }}</div>
@@ -9,6 +9,6 @@
                     <div class="extra">{{ entry.number }} &middot; Filed on {{ entry.time }}</div>
                 </div>
             </div>
-        {% endfor %}
+        {%- endfor -%}
     </div>
 </div>

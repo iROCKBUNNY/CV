@@ -1,7 +1,7 @@
 <div id="education" class="ui cv-section basic vertical segment">
     <h1 class="ui dividing header"><i class="graduation cap icon"></i>Education</h1>
     <div class="ui relaxed items">
-        {% for entry in site.data.cv.education %}
+        {%- for entry in site.data.cv.education -%}
             <div class="item">
                 <div class="content">
                     <div class="header">{{ entry.institution }}</div>
@@ -17,6 +17,6 @@
                     </div>
                 </div>
             </div>
-        {% endfor %}
+        {%- endfor -%}
     </div>
 </div>
