@@ -7,7 +7,7 @@ timezone: Asia/Shanghai
 title: About · Tong QU
 description: Curriculum Vitae
 keywords: Tong QU, Curriculum Vitae, CV, Resume
-url: http://about.qutong.me
+url: https://about.qutong.me
 
 author: iROCKBUNNY
 author_url: http://irockbunny.com
@@ -15,7 +15,7 @@ organization: TEELAB
 organization_url: http://teelab.net
 
 contact: hello[at]qutong[dot]me
-linkedin: http://cn.linkedin.com/in/qutong
+linkedin: https://cn.linkedin.com/in/qutong
 github: https://github.com/iROCKBUNNY
 
 image: /images/avatar.jpg

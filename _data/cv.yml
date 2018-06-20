@@ -325,13 +325,13 @@ projects:
       owner: BYR-Navi
       repository: BYR-Navi
       description: A Navigation Website for BYR
-      website: http://byr-navi.com/
+      website: https://byr-navi.com/
       created_at: October 1, 2016
       links:
         - link: https://github.com/BYR-Navi/BYR-Navi
           icon: github
           tooltip: View on Github
-        - link: http://byr-navi.com/
+        - link: https://byr-navi.com/
           icon: globe
           tooltip: Access Website
 
@@ -349,13 +349,13 @@ projects:
       owner: iRB-Lab
       repository: N-Back
       description: A JavaScript Implementation of the N-Back Task
-      website: http://n-back.irockbunnylab.com/
+      website: https://n-back.irockbunnylab.com/
       created_at: June 4, 2017
       links:
         - link: https://github.com/iRB-Lab/N-Back
           icon: github
           tooltip: View on Github
-        - link: http://n-back.irockbunnylab.com/
+        - link: https://n-back.irockbunnylab.com/
           icon: globe
           tooltip: Access Website
 
