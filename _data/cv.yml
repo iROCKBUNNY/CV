@@ -171,8 +171,7 @@ experience:
       time: April 2016 - Present
       location: Beijing
       details:
-        - content: Rapidly designed, developed and deployed a state-of-the-art, full-featured, web-based teaching management system.
-        - content: Proposed and applied an improved resource allocation algorithm based on ranking, proved to be highly efficient.
+        - content: Provided solutions to flip classroom management digitization, including Y-System, Y-Stats, Y-English Wiki, as well as the company website, with efforts ranging from architecture design and system development to server deployment and maintenance.
 
     - id: geiri
       employer: Global Energy Interconnection Research Institute
