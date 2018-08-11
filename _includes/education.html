@@ -2,7 +2,7 @@
     <h1 class="ui dividing header"><i class="graduation cap icon"></i>Education</h1>
     <div class="ui relaxed items">
         {%- for entry in site.data.cv.education -%}
-            <div class="item">
+            <div id="{{ entry.id }}" class="item">
                 <div class="content">
                     <div class="header">{{ entry.institution }}</div>
                     <div class="meta">{{ entry.degree }}{% if entry.label %} <span class="text-teal">{{ entry.label }}</span>{% endif %} &middot; GPA: {{ entry.gpa }}</div>

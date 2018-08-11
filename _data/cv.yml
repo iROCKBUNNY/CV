@@ -2,7 +2,7 @@ status:
   avatar: /images/avatar.jpg
   first_name: Tong
   family_name: Qu
-  employer: Beijing Y-English Education and Technology Co., Ltd.
+  employer: Beijing Y-English Education Consulting Co., Ltd.
   position: Full-Stack Web Developer
   location: Beijing City, China
   specialty: Web Development
@@ -166,7 +166,7 @@ education:
 experience:
   vocational:
     - id: y-english
-      employer: Beijing Y-English Education and Technology Co., Ltd.
+      employer: Beijing Y-English Education Consulting Co., Ltd.
       position: Full-Stack Web Developer · Chief Engineer · Co-Founder
       time: April 2016 - Present
       location: Beijing
