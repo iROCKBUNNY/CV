@@ -653,6 +653,8 @@ skills:
         color: brown
       - name: jQuery
         color: blue
+      - name: Webpack
+        color: blue
       - name: Semantic UI
         color: teal
       - name: Bootstrap
