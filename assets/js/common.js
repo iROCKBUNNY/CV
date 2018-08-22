@@ -19,8 +19,9 @@ $(document).ready(function () {
 });
 
 // version
+dayjs.extend(dayjs_plugin_relativeTime);
 function updateVersion(timestamp) {
-    $('#version').text(moment(timestamp).fromNow());
+    $('#version').text(dayjs(timestamp).fromNow());
 };
 var updateAt = $('meta[name=updated_at]').attr('content');
 updateVersion(updateAt);
