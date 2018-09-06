@@ -625,6 +625,7 @@ skills:
         icon: js
       - name: SVG
         color: orange
+        icon: draw polygon
       - name: MATLAB
         color: red
       - name: Shell Script
@@ -677,8 +678,9 @@ skills:
       - name: macOS
         color: grey
         icon: apple
-      - name: Ubuntu
+      - name: Linux/Ubuntu
         color: red
+        icon: linux
       - name: Windows
         color: blue
         icon: windows

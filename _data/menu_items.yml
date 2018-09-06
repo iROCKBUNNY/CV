@@ -39,9 +39,9 @@
   id: languages
 
 - name: Skills
-  icon: magic
+  icon: code
   id: skills
 
 - name: Additional Info
-  icon: info
+  icon: infinity
   id: additional-info
