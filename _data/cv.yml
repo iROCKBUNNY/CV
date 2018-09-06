@@ -693,6 +693,7 @@ skills:
         color: red
       - name: OmniGraffle
         color: green
+        icon: project diagram
 
   - name: Productivity
     items:
@@ -707,6 +708,7 @@ skills:
         icon: file powerpoint
       - name: Visio
         color: blue
+        icon: project diagram
       - name: Publisher
         color: teal
 

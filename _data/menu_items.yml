@@ -23,7 +23,7 @@
   id: courses
 
 - name: Awards
-  icon: trophy
+  icon: award
   id: awards
 
 - name: Publications
