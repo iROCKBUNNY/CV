@@ -644,6 +644,9 @@ skills:
         color: brown
       - name: LaTeX
         color: olive
+      - name: Markdown
+        color: black
+        icon: markdown
 
   - name: Web Development
     items:
