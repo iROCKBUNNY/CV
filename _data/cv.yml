@@ -191,13 +191,13 @@ experience:
           content: A Method for Estimating Negative Sequence Impedance Parameters Applicable to Unbalanced Three-Phase Disturbance Source Localization
           links:
             - id: patent-cn-201410590042-5
-              icon: gavel
+              icon: balance scale
               tooltip: View Patent
         - title: Contributed to patent
           content: A Method for Localizing Unbalanced Three-Phase Disturbance Sources in Power Systems
           links:
             - id: patent-cn-201410590044-4
-              icon: gavel
+              icon: balance scale
               tooltip: View Patent
 
   research:

@@ -11,7 +11,7 @@
   id: education
 
 - name: Experience
-  icon: flask
+  icon: history
   id: experience
 
 - name: Projects
