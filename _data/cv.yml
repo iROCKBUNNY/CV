@@ -728,7 +728,6 @@ additional_info:
     - name: Skateboard
     - name: Snowboard
     - name: Motorcycle Riding
-      color: red
       icon: motorcycle
   contact_advice:
     - PhD study or job opportunities in the general areas of artificial intelligence, natural language processing, data mining, computer vision, machine learning, etc.
