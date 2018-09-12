@@ -3,7 +3,7 @@
   id: status
 
 - name: Summary
-  icon: quote left
+  icon: stream
   id: summary
 
 - name: Education
@@ -11,7 +11,7 @@
   id: education
 
 - name: Experience
-  icon: history
+  icon: business time
   id: experience
 
 - name: Projects
@@ -23,7 +23,7 @@
   id: courses
 
 - name: Awards
-  icon: award
+  icon: trophy
   id: awards
 
 - name: Publications
