@@ -213,12 +213,12 @@ experience:
       links:
       - link: https://github.com/iRB-Lab/N-Back
         icon: github
-        tooltip: View on Github
+        tooltip: View Github Project
     - content: Studied photoplethysmogram-based cognitive load assessment using multi-feature fusion model in Python
       links:
       - link: https://github.com/iRB-Lab/PPG
         icon: github
-        tooltip: View on Github
+        tooltip: View Github Project
 
   - id: ruc
     institution: Remin University of China
@@ -329,7 +329,7 @@ projects:
     links:
     - link: https://github.com/BYR-Navi/BYR-Navi
       icon: github
-      tooltip: View on Github
+      tooltip: View Github Project
     - link: https://byr-navi.com/
       icon: globe
       tooltip: Access Website
@@ -342,7 +342,7 @@ projects:
     links:
     - link: https://github.com/iRB-Lab/py-ga-VRPTW
       icon: github
-      tooltip: View on Github
+      tooltip: View Github Project
 
   - id: n-back
     owner: iRB-Lab
@@ -353,7 +353,7 @@ projects:
     links:
     - link: https://github.com/iRB-Lab/N-Back
       icon: github
-      tooltip: View on Github
+      tooltip: View Github Project
     - link: https://n-back.irockbunnylab.com/
       icon: globe
       tooltip: Access Website
@@ -367,7 +367,7 @@ projects:
     links:
     - link: https://github.com/Y-Lab/Y-Player
       icon: github
-      tooltip: View on Github
+      tooltip: View Github Project
     - link: https://player.y-english.org/
       icon: globe
       tooltip: Access Website
@@ -384,7 +384,7 @@ projects:
     links:
     - link: https://github.com/iRB-Lab/PPG
       icon: github
-      tooltip: View on Github
+      tooltip: View Github Project
 
   - id: ga-vrptw
     name: A Genetic Algorithm-based Solution to Vehicle Routing Problem with Time Windows
@@ -397,7 +397,7 @@ projects:
     links:
     - link: https://github.com/iRB-Lab/py-ga-VRPTW
       icon: github
-      tooltip: View on Github
+      tooltip: View Github Project
 
   - id: image-retrieval
     name: Large-Scale Image Retrieval Learned from User-Generated Data
