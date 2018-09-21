@@ -11,724 +11,744 @@ status:
 
 summary:
   brief_biography:
-    - Tong QU is currently a full-stack web developer at Y-English, building various web applications.
-    - He received his master's degree in electronic and information engineering (with distinction) from the Hong Kong Polytechnic University in 2013, and his bachelor's degree in communication engineering from Beijing University of Posts and Telecommunications in 2012.
-    - From July 2014 to March 2016, he was a research and development engineer at Global Energy Interconnection Research Institute (aka. State Grid Smart Grid Research Institute), working on power quality data analysis.
-    - From December 2013 to June 2014, he was a research assistant at Multimedia Computing Lab, Renmin University of China, studying web image retrieval.
-    - His postgraduate research at PolyU was focused on human face recognition with low-resolution facial images.
-    - He participated in various contests/competitions/challenges and winning awards in the fields of data mining, web design, programming, etc.
-    - His job/research interests lies in the general area of computer science, including artificial intelligence, natural language processing, data mining, computer vision, and machine learning.
+  - Tong QU is currently a full-stack web developer at Y-English, building various web applications.
+  - He received his master's degree in electronic and information engineering (with distinction) from the Hong Kong Polytechnic University in 2013, and his bachelor's degree in communication engineering from Beijing University of Posts and Telecommunications in 2012.
+  - From July 2014 to March 2016, he was a research and development engineer at Global Energy Interconnection Research Institute (aka. State Grid Smart Grid Research Institute), working on power quality data analysis.
+  - From December 2013 to June 2014, he was a research assistant at Multimedia Computing Lab, Renmin University of China, studying web image retrieval.
+  - His postgraduate research at PolyU was focused on human face recognition with low-resolution facial images.
+  - He participated in various contests/competitions/challenges and winning awards in the fields of data mining, web design, programming, etc.
+  - His job/research interests lies in the general area of computer science, including artificial intelligence, natural language processing, data mining, computer vision, and machine learning.
   highlights:
-    - 10 years of programming and engineering experience.
-    - Solid expertise in Python (120k+ lines), MATLAB (50k+ lines), HTML, CSS, JavaScript, and various algorithms/frameworks.
-    - Experienced in C++, Java, SQL, UNIX/Linux Shell, and LaTeX.
-    - Contributed to various open source projects.
-    - 15 years of computer graphic design experience.
-    - Solid expertise in Photoshop, Illustrator, and Flash.
-    - Work out 7+ hours per week; finished at least one international marathon race per year (since 2016).
+  - 10 years of programming and engineering experience.
+  - Solid expertise in Python (120k+ lines), MATLAB (50k+ lines), HTML, CSS, JavaScript, and various algorithms/frameworks.
+  - Experienced in C++, Java, SQL, UNIX/Linux Shell, and LaTeX.
+  - Contributed to various open source projects.
+  - 15 years of computer graphic design experience.
+  - Solid expertise in Photoshop, Illustrator, and Flash.
+  - Work out 7+ hours per week; finished at least one international marathon race per year (since 2016).
 
 education:
-  - id: polyu
-    institution: The Hong Kong Polytechnic University
-    degree: Master of Science in Electronic and Information Engineering
-    label: with Distinction
-    gpa: 3.75/4.0
-    time: September 2012 - October 2013
-    location: Hong Kong
-    details:
-      - content: Top 1 student among non-local post-graduates in the department.
-      - title: Dissertation
-        content: Low-Resolution Face Recognition
-        links:
-          - id: low-resolution-face-recognition
-            icon: rocket
-            tooltip: View Project
-          - id: publication-b21501021
-            icon: file alternate
-            tooltip: View Thesis
-    coursework_projects:
-      - name: Simulated a basic OFDM system in MATLAB
-        time: 05/2013
-      - name: Implemented continuous digit recognition using HTK
-        time: 04/2013
-      - name: Analyzed the TRF6900A demodulator
-        time: 04/2013
-      - name: Evaluated the performance of a 915-MHz FSK SoC radio transceiver
-        time: 04/2013
-      - name: Trained a multilayer feed-forward neural networks for pattern recognition using JavaNNS
-        time: 12/2012
-      - name: Studied the bit error rate (BER) performance of a baseband transmission systems
-        time: 11/2012
-    courses:
-      - name: Digital Data Transmission
-        code: EIE528
-      - name: Digital Image Processing
-        code: EIE529
-      - name: Digital Signal Processing
-        code: EIE541
-      - name: Computational Intelligence and Its Applications
-        code: EIE557
-      - name: Speech Processing and Recognition
-        code: EIE558
-      - name: Advanced Telecommunication Systems
-        code: EIE579
-      - name: OFDM & MIMO Wireless Communications
-        code: EIE585
-    activities_and_societies:
-      - PolyU EIE Dragon Boat Team
+- id: polyu
+  institution: The Hong Kong Polytechnic University
+  degree: Master of Science in Electronic and Information Engineering
+  label: with Distinction
+  gpa: 3.75/4.0
+  time: September 2012 - October 2013
+  location: Hong Kong
+  details:
+  - content: Top 1 student among non-local post-graduates in the department.
+  - title: Dissertation
+    content: Low-Resolution Face Recognition
+    links:
+    - id: low-resolution-face-recognition
+      icon: rocket
+      tooltip: View Project
+    - id: publication-b21501021
+      icon: file alternate
+      tooltip: View Thesis
+  coursework_projects:
+  - name: Simulated a basic OFDM system in MATLAB
+    time: 05/2013
+  - name: Implemented continuous digit recognition using HTK
+    time: 04/2013
+  - name: Analyzed the TRF6900A demodulator
+    time: 04/2013
+  - name: Evaluated the performance of a 915-MHz FSK SoC radio transceiver
+    time: 04/2013
+  - name: Trained a multilayer feed-forward neural networks for pattern recognition using JavaNNS
+    time: 12/2012
+  - name: Studied the bit error rate (BER) performance of a baseband transmission systems
+    time: 11/2012
+  courses:
+  - name: Digital Data Transmission
+    code: EIE528
+  - name: Digital Image Processing
+    code: EIE529
+  - name: Digital Signal Processing
+    code: EIE541
+  - name: Computational Intelligence and Its Applications
+    code: EIE557
+  - name: Speech Processing and Recognition
+    code: EIE558
+  - name: Advanced Telecommunication Systems
+    code: EIE579
+  - name: OFDM & MIMO Wireless Communications
+    code: EIE585
+  activities_and_societies:
+  - PolyU EIE Dragon Boat Team
 
-  - id: bupt
-    institution: Beijing University of Posts and Telecommunications
-    degree: Bachelor of Engineering in Communication Engineering
-    gpa: 86.7/100
-    time: September 2008 - June 2012
-    location: Beijing
-    details:
-      - title: Final Year Project
-        content: Submission Management System
-        links:
-          - id: submission-management-system
-            icon: rocket
-            tooltip: View Project
-      - title: Baidu PM Star Internet Product Design Contest
-        content: Here
-        links:
-          - id: here
-            icon: rocket
-            tooltip: View Project
-      - title: Microsoft Imagine Cup
-        content: ECOSENS System
-        links:
-          - id: ecosens
-            icon: rocket
-            tooltip: View Project
-      - title: Innovation Project
-        content: Grain Moisture Content Tester
-        links:
-          - id: grain-moisture-content-tester
-            icon: rocket
-            tooltip: View Project
-    coursework_projects:
-      - name: Vehicle (cars and motorbikes) identification using LIBSVM
-        time: 01/2012
-      - name: Studied and implementated the RSA encryption algorithm in Java
-        time: 12/2011
-      - name: Designed and simulated a 3-stub tuner for narrow-band impedance matching in microstrip circuit
-        time: 06/2011
-      - name: Simulated and analyzed the performance of the Rayleigh fading based on the Jakes Model
-        time: 05/2011
-      - name: Designed and implementated a dot matrix display controller on FPGA in VHDL
-        time: 01/2011
-      - name: Built a campus network using H3C or CISCO routers and switches
-        time: 11/2010
-      - name: Implementated an automatic obstacle-avoidance car based on PIC microcontroller programming
-        time: 09/2010
-      - name: Designed and implementated a library management system with PowerBuilder and SQL Server
-        time: 06/2010
-      - name: Made an interactive Flash film with ActionScript 2.0
-        time: 06/2010
-      - name: Designed and implementated an infrared transceiver circuit
-        time: 05/2010
-      - name: Designed and implementated the Mine Sweeper game in C++ with MFC
-        time: 08/2009
-    courses:
-      - name: Advanced Mathematics
-      - name: Linear Algebra
-      - name: Discrete Mathematics
-      - name: Probability Theory and Stochastic Processes
-      - name: Information Theory
-      - name: Signals and Systems
-      - name: Digital Signal Processing
-      - name: Digital Image Processing
-      - name: C++ Programming
-      - name: Java Programming
-      - name: Data Structure
-      - name: Computer Networks
-      - name: Database and Its Applications
-      - name: Circuit Design
-      - name: Microcomputer Principles and Interface Technology
-      - name: Communication Principles
-      - name: Electromagnetic Field and Waves
-      - name: Microwave Technology
-      - name: Communication Networks
-      - name: Optical Fiber Communications
-      - name: Modern Communication Technologies
-      - name: Multimedia Technologies
-      - name: Pattern Recognition
-      - name: Intelligent Information Security
-    activities_and_societies:
-      - BYR-Team
-      - Track and Field Team
-      - Student Union
-      - Guitar Club
-      - Photography Club
+- id: bupt
+  institution: Beijing University of Posts and Telecommunications
+  degree: Bachelor of Engineering in Communication Engineering
+  gpa: 86.7/100
+  time: September 2008 - June 2012
+  location: Beijing
+  details:
+  - title: Final Year Project
+    content: Submission Management System
+    links:
+    - id: submission-management-system
+      icon: rocket
+      tooltip: View Project
+  - title: Baidu PM Star Internet Product Design Contest
+    content: Here
+    links:
+    - id: here
+      icon: rocket
+      tooltip: View Project
+  - title: Microsoft Imagine Cup
+    content: ECOSENS System
+    links:
+    - id: ecosens
+      icon: rocket
+      tooltip: View Project
+  - title: Innovation Project
+    content: Grain Moisture Content Tester
+    links:
+    - id: grain-moisture-content-tester
+      icon: rocket
+      tooltip: View Project
+  coursework_projects:
+  - name: Vehicle (cars and motorbikes) identification using LIBSVM
+    time: 01/2012
+  - name: Studied and implementated the RSA encryption algorithm in Java
+    time: 12/2011
+  - name: Designed and simulated a 3-stub tuner for narrow-band impedance matching in microstrip circuit
+    time: 06/2011
+  - name: Simulated and analyzed the performance of the Rayleigh fading based on the Jakes Model
+    time: 05/2011
+  - name: Designed and implementated a dot matrix display controller on FPGA in VHDL
+    time: 01/2011
+  - name: Built a campus network using H3C or CISCO routers and switches
+    time: 11/2010
+  - name: Implementated an automatic obstacle-avoidance car based on PIC microcontroller programming
+    time: 09/2010
+  - name: Designed and implementated a library management system with PowerBuilder and SQL Server
+    time: 06/2010
+  - name: Made an interactive Flash film with ActionScript 2.0
+    time: 06/2010
+  - name: Designed and implementated an infrared transceiver circuit
+    time: 05/2010
+  - name: Designed and implementated the Mine Sweeper game in C++ with MFC
+    time: 08/2009
+  courses:
+  - name: Advanced Mathematics
+  - name: Linear Algebra
+  - name: Discrete Mathematics
+  - name: Probability Theory and Stochastic Processes
+  - name: Information Theory
+  - name: Signals and Systems
+  - name: Digital Signal Processing
+  - name: Digital Image Processing
+  - name: C++ Programming
+  - name: Java Programming
+  - name: Data Structure
+  - name: Computer Networks
+  - name: Database and Its Applications
+  - name: Circuit Design
+  - name: Microcomputer Principles and Interface Technology
+  - name: Communication Principles
+  - name: Electromagnetic Field and Waves
+  - name: Microwave Technology
+  - name: Communication Networks
+  - name: Optical Fiber Communications
+  - name: Modern Communication Technologies
+  - name: Multimedia Technologies
+  - name: Pattern Recognition
+  - name: Intelligent Information Security
+  activities_and_societies:
+  - BYR-Team
+  - Track and Field Team
+  - Student Union
+  - Guitar Club
+  - Photography Club
 
 experience:
   vocational:
-    - id: y-english
-      employer: Beijing Y-English Education Consulting Co., Ltd.
-      position: Full-Stack Web Developer · Chief Engineer · Co-Founder
-      time: April 2016 - Present
-      location: Beijing
-      details:
-        - content: Provided solutions to flip classroom service digitization, including Y-System, Y-Stats, Y-English Wiki, Y-VOD, as well as the company website, with efforts ranging from architecture design and system development to server deployment and maintenance.
+  - id: y-english
+    employer: Beijing Y-English Education Consulting Co., Ltd.
+    position: Full-Stack Web Developer · Chief Engineer · Co-Founder
+    time: April 2016 - Present
+    location: Beijing
+    details:
+    - content: Provided solutions to flip classroom service digitization, including Y-System, Y-Stats, Y-English Wiki, Y-VOD, as well as the company website, with efforts ranging from architecture design and system development to server deployment and maintenance.
 
-    - id: geiri
-      employer: Global Energy Interconnection Research Institute
-      position: Research and Development Engineer
-      time: July 2014 - March 2016
-      location: Beijing
-      details:
-        - content: Performed massive analytics on power quality data collected from real world power grid monitoring network.
-        - content: Built a robust data analysis platform, and participated in the state grid harmonics monitoring project.
-        - title: Co-authored a paper
-          content: Parameter Estimation for External Network Static Equivalent Model Based on Nonlinear Programming Genetic Algorithm
-          links:
-            - id: publication-sg201602003
-              icon: file alternate
-              tooltip: View Publication
-        - title: Contributed to patent
-          content: A Method for Estimating Negative Sequence Impedance Parameters Applicable to Unbalanced Three-Phase Disturbance Source Localization
-          links:
-            - id: patent-cn-201410590042-5
-              icon: balance scale
-              tooltip: View Patent
-        - title: Contributed to patent
-          content: A Method for Localizing Unbalanced Three-Phase Disturbance Sources in Power Systems
-          links:
-            - id: patent-cn-201410590044-4
-              icon: balance scale
-              tooltip: View Patent
+  - id: geiri
+    employer: Global Energy Interconnection Research Institute
+    position: Research and Development Engineer
+    time: July 2014 - March 2016
+    location: Beijing
+    details:
+    - content: Performed massive analytics on power quality data collected from real world power grid monitoring network.
+    - content: Built a robust data analysis platform, and participated in the state grid harmonics monitoring project.
+    - title: Co-authored a paper
+      content: Parameter Estimation for External Network Static Equivalent Model Based on Nonlinear Programming Genetic Algorithm
+      links:
+      - id: publication-sg201602003
+        icon: file alternate
+        tooltip: View Publication
+    - title: Contributed to patent
+      content: A Method for Estimating Negative Sequence Impedance Parameters Applicable to Unbalanced Three-Phase Disturbance Source Localization
+      links:
+      - id: patent-cn-201410590042-5
+        icon: balance scale
+        tooltip: View Patent
+    - title: Contributed to patent
+      content: A Method for Localizing Unbalanced Three-Phase Disturbance Sources in Power Systems
+      links:
+      - id: patent-cn-201410590044-4
+        icon: balance scale
+        tooltip: View Patent
 
   research:
-    - id: thu
-      institution: Tsinghua University
-      department: Research Institute of Information Technology
-      position: Research Assistant
-      advisor: Xiao Zhang, PhD Candidate
-      time: May 2017 - Present
-      location: Beijing
-      details:
-        - content: Implemented the N-Back Task in JavaScript
-          links:
-            - link: https://github.com/iRB-Lab/N-Back
-              icon: github
-              tooltip: View on Github
-        - content: Studied photoplethysmogram-based cognitive load assessment using multi-feature fusion model in Python
-          links:
-            - link: https://github.com/iRB-Lab/PPG
-              icon: github
-              tooltip: View on Github
+  - id: thu
+    institution: Tsinghua University
+    department: Research Institute of Information Technology
+    position: Research Assistant
+    advisor: Xiao Zhang, PhD Candidate
+    time: May 2017 - Present
+    location: Beijing
+    details:
+    - content: Implemented the N-Back Task in JavaScript
+      links:
+      - link: https://github.com/iRB-Lab/N-Back
+        icon: github
+        tooltip: View on Github
+    - content: Studied photoplethysmogram-based cognitive load assessment using multi-feature fusion model in Python
+      links:
+      - link: https://github.com/iRB-Lab/PPG
+        icon: github
+        tooltip: View on Github
 
-    - id: ruc
-      institution: Remin University of China
-      department: Multimedia Computing Lab, School of Information
-      position: Research Assistant
-      advisor: Xirong Li, Associate Professor
-      time: December 2013 - June 2014
-      location: Beijing
-      details:
-        - content: Surveyed on web image retrieval related publications, and proposed three approaches based on user clicked data.
-        - content: Implemented and evaluated proposed approaches on several real-world datasets.
-          links:
-            - id: image-retrieval
-              icon: rocket
-              tooltip: View Project
+  - id: ruc
+    institution: Remin University of China
+    department: Multimedia Computing Lab, School of Information
+    position: Research Assistant
+    advisor: Xirong Li, Associate Professor
+    time: December 2013 - June 2014
+    location: Beijing
+    details:
+    - content: Surveyed on web image retrieval related publications, and proposed three approaches based on user clicked data.
+    - content: Implemented and evaluated proposed approaches on several real-world datasets.
+      links:
+      - id: image-retrieval
+        icon: rocket
+        tooltip: View Project
 
   part_time:
-    - id: p3-publishing
-      employer: P3 Publishing
-      position: Layout Designer
-      time: March 2013 - June 2013
-      location: Hong Kong
-      details:
-        - content: Designed teaching materials in the Mandarin Matrix™ product line.
-          links:
-            - link: http://mandarinmatrix.org/
-              icon: globe
-              tooltip: View More
-        - content: Designed stroke orders of 56 Chinese characters in Adobe Illustrator.
-        - content: Edited layouts of 14 books in Adobe InDesign.
+  - id: p3-publishing
+    employer: P3 Publishing
+    position: Layout Designer
+    time: March 2013 - June 2013
+    location: Hong Kong
+    details:
+    - content: Designed teaching materials in the Mandarin Matrix™ product line.
+      links:
+      - link: http://mandarinmatrix.org/
+        icon: globe
+        tooltip: View More
+    - content: Designed stroke orders of 56 Chinese characters in Adobe Illustrator.
+    - content: Edited layouts of 14 books in Adobe InDesign.
 
-    - id: byr-team
-      employer: BYR-Team, BUPT
-      position: Chief Designer
-      time: September 2009 - September 2012
-      location: Beijing
-      details:
-        - content: Organized two annual membership recruitments (in 2010 and 2011).
-        - content: Organized three BYR Forum T-shirt Design Contests (in 2010, 2011 and 2012).
-        - content: Designed 6 generations of BYR Forum winter wears (the 3rd, 4th, 5th, 6th, 7th, and 8th generation).
-        - content: Designed a submission management system for T-shirt Design Contest (in 2012).
-        - content: Designed massive banners and posters for the BYR Forum.
+  - id: byr-team
+    employer: BYR-Team, BUPT
+    position: Chief Designer
+    time: September 2009 - September 2012
+    location: Beijing
+    details:
+    - content: Organized two annual membership recruitments (in 2010 and 2011).
+    - content: Organized three BYR Forum T-shirt Design Contests (in 2010, 2011 and 2012).
+    - content: Designed 6 generations of BYR Forum winter wears (the 3rd, 4th, 5th, 6th, 7th, and 8th generation).
+    - content: Designed a submission management system for T-shirt Design Contest (in 2012).
+    - content: Designed massive banners and posters for the BYR Forum.
 
-    - id: wrd-tech
-      employer: Beijing WRD Technology Co., Ltd
-      position: Graphic Designer
-      time: September 2010 - September 2012
-      location: Beijing
-      details:
-        - content: "Designed the WRD company logo (registered trademark ID: 9183471)"
-          links:
-            - link: http://www.wrdtech.com/content/content.php?p=6_28_53
-              icon: globe
-              tooltip: View More
+  - id: wrd-tech
+    employer: Beijing WRD Technology Co., Ltd
+    position: Graphic Designer
+    time: September 2010 - September 2012
+    location: Beijing
+    details:
+    - content: "Designed the WRD company logo (registered trademark ID: 9183471)"
+      links:
+      - link: http://www.wrdtech.com/content/content.php?p=6_28_53
+        icon: globe
+        tooltip: View More
 
   exchange:
-    - id: afs
-      institution: Simpert-Krämer-Gymnasium Krumbach
-      department: AFS Komitee Ulm, AFS Intercultural Exchange Programs, Germany
-      time: August 2004 - July 2005
-      location: Krumbach, Germany
-      details:
-        - content: Mastered daily German communication within 3 months (starting from zero).
+  - id: afs
+    institution: Simpert-Krämer-Gymnasium Krumbach
+    department: AFS Komitee Ulm, AFS Intercultural Exchange Programs, Germany
+    time: August 2004 - July 2005
+    location: Krumbach, Germany
+    details:
+    - content: Mastered daily German communication within 3 months (starting from zero).
 
   university_service:
-    - id: university-service-polyu
-      university: The Hong Kong Polytechnic University
-      position: Student Helper
-      time: September 2012 - October 2012
-      location: Hong Kong
-      details:
-        - content: Served as Student Helper on the PolyU Education Info Days in 2012.
-        - content: Greeted the visitors as PolyU ambassadors.
-        - content: Answered visitors' questions on PolyU's admission and selection criteria for 2012 (and 2013) admission.
-        - content: Offered help and guidance at exhibition booths.
-        - content: Guided visitors from Podium to EIE laboratories.
+  - id: university-service-polyu
+    university: The Hong Kong Polytechnic University
+    position: Student Helper
+    time: September 2012 - October 2012
+    location: Hong Kong
+    details:
+    - content: Served as Student Helper on the PolyU Education Info Days in 2012.
+    - content: Greeted the visitors as PolyU ambassadors.
+    - content: Answered visitors' questions on PolyU's admission and selection criteria for 2012 (and 2013) admission.
+    - content: Offered help and guidance at exhibition booths.
+    - content: Guided visitors from Podium to EIE laboratories.
 
-    - id: university-service-bupt
-      university: Beijing University of Posts and Telecommunications
-      position: Assistant Instructor
-      time: September 2010 - June 2012
-      location: Beijing
-      details:
-        - content: Assisted instructors to help freshmen quickly adapt to the new life at BUPT.
-        - content: Organized orientations and regular activities.
-        - content: Answered doubts about life or studies at any time.
-        - content: Assisted instructors to solve students issues.
-        - content: Reported regularly to the instructors.
+  - id: university-service-bupt
+    university: Beijing University of Posts and Telecommunications
+    position: Assistant Instructor
+    time: September 2010 - June 2012
+    location: Beijing
+    details:
+    - content: Assisted instructors to help freshmen quickly adapt to the new life at BUPT.
+    - content: Organized orientations and regular activities.
+    - content: Answered doubts about life or studies at any time.
+    - content: Assisted instructors to solve students issues.
+    - content: Reported regularly to the instructors.
 
   volunteer:
-    - id: volunteer-afs
-      employer: AFS Intercultural Programs
-      position: Volunteer
-      time: July 2005 - Present
-      location: Beijing
-      details:
-        - content: Served as a regular member of CEAIE-AFS Beijing Committee.
-        - content: Organized or provide help for CEAIE-AFS annual regular activities, including CEAIE-AFS National Volunteer Conference, Selection Camp of CEAIE-AFS Program Students, Pre-departure Orientation, Arrival Orientation, End-of-stay Orientation, and CEAIE-AFS Beijing Volunteers New Year's Party.
+  - id: volunteer-afs
+    employer: AFS Intercultural Programs
+    position: Volunteer
+    time: July 2005 - Present
+    location: Beijing
+    details:
+    - content: Served as a regular member of CEAIE-AFS Beijing Committee.
+    - content: Organized or provide help for CEAIE-AFS annual regular activities, including CEAIE-AFS National Volunteer Conference, Selection Camp of CEAIE-AFS Program Students, Pre-departure Orientation, Arrival Orientation, End-of-stay Orientation, and CEAIE-AFS Beijing Volunteers New Year's Party.
 
 projects:
   open_source:
-    - id: byr-navi
-      owner: BYR-Navi
-      repository: BYR-Navi
-      description: A Navigation Website for BYR
-      website: https://byr-navi.com/
-      created_at: October 1, 2016
-      links:
-        - link: https://github.com/BYR-Navi/BYR-Navi
-          icon: github
-          tooltip: View on Github
-        - link: https://byr-navi.com/
-          icon: globe
-          tooltip: Access Website
+  - id: byr-navi
+    owner: BYR-Navi
+    repository: BYR-Navi
+    description: A Navigation Website for BYR
+    website: https://byr-navi.com/
+    created_at: October 1, 2016
+    links:
+    - link: https://github.com/BYR-Navi/BYR-Navi
+      icon: github
+      tooltip: View on Github
+    - link: https://byr-navi.com/
+      icon: globe
+      tooltip: Access Website
 
-    - id: py-ga-vrptw
-      owner: iRB-Lab
-      repository: py-ga-VRPTW
-      description: A Python Implementation of a Genetic Algorithm-based Solution to Vehicle Routing Problem with Time Windows
-      created_at: May 15, 2016
-      links:
-        - link: https://github.com/iRB-Lab/py-ga-VRPTW
-          icon: github
-          tooltip: View on Github
+  - id: py-ga-vrptw
+    owner: iRB-Lab
+    repository: py-ga-VRPTW
+    description: A Python Implementation of a Genetic Algorithm-based Solution to Vehicle Routing Problem with Time Windows
+    created_at: May 15, 2016
+    links:
+    - link: https://github.com/iRB-Lab/py-ga-VRPTW
+      icon: github
+      tooltip: View on Github
 
-    - id: n-back
-      owner: iRB-Lab
-      repository: N-Back
-      description: A JavaScript Implementation of the N-Back Task
-      website: https://n-back.irockbunnylab.com/
-      created_at: June 4, 2017
-      links:
-        - link: https://github.com/iRB-Lab/N-Back
-          icon: github
-          tooltip: View on Github
-        - link: https://n-back.irockbunnylab.com/
-          icon: globe
-          tooltip: Access Website
+  - id: n-back
+    owner: iRB-Lab
+    repository: N-Back
+    description: A JavaScript Implementation of the N-Back Task
+    website: https://n-back.irockbunnylab.com/
+    created_at: June 4, 2017
+    links:
+    - link: https://github.com/iRB-Lab/N-Back
+      icon: github
+      tooltip: View on Github
+    - link: https://n-back.irockbunnylab.com/
+      icon: globe
+      tooltip: Access Website
+
+  - id: y-player
+    owner: Y-Lab
+    repository: Y-Player
+    description: Y-English HTML Video Player
+    website: https://player.y-english.org/
+    created_at: August 5, 2018
+    links:
+    - link: https://github.com/Y-Lab/Y-Player
+      icon: github
+      tooltip: View on Github
+    - link: https://player.y-english.org/
+      icon: globe
+      tooltip: Access Website
 
   research:
-    - id: ppg
-      name: Photoplethysmogram-based Real-time Cognitive Load Assessment Using Multi-feature Fusion Model
-      institution: Tsinghua National Laboratory for Information Science and Technology · Tsinghua University
-      time: June 2017 - December 2017
-      location: Beijing
-      details:
-        - content: Studied photoplethysmogram-based cognitive load assessment using multi-feature fusion model approaches.
-        - content: Implemented algorithms in Python.
-      links:
-        - link: https://github.com/iRB-Lab/PPG
-          icon: github
-          tooltip: View on Github
+  - id: ppg
+    name: Photoplethysmogram-based Real-time Cognitive Load Assessment Using Multi-feature Fusion Model
+    institution: Tsinghua National Laboratory for Information Science and Technology · Tsinghua University
+    time: June 2017 - December 2017
+    location: Beijing
+    details:
+    - content: Studied photoplethysmogram-based cognitive load assessment using multi-feature fusion model approaches.
+    - content: Implemented algorithms in Python.
+    links:
+    - link: https://github.com/iRB-Lab/PPG
+      icon: github
+      tooltip: View on Github
 
-    - id: ga-vrptw
-      name: A Genetic Algorithm-based Solution to Vehicle Routing Problem with Time Windows
-      institution: School of Automation · Beijing University of Posts and Telecommunications
-      time: February 2016 - June 2016
-      location: Beijing
-      details:
-        - content: Wrote an open source simulation framework (in Python) for further research, including associated tutorials.
-        - content: Evaluated various classic genetic algorithm-based approaches to the problem.
-      links:
-        - link: https://github.com/iRB-Lab/py-ga-VRPTW
-          icon: github
-          tooltip: View on Github
+  - id: ga-vrptw
+    name: A Genetic Algorithm-based Solution to Vehicle Routing Problem with Time Windows
+    institution: School of Automation · Beijing University of Posts and Telecommunications
+    time: February 2016 - June 2016
+    location: Beijing
+    details:
+    - content: Wrote an open source simulation framework (in Python) for further research, including associated tutorials.
+    - content: Evaluated various classic genetic algorithm-based approaches to the problem.
+    links:
+    - link: https://github.com/iRB-Lab/py-ga-VRPTW
+      icon: github
+      tooltip: View on Github
 
-    - id: image-retrieval
-      name: Large-Scale Image Retrieval Learned from User-Generated Data
-      institution: Multimedia Computing Lab · School of Information · Renmin University of China
-      time: December 2013 - June 2014
-      location: Beijing
-      details:
-        - content: Evaluated three proposed image retrieval approaches based on user clicked data.
-        - content: Implemented algorithms in Python.
-        - content: Implemented a text search engine using Whoosh.
+  - id: image-retrieval
+    name: Large-Scale Image Retrieval Learned from User-Generated Data
+    institution: Multimedia Computing Lab · School of Information · Renmin University of China
+    time: December 2013 - June 2014
+    location: Beijing
+    details:
+    - content: Evaluated three proposed image retrieval approaches based on user clicked data.
+    - content: Implemented algorithms in Python.
+    - content: Implemented a text search engine using Whoosh.
 
-    - id: low-resolution-face-recognition
-      name: Low-Resolution Face Recognition
-      institution: Department of Electronic and Information Engineering · Faculty of Engineering · The Hong Kong Polytechnic University
-      time: November 2012 - August 2013
-      location: Hong Kong
-      details:
-        - content: Surveyed on low-resolution face recognition related publications, and studied prevailing approaches.
-        - content: Proposed a coupled-projection method, and increased recognition rates even at a very small resolution (e.g. 8-by-8 pixels).
-        - content: Implemented algorithms in MATLAB.
-        - content: Accelerated Gabor feature extraction process through FFT.
-        - content: Accelerated simulations using OpenCV (mexopencv), GPU computing (CUDA), and parallel computing (parallel for-loops).
-      links:
-        - id: publication-b21501021
-          icon: file alternate
-          tooltip: View Thesis
+  - id: low-resolution-face-recognition
+    name: Low-Resolution Face Recognition
+    institution: Department of Electronic and Information Engineering · Faculty of Engineering · The Hong Kong Polytechnic University
+    time: November 2012 - August 2013
+    location: Hong Kong
+    details:
+    - content: Surveyed on low-resolution face recognition related publications, and studied prevailing approaches.
+    - content: Proposed a coupled-projection method, and increased recognition rates even at a very small resolution (e.g. 8-by-8 pixels).
+    - content: Implemented algorithms in MATLAB.
+    - content: Accelerated Gabor feature extraction process through FFT.
+    - content: Accelerated simulations using OpenCV (mexopencv), GPU computing (CUDA), and parallel computing (parallel for-loops).
+    links:
+    - id: publication-b21501021
+      icon: file alternate
+      tooltip: View Thesis
 
   competition:
-    - id: consumer-data-mining
-      name: Consumer Gender and Age Mining based on User Online Shopping Data
-      competition: BUPT AUTA Data Mining Challenge
-      award:
-        prize: 3rd Prize
-        id: bupt-auta-data-mining-challenge
-      time: December 2015 - January 2016
-      location: Beijing
-      details:
-        - content: Won 3rd Prize in the BUPT AUTA Data Mining Challenge (top 1 in Phase 1, top 5 in Phase 2 among 200+).
-        - content: Extracted one-hot features from various data combinations.
-        - content: Trained fusion models based on popular algorithms.
+  - id: consumer-data-mining
+    name: Consumer Gender and Age Mining based on User Online Shopping Data
+    competition: BUPT AUTA Data Mining Challenge
+    award:
+      prize: 3rd Prize
+      id: bupt-auta-data-mining-challenge
+    time: December 2015 - January 2016
+    location: Beijing
+    details:
+    - content: Won 3rd Prize in the BUPT AUTA Data Mining Challenge (top 1 in Phase 1, top 5 in Phase 2 among 200+).
+    - content: Extracted one-hot features from various data combinations.
+    - content: Trained fusion models based on popular algorithms.
 
-    - id: here
-      name: HERE
-      competition: Baidu PM Star Internet Product Design Contest
-      award:
-        prize: 2nd Prize
-        id: baidu-pm-star
-      time: March 2011 - May 2011
-      location: Beijing
-      details:
-        - content: Designed an LBS-based mobile phone app aiming at building connecting of nearby strangers.
-        - content: Designed the HERE visual identity.
-        - content: Designed the browser-end and mobile-end websites.
-        - content: Designed the mobile application user interface.
-        - content: Made the project introduction slides.
+  - id: here
+    name: HERE
+    competition: Baidu PM Star Internet Product Design Contest
+    award:
+      prize: 2nd Prize
+      id: baidu-pm-star
+    time: March 2011 - May 2011
+    location: Beijing
+    details:
+    - content: Designed an LBS-based mobile phone app aiming at building connecting of nearby strangers.
+    - content: Designed the HERE visual identity.
+    - content: Designed the browser-end and mobile-end websites.
+    - content: Designed the mobile application user interface.
+    - content: Made the project introduction slides.
 
-    - id: ecosens
-      name: ECOSENS System
-      competition: Microsoft Imagine Cup · Embedded Development
-      award:
-        prize: 3rd Prize
-        id: microsoft-imagine-cup
-      time: September 2010 - April 2011
-      location: Beijing
-      details:
-        - content: Designed a wireless sensor network system for grain food surveillance using embedded implementation.
-        - content: Designed the final three-layer system structure.
-        - content: Designed the ECOSENS System website.
-        - content: Designed the ECOSENS visual identity.
-        - content: Made the project introduction videos and slides.
-        - content: Management of technical documentation.
-      links:
-        - link: /downloads/publications/ecosens.pdf
-          icon: file pdf
-          tooltip: Access Full Text
+  - id: ecosens
+    name: ECOSENS System
+    competition: Microsoft Imagine Cup · Embedded Development
+    award:
+      prize: 3rd Prize
+      id: microsoft-imagine-cup
+    time: September 2010 - April 2011
+    location: Beijing
+    details:
+    - content: Designed a wireless sensor network system for grain food surveillance using embedded implementation.
+    - content: Designed the final three-layer system structure.
+    - content: Designed the ECOSENS System website.
+    - content: Designed the ECOSENS visual identity.
+    - content: Made the project introduction videos and slides.
+    - content: Management of technical documentation.
+    links:
+    - link: /downloads/publications/ecosens.pdf
+      icon: file pdf
+      tooltip: Access Full Text
 
   undergraduate:
-    - id: submission-management-system
-      name: Submission Management System
-      institution: Institute of Network Technology · Beijing University of Posts and Telecommunications
-      time: January 2012 - June 2012
-      location: Beijing
-      details:
-        - content: Implemented a web system to manage and display digital assignment submissions.
-        - content: Designed the front-end interface and the back-end system.
-      links:
-        - link: http://design.byr.cn/
-          icon: globe
-          tooltip: Access Website
+  - id: submission-management-system
+    name: Submission Management System
+    institution: Institute of Network Technology · Beijing University of Posts and Telecommunications
+    time: January 2012 - June 2012
+    location: Beijing
+    details:
+    - content: Implemented a web system to manage and display digital assignment submissions.
+    - content: Designed the front-end interface and the back-end system.
+    links:
+    - link: http://design.byr.cn/
+      icon: globe
+      tooltip: Access Website
 
-    - id: grain-moisture-content-tester
-      name: Grain Moisture Content Tester
-      institution: Innovation Lab · Beijing University of Posts and Telecommunications
-      time: July 2010 - June 2012
-      location: Beijing
-      details:
-        - content: Implemented an embedded device to detect grain moisture using self-developed humidity sensors.
-        - content: Designed and made six generations of humidity sensor front-end models.
-        - content: Designed and soldered the second generation humidity sensor prototype circuit.
+  - id: grain-moisture-content-tester
+    name: Grain Moisture Content Tester
+    institution: Innovation Lab · Beijing University of Posts and Telecommunications
+    time: July 2010 - June 2012
+    location: Beijing
+    details:
+    - content: Implemented an embedded device to detect grain moisture using self-developed humidity sensors.
+    - content: Designed and made six generations of humidity sensor front-end models.
+    - content: Designed and soldered the second generation humidity sensor prototype circuit.
 
 awards:
-  - id: bupt-auta-data-mining-challenge
-    name: BUPT AUTA Data Mining Challenge
-    prize: 3rd Prize
-    rank: Top 6 among 200+
-    issuer: Alibaba University Technology Alliance
-    time: December 2015
+- id: bupt-auta-data-mining-challenge
+  name: BUPT AUTA Data Mining Challenge
+  prize: 3rd Prize
+  rank: Top 6 among 200+
+  issuer: Alibaba University Technology Alliance
+  time: December 2015
 
-  - id: jdsu-scholarship
-    name: JDSU Scholarship
-    rank: Top 1%
-    issuer: JDS Uniphase Corporation
-    time: December 2011
+- id: jdsu-scholarship
+  name: JDSU Scholarship
+  rank: Top 1%
+  issuer: JDS Uniphase Corporation
+  time: December 2011
 
-  - id: baidu-pm-star
-    name: Baidu PM Star Internet Product Design Contest
-    prize: 2nd Prize
-    rank: Top 3 among 288
-    issuer: Baidu Inc
-    time: May 2011
+- id: baidu-pm-star
+  name: Baidu PM Star Internet Product Design Contest
+  prize: 2nd Prize
+  rank: Top 3 among 288
+  issuer: Baidu Inc
+  time: May 2011
 
-  - id: microsoft-imagine-cup
-    name: Microsoft Imagine Cup Embedded Development China Final
-    prize: 3rd Prize
-    rank: Top 6 among 150+
-    issuer: Microsoft Corporation
-    time: April 2011
+- id: microsoft-imagine-cup
+  name: Microsoft Imagine Cup Embedded Development China Final
+  prize: 3rd Prize
+  rank: Top 6 among 150+
+  issuer: Microsoft Corporation
+  time: April 2011
 
-  - id: bupt-scholarship
-    name: BUPT Academic Excellence Awards
-    rank: Top 10%
-    issuer: Beijing University of Posts and Telecommunications
-    time: 2009 · 2010 · 2011
+- id: bupt-scholarship
+  name: BUPT Academic Excellence Awards
+  rank: Top 10%
+  issuer: Beijing University of Posts and Telecommunications
+  time: 2009 · 2010 · 2011
 
-  - id: daimlerchrysler-scholarship
-    name: DaimlerChrysler Scholarship
-    rank: Top 10%
-    issuer: Alibaba University Technology Alliance
-    time: May 2004
+- id: daimlerchrysler-scholarship
+  name: DaimlerChrysler Scholarship
+  rank: Top 10%
+  issuer: Alibaba University Technology Alliance
+  time: May 2004
 
 publications:
-  - id: publication-sg201602003
-    title: Parameter Estimation for External Network Static Equivalent Model Based on Nonlinear Programming Genetic Algorithm
-    authors:
-      - Jiayi Zhang
-      - Shun Tao
-      - Kunyu Liao
-      - Xiangning Xiao
-      - Tong Qu
-      - Hui Wen
-    details:
-      - title: Journal
-        content: Smart Grid
-      - title: Year
-        content: 2016
-      - title: Volume
-        content: 4
-      - title: Issue
-        content: 2
-      - title: Pages
-        content: 133-140
-    links:
-      - link: http://www.cnki.com.cn/Article/CJFDTotal-ZNDW201602006.htm
-        icon: globe
-        tooltip: View Publication
-      - link: /downloads/publications/sg201602003.pdf
-        icon: file pdf
-        tooltip: Access Full Text
+- id: publication-sg201602003
+  title: Parameter Estimation for External Network Static Equivalent Model Based on Nonlinear Programming Genetic Algorithm
+  authors:
+  - Jiayi Zhang
+  - Shun Tao
+  - Kunyu Liao
+  - Xiangning Xiao
+  - Tong Qu
+  - Hui Wen
+  details:
+  - title: Journal
+    content: Smart Grid
+  - title: Year
+    content: 2016
+  - title: Volume
+    content: 4
+  - title: Issue
+    content: 2
+  - title: Pages
+    content: 133-140
+  links:
+  - link: http://www.cnki.com.cn/Article/CJFDTotal-ZNDW201602006.htm
+    icon: globe
+    tooltip: View Publication
+  - link: /downloads/publications/sg201602003.pdf
+    icon: file pdf
+    tooltip: Access Full Text
 
-  - id: publication-b21501021
-    title: Low-Resolution Face Recognition
-    label: MSc Dissertation
-    authors:
-      - Tong Qu
-    abstract: "Traditional face recognition algorithms are not best suited for matching face images captured at a low resolution to a set of high-resolution gallery face images. To perform matching between face images of different resolutions, this work proposes a coupled-projection method. Based on local relationships in the data, two sets of projections are learned: one for low-resolution face images and the other for high-resolution face images, respectively. Then, both low-resolution probe face images and high-resolution gallery face images are projected into a common subspace. Hence, subsequent matching can be done in the subspace directly."
-    details:
-      - title: Supervised by
-        content: Kenneth K. M. Lam, Professor & Associate Dean, Faculty of Engineering, HKPloyU
-    links:
-      - link: http://hkall.hku.hk/record=b21501021
-        icon: globe
-        tooltip: View Publication
-      - link: /downloads/publications/b26443107.pdf
-        icon: file pdf
-        tooltip: Access Full Text
+- id: publication-b21501021
+  title: Low-Resolution Face Recognition
+  label: MSc Dissertation
+  authors:
+  - Tong Qu
+  abstract: "Traditional face recognition algorithms are not best suited for matching face images captured at a low resolution to a set of high-resolution gallery face images. To perform matching between face images of different resolutions, this work proposes a coupled-projection method. Based on local relationships in the data, two sets of projections are learned: one for low-resolution face images and the other for high-resolution face images, respectively. Then, both low-resolution probe face images and high-resolution gallery face images are projected into a common subspace. Hence, subsequent matching can be done in the subspace directly."
+  details:
+  - title: Supervised by
+    content: Kenneth K. M. Lam, Professor & Associate Dean, Faculty of Engineering, HKPloyU
+  links:
+  - link: http://hkall.hku.hk/record=b21501021
+    icon: globe
+    tooltip: View Publication
+  - link: /downloads/publications/b26443107.pdf
+    icon: file pdf
+    tooltip: Access Full Text
 
 patents:
-  - id: patent-cn-201410590042-5
-    name: A Method for Estimating Negative Sequence Impedance Parameters Applicable to Unbalanced Three-Phase Disturbance Source Localization
-    number: China 201410590042.5
-    time: October 28, 2014
-    inventors:
-      - Yingying Liu
-      - Tongxun Wang
-      - Tong Qu
-      - Yuanyuan Sun
-      - Peixin Li
+- id: patent-cn-201410590042-5
+  name: A Method for Estimating Negative Sequence Impedance Parameters Applicable to Unbalanced Three-Phase Disturbance Source Localization
+  number: China 201410590042.5
+  time: October 28, 2014
+  inventors:
+  - Yingying Liu
+  - Tongxun Wang
+  - Tong Qu
+  - Yuanyuan Sun
+  - Peixin Li
 
-  - id: patent-cn-201410590044-4
-    name: A Method for Localizing Unbalanced Three-Phase Disturbance Sources in Power Systems
-    number: China 201410590044.4
-    time: October 28, 2014
-    inventors:
-      - Yingying Liu
-      - Tongxun Wang
-      - Tong Qu
-      - Yuanyuan Sun
-      - Peixin Li
+- id: patent-cn-201410590044-4
+  name: A Method for Localizing Unbalanced Three-Phase Disturbance Sources in Power Systems
+  number: China 201410590044.4
+  time: October 28, 2014
+  inventors:
+  - Yingying Liu
+  - Tongxun Wang
+  - Tong Qu
+  - Yuanyuan Sun
+  - Peixin Li
 
 languages:
-  - name: Mandarin
-    flag: cn
-    level: Native proficiency
-  - name: English
-    flag: us
-    level: Professional working proficiency
-    certificates:
-      - CET-4
-      - CET-6
-  - name: German
-    flag: de
-    level: Elementary proficiency
-    remark: One year study in Germany
+- name: Mandarin
+  flag: cn
+  level: Native proficiency
+- name: English
+  flag: us
+  level: Professional working proficiency
+  certificates:
+  - CET-4
+  - CET-6
+- name: German
+  flag: de
+  level: Elementary proficiency
+  remark: One year study in Germany
 
 skills:
-  - name: Programming
-    items:
-      - name: Python
-        color: blue
-        icon: python
-      - name: HTML
-        color: red
-        icon: html5
-      - name: CSS
-        color: violet
-        icon: css3 alternate
-      - name: JavaScript
-        color: yellow
-        icon: js
-      - name: SVG
-        color: orange
-        icon: draw polygon
-      - name: MATLAB
-        color: red
-      - name: Shell Script
-        color: green
-        icon: terminal
-      - name: SQL
-        color: grey
-        icon: database
-      - name: C++
-        color: pink
-      - name: Java
-        color: brown
-      - name: VHDL
-        color: grey
-        icon: microchip
-      - name: Assembly
-        color: brown
-      - name: LaTeX
-        color: olive
-      - name: Markdown
-        color: black
-        icon: markdown
+- name: Programming
+  items:
+  - name: Python
+    color: blue
+    icon: python
+  - name: HTML
+    color: red
+    icon: html5
+  - name: CSS
+    color: violet
+    icon: css3 alternate
+  - name: JavaScript
+    color: yellow
+    icon: js
+  - name: SVG
+    color: orange
+    icon: draw polygon
+  - name: MATLAB
+    color: red
+  - name: Shell Script
+    color: green
+    icon: terminal
+  - name: SQL
+    color: grey
+    icon: database
+  - name: C++
+    color: pink
+  - name: Java
+    color: brown
+  - name: VHDL
+    color: grey
+    icon: microchip
+  - name: Assembly
+    color: brown
+  - name: LaTeX
+    color: olive
+  - name: Markdown
+    color: black
+    icon: markdown
+  - name: Git
+    color: red
+    icon: git
 
-  - name: Web Development
-    items:
-      - name: Flask
-        color: black
-      - name: Jekyll
-        color: brown
-      - name: jQuery
-        color: blue
-      - name: Semantic UI
-        color: teal
-      - name: Webpack
-        color: blue
-      - name: Bootstrap
-        color: violet
-      - name: Lodash
-        color: blue
-      - name: SVG.js
-        color: pink
-      - name: Echarts
-        color: red
-      - name: Font Awesome
-        color: green
-        icon: font awesome flag
+- name: Web Development
+  items:
+  - name: Flask
+    color: black
+  - name: Jekyll
+    color: brown
+  - name: jQuery
+    color: blue
+  - name: Semantic UI
+    color: teal
+  - name: Node
+    color: green
+    icon: node js
+  - name: Webpack
+    color: blue
+  - name: Bootstrap
+    color: violet
+  - name: Lodash
+    color: blue
+  - name: SVG.js
+    color: pink
+  - name: Echarts
+    color: red
+  - name: Font Awesome
+    color: green
+    icon: font awesome flag
 
-  - name: Platforms
-    items:
-      - name: macOS
-        color: grey
-        icon: apple
-      - name: Linux/Ubuntu
-        color: red
-        icon: linux
-      - name: Windows
-        color: blue
-        icon: windows
+- name: Platforms
+  items:
+  - name: macOS
+    color: grey
+    icon: apple
+  - name: Linux/Ubuntu
+    color: red
+    icon: linux
+  - name: Windows
+    color: blue
+    icon: windows
 
-  - name: Graphic Design
-    items:
-      - name: Photoshop
-        color: blue
-      - name: Illustrator
-        color: orange
-      - name: Flash
-        color: red
-      - name: OmniGraffle
-        color: green
-        icon: project diagram
+- name: Graphic Design
+  items:
+  - name: Photoshop
+    color: blue
+  - name: Illustrator
+    color: orange
+  - name: Flash
+    color: red
+  - name: OmniGraffle
+    color: green
+    icon: project diagram
 
-  - name: Productivity
-    items:
-      - name: Word
-        color: blue
-        icon: file word
-      - name: Excel
-        color: green
-        icon: file excel
-      - name: PowerPoint
-        color: orange
-        icon: file powerpoint
-      - name: Visio
-        color: blue
-        icon: project diagram
-      - name: Publisher
-        color: teal
+- name: Productivity
+  items:
+  - name: Word
+    color: blue
+    icon: file word
+  - name: Excel
+    color: green
+    icon: file excel
+  - name: PowerPoint
+    color: orange
+    icon: file powerpoint
+  - name: Visio
+    color: blue
+    icon: project diagram
+  - name: Publisher
+    color: teal
 
 additional_info:
   hobbies:
-    - name: Digital Photography
-      icon: camera
-    - name: Guitar
-    - name: Fitness
-    - name: Marathon
-      icon: route
-      link: https://github.com/iROCKBUNNY/Marathon
-      tooltip: View More
-    - name: Swimming
-    - name: Skateboard
-    - name: Snowboard
-    - name: Motorcycle Riding
-      icon: motorcycle
+  - name: Digital Photography
+    icon: camera
+  - name: Guitar
+  - name: Fitness
+  - name: Marathon
+    icon: route
+    link: https://github.com/iROCKBUNNY/Marathon
+    tooltip: View More
+  - name: Swimming
+  - name: Skateboard
+  - name: Snowboard
+  - name: Motorcycle Riding
+    icon: motorcycle
   contact_advice:
-    - PhD study or job opportunities in the general areas of artificial intelligence, natural language processing, data mining, computer vision, machine learning, etc.
-    - Job opportunities in web system/application development, data analytics, and data visualization etc.
+  - PhD study or job opportunities in the general areas of artificial intelligence, natural language processing, data mining, computer vision, machine learning, etc.
+  - Job opportunities in web system/application development, data analytics, and data visualization etc.
