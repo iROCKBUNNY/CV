@@ -664,7 +664,7 @@ skills:
     icon: markdown
   - name: Git
     color: red
-    icon: git
+    icon: git square
 
 - name: Web Development
   items:
