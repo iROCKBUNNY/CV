@@ -740,11 +740,13 @@ additional_info:
     icon: camera
   - name: Guitar
   - name: Fitness
+    icon: dumbbell
   - name: Marathon
     icon: route
     link: https://github.com/iROCKBUNNY/Marathon
     tooltip: View More
   - name: Swimming
+    icon: swimmer
   - name: Skateboard
   - name: Snowboard
   - name: Motorcycle Riding
