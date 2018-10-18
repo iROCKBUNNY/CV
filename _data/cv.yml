@@ -742,7 +742,7 @@ additional_info:
   - name: Fitness
     icon: dumbbell
   - name: Marathon
-    icon: route
+    icon: running
     link: https://marathon.irockbunny.com
     tooltip: View More
   - name: Swimming
