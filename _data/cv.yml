@@ -743,7 +743,7 @@ additional_info:
     icon: dumbbell
   - name: Marathon
     icon: route
-    link: https://github.com/iROCKBUNNY/Marathon
+    link: https://marathon.irockbunny.com
     tooltip: View More
   - name: Swimming
     icon: swimmer
