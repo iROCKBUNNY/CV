@@ -211,9 +211,9 @@ experience:
     details:
     - content: Implemented the N-Back Task in JavaScript
       links:
-      - link: https://github.com/iRB-Lab/N-Back
-        icon: github
-        tooltip: View Github Project
+      - id: n-back
+        icon: rocket
+        tooltip: View Project
     - content: Studied photoplethysmogram-based cognitive load assessment using multi-feature fusion model in Python
       links:
       - id: ppg
