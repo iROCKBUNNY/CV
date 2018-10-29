@@ -215,10 +215,10 @@ experience:
         icon: github
         tooltip: View Github Project
     - content: Studied photoplethysmogram-based cognitive load assessment using multi-feature fusion model in Python
-      links:
-      - link: https://github.com/iRB-Lab/PPG
-        icon: github
-        tooltip: View Github Project
+      # links:
+      # - link: https://github.com/iRB-Lab/PPG
+      #   icon: github
+      #   tooltip: View Github Project
 
   - id: ruc
     institution: Remin University of China
@@ -381,10 +381,10 @@ projects:
     details:
     - content: Studied photoplethysmogram-based cognitive load assessment using multi-feature fusion model approaches.
     - content: Implemented algorithms in Python.
-    links:
-    - link: https://github.com/iRB-Lab/PPG
-      icon: github
-      tooltip: View Github Project
+    # links:
+    # - link: https://github.com/iRB-Lab/PPG
+    #   icon: github
+    #   tooltip: View Github Project
 
   - id: ga-vrptw
     name: A Genetic Algorithm-based Solution to Vehicle Routing Problem with Time Windows
