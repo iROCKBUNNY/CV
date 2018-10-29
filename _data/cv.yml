@@ -215,10 +215,10 @@ experience:
         icon: github
         tooltip: View Github Project
     - content: Studied photoplethysmogram-based cognitive load assessment using multi-feature fusion model in Python
-      # links:
-      # - link: https://github.com/iRB-Lab/PPG
-      #   icon: github
-      #   tooltip: View Github Project
+      links:
+      - id: ppg
+        icon: rocket
+        tooltip: View Project
 
   - id: ruc
     institution: Remin University of China
