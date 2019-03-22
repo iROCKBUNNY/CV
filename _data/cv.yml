@@ -750,8 +750,8 @@ additional_info:
   - name: Swimming
     icon: swimmer
   - name: Skateboard
-    icon: snowboarding
   - name: Snowboard
+    icon: snowboarding
   - name: Motorcycle
     icon: motorcycle
   contact_advice:
