@@ -737,9 +737,10 @@ skills:
 
 additional_info:
   hobbies:
-  - name: Digital Photography
+  - name: Photography
     icon: camera
   - name: Guitar
+    icon: guitar
   - name: Fitness
     icon: dumbbell
   - name: Marathon
@@ -749,8 +750,9 @@ additional_info:
   - name: Swimming
     icon: swimmer
   - name: Skateboard
+    icon: snowboarding
   - name: Snowboard
-  - name: Motorcycle Riding
+  - name: Motorcycle
     icon: motorcycle
   contact_advice:
   - Job opportunities in web application/system development, data analytics, data visualization, etc.
