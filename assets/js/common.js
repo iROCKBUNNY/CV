@@ -25,6 +25,7 @@ function updateVersion(timestamp) {
 };
 var updateAt = $('meta[name=updated_at]').attr('content');
 updateVersion(updateAt);
+$('#version-icon').addClass('green');
 setInterval(function () {
     updateVersion(updateAt);
 }, 15000);
