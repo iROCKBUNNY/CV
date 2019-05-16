@@ -172,7 +172,7 @@ experience:
     time: April 2016 - Present
     location: Beijing
     details:
-    - content: Provided solutions to flip classroom service digitization, including Y-System, Y-Stats, Y-English Wiki, Y-VOD, Y-Player, as well as the company website, with efforts ranging from architecture design and system development to server deployment and maintenance.
+    - content: Provided solutions to flip classroom service digitization, including Y-System, Y-Stats, Y-English Wiki, Y-VOD, Y-Player, Y-Prep, as well as the company website, with efforts ranging from architecture design and system development to server deployment and maintenance.
 
   - id: geiri
     employer: Global Energy Interconnection Research Institute
@@ -653,6 +653,7 @@ skills:
     color: pink
   - name: Java
     color: brown
+    icon: java
   - name: VHDL
     color: grey
     icon: microchip
@@ -665,27 +666,32 @@ skills:
     icon: markdown
   - name: Git
     color: red
-    icon: git square
+    icon: git alternate
 
 - name: Web Development
   items:
   - name: Flask
     color: black
+    icon: pepper hot
   - name: Jekyll
     color: brown
+    icon: vial
   - name: jQuery
     color: blue
-  - name: Semantic UI
+  - name: Fomantic UI
     color: teal
   - name: Node
     color: green
     icon: node js
   - name: Webpack
     color: blue
+    icon: cube
   - name: Bootstrap
     color: violet
+    icon: bootstrap
   - name: Lodash
     color: blue
+    icon: window minimize
   - name: SVG.js
     color: pink
   - name: Echarts
@@ -699,9 +705,9 @@ skills:
   - name: macOS
     color: grey
     icon: apple
-  - name: Linux/Ubuntu
-    color: red
-    icon: linux
+  - name: Ubuntu
+    color: orange
+    icon: ubuntu
   - name: Windows
     color: blue
     icon: windows
@@ -710,10 +716,13 @@ skills:
   items:
   - name: Photoshop
     color: blue
+    icon: adobe
   - name: Illustrator
     color: orange
+    icon: adobe
   - name: Flash
     color: red
+    icon: adobe
   - name: OmniGraffle
     color: green
     icon: project diagram
@@ -731,9 +740,10 @@ skills:
     icon: file powerpoint
   - name: Visio
     color: blue
-    icon: project diagram
+    icon: microsoft
   - name: Publisher
     color: teal
+    icon: microsoft
 
 additional_info:
   hobbies:
