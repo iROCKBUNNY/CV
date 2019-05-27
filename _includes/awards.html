@@ -4,8 +4,8 @@
         {%- for entry in site.data.cv.awards -%}
             <div id="{{ entry.id }}" class="item">
                 <div class="content">
-                    <div class="header">{{ entry.name }}{% if entry.prize %} &middot; <span class="text-orange text-normal">{{ entry.prize }}</span>{% endif %}</div>
-                    <div class="meta">{{ entry.issuer }} &middot; <span class="text-teal">{{ entry.rank }}</span></div>
+                    <div class="header">{{ entry.name }}{% if entry.prize %} &middot; <span class="ui orange text text-normal">{{ entry.prize }}</span>{% endif %}</div>
+                    <div class="meta">{{ entry.issuer }} &middot; <span class="ui teal text">{{ entry.rank }}</span></div>
                     <div class="extra">{{ entry.time }}</div>
                 </div>
             </div>

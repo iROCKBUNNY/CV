@@ -24,7 +24,7 @@
         {%- for entry in site.data.cv.experience.research -%}
             <div id="{{ entry.id }}" class="item">
                 <div class="content">
-                    <div class="header">{{ entry.institution }} &middot; <span class="text-grey text-normal">{{ entry.department }}</span></div>
+                    <div class="header">{{ entry.institution }} &middot; <span class="ui grey text text-normal">{{ entry.department }}</span></div>
                     <div class="meta">{{ entry.position }}{% if entry.advisor %} &middot; Supervised by: {{ entry.advisor }}{% endif %}</div>
                     <div class="extra">{{ entry.time }} &middot; {{ entry.location }}</div>
                     {%- if entry.details -%}

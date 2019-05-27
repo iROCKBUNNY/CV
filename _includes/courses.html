@@ -9,7 +9,7 @@
                         <div class="meta">{{ entry.courses.size }} major courses</div>
                         <div class="description">
                             <div class="ui bulleted list">
-                                {% for course in entry.courses %}<div class="item">{{ course.name }}{% if course.code %} <span class="text-grey">({{ course.code }})</span>{% endif %}</div>{% endfor %}
+                                {% for course in entry.courses %}<div class="item">{{ course.name }}{% if course.code %} <span class="ui grey text">({{ course.code }})</span>{% endif %}</div>{% endfor %}
                             </div>
                         </div>
                     </div>
