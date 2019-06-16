@@ -391,7 +391,7 @@ projects:
     links:
     - id: publication-acm-tap-2019
       icon: file alternate
-      tooltip: View Article
+      tooltip: View Publication
     # - link: https://github.com/iRB-Lab/PPG
     #   icon: github
     #   tooltip: View Github Project
@@ -562,13 +562,20 @@ publications:
   - title: Journal
     content: ACM Transactions on Applied Perception
   - title: Year
-    content: 2019
+    content: TBD
   - title: Volume
     content: TBD
   - title: Issue
     content: TBD
   - title: Pages
     content: TBD
+  # links:
+  # - link: https://dl.acm.org/citation.cfm?id=3306241
+  #   icon: globe
+  #   tooltip: View Publication
+  # - link: /downloads/publications/ppg.pdf
+  #   icon: file pdf
+  #   tooltip: Access Full Text
 
 - id: publication-sg201602003
   title: Parameter Estimation for External Network Static Equivalent Model Based on Nonlinear Programming Genetic Algorithm
