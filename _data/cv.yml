@@ -220,6 +220,12 @@ experience:
       - id: ppg
         icon: rocket
         tooltip: View Project
+    - title: Co-authored a paper
+      content: Photoplethysmogram-Based Cognitive Load Assessment Using Multi-Feature Fusion Model
+      links:
+      - id: publication-acm-tap-2019
+        icon: file alternate
+        tooltip: View Publication
 
   - id: ruc
     institution: Remin University of China
@@ -382,7 +388,10 @@ projects:
     details:
     - content: Studied photoplethysmogram-based cognitive load assessment using multi-feature fusion model approaches.
     - content: Implemented algorithms in Python.
-    # links:
+    links:
+    - id: publication-acm-tap-2019
+      icon: file alternate
+      tooltip: View Article
     # - link: https://github.com/iRB-Lab/PPG
     #   icon: github
     #   tooltip: View Github Project
@@ -540,6 +549,27 @@ awards:
   time: May 2004
 
 publications:
+- id: publication-acm-tap-2019
+  title: Photoplethysmogram-Based Cognitive Load Assessment Using Multi-Feature Fusion Model
+  authors:
+  - Xiao Zhang
+  - Yongqiang Lyu
+  - Tong Qu
+  - Xiaomin Luo
+  - Jingyu Zhang
+  - Yuanchun Shi
+  details:
+  - title: Journal
+    content: ACM Transactions on Applied Perception
+  - title: Year
+    content: 2019
+  - title: Volume
+    content: TBD
+  - title: Issue
+    content: TBD
+  - title: Pages
+    content: TBD
+
 - id: publication-sg201602003
   title: Parameter Estimation for External Network Static Equivalent Model Based on Nonlinear Programming Genetic Algorithm
   authors:
