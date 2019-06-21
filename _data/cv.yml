@@ -570,10 +570,10 @@ publications:
     content: TBD
   - title: Pages
     content: TBD
-  # links:
-  # - link: https://dl.acm.org/citation.cfm?id=3306241
-  #   icon: globe
-  #   tooltip: View Publication
+  links:
+  - link: https://tap.acm.org/
+    icon: globe
+    tooltip: View Publication
   # - link: /downloads/publications/ppg.pdf
   #   icon: file pdf
   #   tooltip: Access Full Text
