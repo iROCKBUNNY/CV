@@ -8,11 +8,11 @@ $(document).ready(function () {
             offset: 1,
             onTopPassed: function () {
                 $('.ui.following.menu .item.active').removeClass('active');
-                $('.ui.following.menu .item[href$=' + $(this).attr('id') + ']').addClass('active');
+                $(`.ui.following.menu .item[href$=${$(this).attr('id')}]`).addClass('active');
             },
             onBottomPassedReverse: function () {
                 $('.ui.following.menu .item.active').removeClass('active');
-                $('.ui.following.menu .item[href$=' + $(this).attr('id') + ']').addClass('active');
+                $(`.ui.following.menu .item[href$=${$(this).attr('id')}]`).addClass('active');
             }
         });
     };
