@@ -562,16 +562,16 @@ publications:
   details:
   - title: Journal
     content: ACM Transactions on Applied Perception (TAP)
-  - title: Year
-    content: TBD
+  - title: Issue Date
+    content: September 2019
   - title: Volume
-    content: TBD
+    content: 16
   - title: Issue
-    content: TBD
-  - title: Pages
-    content: TBD
+    content: 4
+  - title: Article No.
+    content: 19
   links:
-  - link: https://tap.acm.org/
+  - link: https://doi.org/10.1145/3340962
     icon: globe
     tooltip: View Publication
   # - link: /downloads/publications/ppg.pdf
