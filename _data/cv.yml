@@ -223,7 +223,7 @@ experience:
     - title: Co-authored a paper
       content: Photoplethysmogram-Based Cognitive Load Assessment Using Multi-Feature Fusion Model
       links:
-      - id: publication-acm-tap-2019
+      - id: publication-acm-tap-3364318-3340962
         icon: file alternate
         tooltip: View Publication
 
@@ -389,7 +389,7 @@ projects:
     - content: Studied photoplethysmogram-based cognitive load assessment using multi-feature fusion model approaches.
     - content: Implemented algorithms in Python.
     links:
-    - id: publication-acm-tap-2019
+    - id: publication-acm-tap-3364318-3340962
       icon: file alternate
       tooltip: View Publication
     # - link: https://github.com/iRB-Lab/PPG
@@ -549,7 +549,7 @@ awards:
   time: May 2004
 
 publications:
-- id: publication-acm-tap-2019
+- id: publication-acm-tap-3364318-3340962
   title: Photoplethysmogram-Based Cognitive Load Assessment Using Multi-Feature Fusion Model
   authors:
   - Xiao Zhang
@@ -574,9 +574,9 @@ publications:
   - link: https://doi.org/10.1145/3340962
     icon: globe
     tooltip: View Publication
-  # - link: /downloads/publications/ppg.pdf
-  #   icon: file pdf
-  #   tooltip: Access Full Text
+  - link: /downloads/publications/acmtap3364318.3340962.pdf
+    icon: file pdf
+    tooltip: Access Full Text
 
 - id: publication-sg201602003
   title: Parameter Estimation for External Network Static Equivalent Model Based on Nonlinear Programming Genetic Algorithm
