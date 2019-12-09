@@ -785,23 +785,23 @@ skills:
 
 additional_info:
   hobbies:
-  - name: Photography
-    icon: camera
-  - name: Guitar
-    icon: guitar
-  - name: Fitness
-    icon: dumbbell
   - name: Marathon
     icon: running
     link: https://marathon.irockbunny.com
     tooltip: View More
-  - name: Swimming
-    icon: swimmer
-  - name: Skateboard
+  - name: Fitness
+    icon: dumbbell
   - name: Snowboard
     icon: snowboarding
   - name: Motorcycle
-    icon: motorcycle
+    icon: biking
+  - name: Skateboard
+  - name: Swimming
+    icon: swimmer
+  - name: Photography
+    icon: camera
+  - name: Guitar
+    icon: guitar
   contact_advice:
   - Job opportunities in web application/system development, data analytics, data visualization, etc.
   - Job opportunities in the general areas of artificial intelligence, natural language processing, data mining, computer vision, machine learning, etc.
