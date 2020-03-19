@@ -19,7 +19,7 @@ $(document).ready(function () {
 });
 
 // version
-dayjs.extend(dayjs_plugin_relativeTime);
+dayjs.extend(window.dayjs_plugin_relativeTime);
 function updateVersion(timestamp) {
     $('#version').text(dayjs(timestamp).fromNow());
 };
