@@ -31,7 +31,7 @@
   id: publications
 
 - name: Patents
-  icon: balance scale
+  icon: file contract
   id: patents
 
 - name: Languages

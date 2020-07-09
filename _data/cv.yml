@@ -11,25 +11,24 @@ status:
 
 summary:
   brief_biography:
-  - Tong QU is currently a full-stack web developer at Y-English, building various web applications.
+  - Tong QU is currently a full-stack web developer at Y-English, creating various web applications.
   - He received his master's degree in electronic and information engineering (with distinction) from the Hong Kong Polytechnic University in 2013, and his bachelor's degree in communication engineering from Beijing University of Posts and Telecommunications in 2012.
-  - From July 2014 to March 2016, he was a research and development engineer at Global Energy Interconnection Research Institute (aka. State Grid Smart Grid Research Institute), working on power quality data analysis.
+  - From July 2014 to March 2016, he was a research and development engineer at Global Energy Interconnection Research Institute (aka. State Grid Smart Grid Research Institute), working on power quality data processing and analysis.
   - From December 2013 to June 2014, he was a research assistant at Multimedia Computing Lab, Renmin University of China, studying web image retrieval.
   - His postgraduate research at PolyU was focused on human face recognition with low-resolution facial images.
-  - He participated in various contests/competitions/challenges and winning awards in the fields of data mining, web design, programming, etc.
-  - His job interest lies in the general area of web application/system development.
-  - His research interests include artificial intelligence, natural language processing, data mining, computer vision, and machine learning.
+  - He had won various contests, competitions, and challenges in the fields of algorithms, data analysis, and visual design.
+  - His job interest lies in Python-based system development and algorithm implementation.
   highlights:
-  - 10+ years of programming and engineering experience.
-  - Solid expertise in Python (150k+ lines), HTML, CSS, JavaScript, and various algorithms/frameworks.
+  - 12+ years of programming and engineering experience.
+  - Solid expertise in Python (200k+ lines), HTML, CSS, JavaScript, and various algorithms/frameworks.
   - Experienced in MATLAB (50k+ lines), C++, Java, SQL, UNIX/Linux Shell, and LaTeX.
   - Contributed to various open source projects.
-  - 15+ years of graphic design experience.
-  - Solid expertise in Photoshop, Illustrator, and Flash.
+  - 6+ years of graphic design experience.
+  - Solid expertise in Photoshop, Illustrator, and layout design.
   - Work out 7+ hours per week; full marathon finisher (PB 4:25:35).
 
 education:
-- id: polyu
+- id: hkpolyu
   institution: The Hong Kong Polytechnic University
   degree: Master of Science in Electronic and Information Engineering
   label: with Distinction
@@ -191,16 +190,16 @@ experience:
         icon: file alternate
         tooltip: View Publication
     - title: Contributed to patent
-      content: A Method for Estimating Negative Sequence Impedance Parameters Applicable to Unbalanced Three-Phase Disturbance Source Localization
+      content: A Kind of Negative Sequence Impedance Parameter Evaluation Method of Three-Phase Imbalance Disturbance Source Locating
       links:
-      - id: patent-cn-201410590042-5
-        icon: balance scale
+      - id: patent-cn104316768b
+        icon: file contract
         tooltip: View Patent
     - title: Contributed to patent
-      content: A Method for Localizing Unbalanced Three-Phase Disturbance Sources in Power Systems
+      content: A Kind of Three-Phase Power Systems Imbalance Disturbance Source Locating Method
       links:
-      - id: patent-cn-201410590044-4
-        icon: balance scale
+      - id: patent-cn104316837b
+        icon: file contract
         tooltip: View Patent
 
   research:
@@ -293,7 +292,7 @@ experience:
     - content: Mastered daily German communication within 3 months (starting from zero).
 
   university_service:
-  - id: university-service-polyu
+  - id: university-service-hkpolyu
     university: The Hong Kong Polytechnic University
     position: Student Helper
     time: September 2012 - October 2012
@@ -484,7 +483,7 @@ projects:
     links:
     - link: /downloads/publications/ecosens.pdf
       icon: file pdf
-      tooltip: Access Full Text
+      tooltip: Download PDF
 
   undergraduate:
   - id: submission-management-system
@@ -578,7 +577,7 @@ publications:
     tooltip: View Publication
   - link: /downloads/publications/acmtap3364318.3340962.pdf
     icon: file pdf
-    tooltip: Access Full Text
+    tooltip: Download PDF
 
 - id: publication-sg201602003
   title: Parameter Estimation for External Network Static Equivalent Model Based on Nonlinear Programming Genetic Algorithm
@@ -606,7 +605,7 @@ publications:
     tooltip: View Publication
   - link: /downloads/publications/sg201602003.pdf
     icon: file pdf
-    tooltip: Access Full Text
+    tooltip: Download PDF
 
 - id: publication-b21501021
   title: Low-Resolution Face Recognition
@@ -616,37 +615,53 @@ publications:
   abstract: "Traditional face recognition algorithms are not best suited for matching face images captured at a low resolution to a set of high-resolution gallery face images. To perform matching between face images of different resolutions, this work proposes a coupled-projection method. Based on local relationships in the data, two sets of projections are learned: one for low-resolution face images and the other for high-resolution face images, respectively. Then, both low-resolution probe face images and high-resolution gallery face images are projected into a common subspace. Hence, subsequent matching can be done in the subspace directly."
   details:
   - title: Supervised by
-    content: Kenneth K. M. Lam, Professor & Associate Dean, Faculty of Engineering, HKPloyU
+    content: Kenneth K. M. Lam, Professor & Associate Dean, FEng HKPolyU
   links:
   - link: http://hkall.hku.hk/record=b21501021
     icon: globe
     tooltip: View Publication
   - link: /downloads/publications/b26443107.pdf
     icon: file pdf
-    tooltip: Access Full Text
+    tooltip: Download PDF
 
 patents:
-- id: patent-cn-201410590042-5
-  name: A Method for Estimating Negative Sequence Impedance Parameters Applicable to Unbalanced Three-Phase Disturbance Source Localization
-  number: China 201410590042.5
-  time: October 28, 2014
+- id: patent-cn104316768b
+  name: A Kind of Negative Sequence Impedance Parameter Evaluation Method of Three-Phase Imbalance Disturbance Source Locating
+  number: CN104316768B
+  state: Granted
+  time: January 19, 2018
   inventors:
   - Yingying Liu
   - Tongxun Wang
   - Tong Qu
   - Yuanyuan Sun
   - Peixin Li
+  links:
+  - link: https://patents.google.com/patent/CN104316768B/en
+    icon: globe
+    tooltip: View Patent
+  - link: /downloads/patents/CN104316768B.pdf
+    icon: file pdf
+    tooltip: Download PDF
 
-- id: patent-cn-201410590044-4
-  name: A Method for Localizing Unbalanced Three-Phase Disturbance Sources in Power Systems
-  number: China 201410590044.4
-  time: October 28, 2014
+- id: patent-cn104316837b
+  name: A Kind of Three-Phase Power Systems Imbalance Disturbance Source Locating Method
+  number: CN104316837B
+  state: Granted
+  time: January 19, 2018
   inventors:
-  - Yingying Liu
   - Tongxun Wang
+  - Yingying Liu
   - Tong Qu
   - Yuanyuan Sun
   - Peixin Li
+  links:
+  - link: https://patents.google.com/patent/CN104316837B/en
+    icon: globe
+    tooltip: View Patent
+  - link: /downloads/patents/CN104316837B.pdf
+    icon: file pdf
+    tooltip: Download PDF
 
 languages:
 - name: Mandarin
@@ -805,5 +820,5 @@ additional_info:
   - name: Photography
     icon: camera
   contact_advice:
-  - Job opportunities in web application/system development, data analytics, data visualization, etc.
-  - Job opportunities in the general areas of artificial intelligence, natural language processing, data mining, computer vision, machine learning, etc.
+  - Job opportunities in system development, or digital upgrading of traditional services.
+  - Job opportunities in data analytics, or algorithm engineering.

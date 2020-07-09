@@ -7,14 +7,7 @@
                 <div class="content">
                     <div class="header">{{ entry.employer }}</div>
                     <div class="meta">{{ entry.position }}</div>
-                    <div class="extra">{{ entry.time }} &middot; {{ entry.location }}</div>
-                    {%- if entry.details -%}
-                        <div class="description">
-                            <div class="ui bulleted list">
-                                {% for detail in entry.details %}<div class="item">{% if detail.title %}<b>{{ detail.title }}:</b> {% endif %}{{ detail.content }}{% for item in detail.links %}<a {% if item.id %}href="{{ '/' | relative_url }}#{{ item.id }}"{% else %}href="{{ item.link }}" target="_blank"{% endif %}{% if item.tooltip %} data-tooltip="{{ item.tooltip }}" data-variation="mini basic" data-position="top center" data-inverted=""{% endif %}><i class="{{ item.icon }} icon"></i></a>{% endfor %}</div>{% endfor %}
-                            </div>
-                        </div>
-                    {%- endif -%}
+                    {% include entry_time_location_details.html %}
                 </div>
             </div>
         {%- endfor -%}
@@ -26,14 +19,7 @@
                 <div class="content">
                     <div class="header">{{ entry.institution }} &middot; <span class="ui grey text text-normal">{{ entry.department }}</span></div>
                     <div class="meta">{{ entry.position }}{% if entry.advisor %} &middot; Supervised by: {{ entry.advisor }}{% endif %}</div>
-                    <div class="extra">{{ entry.time }} &middot; {{ entry.location }}</div>
-                    {%- if entry.details -%}
-                        <div class="description">
-                            <div class="ui bulleted list">
-                                {% for detail in entry.details %}<div class="item">{% if detail.title %}<b>{{ detail.title }}:</b> {% endif %}{{ detail.content }}{% for item in detail.links %}<a {% if item.id %}href="{{ '/' | relative_url }}#{{ item.id }}"{% else %}href="{{ item.link }}" target="_blank"{% endif %}{% if item.tooltip %} data-tooltip="{{ item.tooltip }}" data-variation="mini basic" data-position="top center" data-inverted=""{% endif %}><i class="{{ item.icon }} icon"></i></a>{% endfor %}</div>{% endfor %}
-                            </div>
-                        </div>
-                    {%- endif -%}
+                    {% include entry_time_location_details.html %}
                 </div>
             </div>
         {%- endfor -%}
@@ -45,14 +31,7 @@
                 <div class="content">
                     <div class="header">{{ entry.employer }}</div>
                     <div class="meta">{{ entry.position }}</div>
-                    <div class="extra">{{ entry.time }} &middot; {{ entry.location }}</div>
-                    {%- if entry.details -%}
-                        <div class="description">
-                            <div class="ui bulleted list">
-                                {% for detail in entry.details %}<div class="item">{% if detail.title %}<b>{{ detail.title }}:</b> {% endif %}{{ detail.content }}{% for item in detail.links %}<a {% if item.id %}href="{{ '/' | relative_url }}#{{ item.id }}"{% else %}href="{{ item.link }}" target="_blank"{% endif %}{% if item.tooltip %} data-tooltip="{{ item.tooltip }}" data-variation="mini basic" data-position="top center" data-inverted=""{% endif %}><i class="{{ item.icon }} icon"></i></a>{% endfor %}</div>{% endfor %}
-                            </div>
-                        </div>
-                    {%- endif -%}
+                    {% include entry_time_location_details.html %}
                 </div>
             </div>
         {%- endfor -%}
@@ -64,14 +43,7 @@
                 <div class="content">
                     <div class="header">{{ entry.institution }}</div>
                     <div class="meta">{{ entry.department }}</div>
-                    <div class="extra">{{ entry.time }} &middot; {{ entry.location }}</div>
-                    {%- if entry.details -%}
-                        <div class="description">
-                            <div class="ui bulleted list">
-                                {% for detail in entry.details %}<div class="item">{% if detail.title %}<b>{{ detail.title }}:</b> {% endif %}{{ detail.content }}{% for item in detail.links %}<a {% if item.id %}href="{{ '/' | relative_url }}#{{ item.id }}"{% else %}href="{{ item.link }}" target="_blank"{% endif %}{% if item.tooltip %} data-tooltip="{{ item.tooltip }}" data-variation="mini basic" data-position="top center" data-inverted=""{% endif %}><i class="{{ item.icon }} icon"></i></a>{% endfor %}</div>{% endfor %}
-                            </div>
-                        </div>
-                    {%- endif -%}
+                    {% include entry_time_location_details.html %}
                 </div>
             </div>
         {%- endfor -%}
@@ -83,14 +55,7 @@
                 <div class="content">
                     <div class="header">{{ entry.position }}</div>
                     <div class="meta">{{ entry.university }}</div>
-                    <div class="extra">{{ entry.time }} &middot; {{ entry.location }}</div>
-                    {%- if entry.details -%}
-                        <div class="description">
-                            <div class="ui bulleted list">
-                                {% for detail in entry.details %}<div class="item">{% if detail.title %}<b>{{ detail.title }}:</b> {% endif %}{{ detail.content }}{% for item in detail.links %}<a {% if item.id %}href="{{ '/' | relative_url }}#{{ item.id }}"{% else %}href="{{ item.link }}" target="_blank"{% endif %}{% if item.tooltip %} data-tooltip="{{ item.tooltip }}" data-variation="mini basic" data-position="top center" data-inverted=""{% endif %}><i class="{{ item.icon }} icon"></i></a>{% endfor %}</div>{% endfor %}
-                            </div>
-                        </div>
-                    {%- endif -%}
+                    {% include entry_time_location_details.html %}
                 </div>
             </div>
         {%- endfor -%}
@@ -102,14 +67,7 @@
                 <div class="content">
                     <div class="header">{{ entry.position }}</div>
                     <div class="meta">{{ entry.employer }}</div>
-                    <div class="extra">{{ entry.time }} &middot; {{ entry.location }}</div>
-                    {%- if entry.details -%}
-                        <div class="description">
-                            <div class="ui bulleted list">
-                                {% for detail in entry.details %}<div class="item">{% if detail.title %}<b>{{ detail.title }}:</b> {% endif %}{{ detail.content }}{% for item in detail.links %}<a {% if item.id %}href="{{ '/' | relative_url }}#{{ item.id }}"{% else %}href="{{ item.link }}" target="_blank"{% endif %}{% if item.tooltip %} data-tooltip="{{ item.tooltip }}" data-variation="mini basic" data-position="top center" data-inverted=""{% endif %}><i class="{{ item.icon }} icon"></i></a>{% endfor %}</div>{% endfor %}
-                            </div>
-                        </div>
-                    {%- endif -%}
+                    {% include entry_time_location_details.html %}
                 </div>
             </div>
         {%- endfor -%}

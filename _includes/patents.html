@@ -1,12 +1,12 @@
 <div id="patents" class="ui cv-section basic vertical segment">
-    <h1 class="ui dividing header"><i class="balance scale icon"></i>Patents</h1>
+    <h1 class="ui dividing header"><i class="file contract icon"></i>Patents</h1>
     <div class="ui relaxed items">
         {%- for entry in site.data.cv.patents -%}
             <div id="{{ entry.id }}" class="item">
                 <div class="content">
-                    <div class="header">{{ entry.name }}</div>
+                    {% include entry_name_links.html %}
                     <div class="meta">Invented by: {% for author in entry.inventors %}{% unless forloop.first %} &middot; {% endunless %}{{ author }}{% endfor %}</div>
-                    <div class="extra">{{ entry.number }} &middot; Filed on {{ entry.time }}</div>
+                    <div class="extra">{{ entry.number }} &middot; {{ entry.state }} on {{ entry.time }}</div>
                 </div>
             </div>
         {%- endfor -%}
