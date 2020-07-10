@@ -202,6 +202,12 @@ experience:
       - id: patent-cn104316837b
         icon: file contract
         tooltip: View Patent
+    - title: Contributed to patent
+      content: A Kind of Power Quality Data Method for Expressing
+      links:
+      - link: https://patents.google.com/patent/CN106067142A/en
+        icon: globe
+        tooltip: View Patent
 
   research:
   - id: thu
