@@ -184,7 +184,7 @@ experience:
     details:
     - content: Performed massive analytics on power quality data collected from real world power grid monitoring network.
     - content: Built a robust data analysis platform, and participated in the state grid harmonics monitoring project.
-    - title: Co-authored a paper
+    - title: Co-authored paper
       content: Parameter Estimation for External Network Static Equivalent Model Based on Nonlinear Programming Genetic Algorithm
       links:
       - id: publication-sg201602003
@@ -228,7 +228,7 @@ experience:
       - id: ppg
         icon: rocket
         tooltip: View Project
-    - title: Co-authored a paper
+    - title: Co-authored paper
       content: Photoplethysmogram-Based Cognitive Load Assessment Using Multi-Feature Fusion Model
       links:
       - id: publication-acm-tap-3364318-3340962
