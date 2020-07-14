@@ -13,7 +13,7 @@ status:
 
 summary:
   brief_biography:
-  - Tong QU has been a full-stack web developer at Y-English since April 2016, creating various web applications.
+  - Tong QU has been a chief engineer at Y-English since April 2016, creating various web applications.
   - He received his master's degree in electronic and information engineering (with distinction) from the Hong Kong Polytechnic University in 2013, and his bachelor's degree in communication engineering from Beijing University of Posts and Telecommunications in 2012.
   - In 2017, he was a research assistant at Research Institute of Information Technology, Tsinghua University, and implemented experimental algorithms on photoplethysmogram-based cognitive load assessment.
   - From July 2014 to March 2016, he was a research and development engineer at Global Energy Interconnection Research Institute (aka. State Grid Smart Grid Research Institute), working on power quality data processing and analysis.
@@ -170,7 +170,7 @@ experience:
   vocational:
   - id: y-english
     employer: Beijing Y-English Education Consulting Co., Ltd.
-    position: Python Developer · Chief Engineer · Co-Founder
+    position: Research and Development Engineer · Co-Founder
     time: April 2016 - Present
     location: Beijing
     details:
