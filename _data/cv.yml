@@ -24,7 +24,7 @@ summary:
   highlights:
   - 12+ years of programming and engineering experience.
   - Solid expertise in Python, HTML, CSS, JavaScript, and various algorithms/frameworks.
-  - Experienced in MATLAB, C++, Java, SQL, UNIX/Linux Shell, and LaTeX.
+  - Experienced in Go, MATLAB, C++, Java, SQL, UNIX/Linux Shell, and LaTeX.
   - Contributed to various open source projects.
   - 6+ years of graphic design experience.
   - Solid expertise in Photoshop, Illustrator, and various design software/tools.
@@ -705,10 +705,10 @@ skills:
   - name: SVG
     color: orange
     icon: draw polygon
-  - name: MATLAB
-    color: red
   - name: Go/Golang
     color: blue
+  - name: MATLAB
+    color: red
   - name: Shell Script
     color: green
     icon: terminal
