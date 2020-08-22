@@ -707,6 +707,8 @@ skills:
     icon: draw polygon
   - name: MATLAB
     color: red
+  - name: Go/Golang
+    color: blue
   - name: Shell Script
     color: green
     icon: terminal
