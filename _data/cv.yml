@@ -2,8 +2,8 @@ status:
   avatar: /images/avatar.svg
   first_name: Tong
   family_name: Qu
-  employer: Beijing Y-English Education Consulting Co., Ltd.
-  position: Python Developer
+  employer: China Mobile Research Institute
+  position: Software R&D Engineer
   location: Beijing, China
   specialty:
     name: Python Development
@@ -13,8 +13,9 @@ status:
 
 summary:
   brief_biography:
-  - Tong QU has been the chief engineer at Y-English since April 2016, creating various web applications.
+  - Tong QU has been the software research and development engineer at China Mobile Research Institute since December 2020, building business test tool integration platforms and monitoring systems.
   - He received his master's degree in electronic and information engineering (with distinction) from the Hong Kong Polytechnic University in 2013, and his bachelor's degree in communication engineering from Beijing University of Posts and Telecommunications in 2012.
+  - From April 2016 to November 2020, he was the chief engineer at Y-English, creating various web applications.
   - In 2017, he was a research assistant at Research Institute of Information Technology, Tsinghua University, and implemented experimental algorithms on photoplethysmogram-based cognitive load assessment.
   - From July 2014 to March 2016, he was a research and development engineer at Global Energy Interconnection Research Institute (aka. State Grid Smart Grid Research Institute), working on power quality data processing and analysis.
   - From December 2013 to June 2014, he was a research assistant at Multimedia Computing Lab, Renmin University of China, studying web image retrieval.
@@ -22,7 +23,7 @@ summary:
   - He had won various contests, competitions, and challenges in the fields of algorithms, data analysis, and visual design.
   - His job interest lies in Python-based system development and algorithm implementation.
   highlights:
-  - 12+ years of programming and engineering experience.
+  - 13+ years of programming and engineering experience.
   - Solid expertise in Python, HTML, CSS, JavaScript, and various algorithms/frameworks.
   - Experienced in Go, MATLAB, C++, Java, SQL, UNIX/Linux Shell, and LaTeX.
   - Contributed to various open source projects.
@@ -168,10 +169,18 @@ education:
 
 experience:
   vocational:
+  - id: cmri
+    employer: China Mobile Research Institute
+    position: Software Research and Development Engineer
+    time: December 2020 - Present
+    location: Beijing
+    details:
+    - content: Currently building business test tool integration platforms and monitoring systems.
+
   - id: y-english
     employer: Beijing Y-English Education Consulting Co., Ltd.
     position: IT Engineer · Co-Founder
-    time: April 2016 - Present
+    time: April 2016 - November 2020
     location: Beijing
     details:
     - content: Designed system integration schemes to flipped classroom services.
