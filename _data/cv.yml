@@ -13,7 +13,7 @@ status:
 
 summary:
   brief_biography:
-  - Tong QU has been a software research and development engineer at China Mobile Research Institute since December 2020, building business test tool integration platforms and monitoring systems.
+  - Tong QU has been a software research and development engineer at China Mobile Research Institute since December 2020, building test tool integration platforms and monitoring systems.
   - He received his master's degree in electronic and information engineering (with distinction) from the Hong Kong Polytechnic University in 2013, and his bachelor's degree in communication engineering from Beijing University of Posts and Telecommunications in 2012.
   - From April 2016 to November 2020, he was the chief engineer at Y-English, creating various web applications.
   - In 2017, he was a research assistant at Research Institute of Information Technology, Tsinghua University, and implemented experimental algorithms on photoplethysmogram-based cognitive load assessment.
@@ -23,7 +23,7 @@ summary:
   - He had won various contests, competitions, and challenges in the fields of algorithms, data analysis, and visual design.
   - His job interest lies in Python-based system development and algorithm implementation.
   highlights:
-  - 13+ years of programming and engineering experience.
+  - 14+ years of programming and engineering experience.
   - Solid expertise in Python, HTML, CSS, JavaScript, and various algorithms/frameworks.
   - Experienced in Go, MATLAB, C++, Java, SQL, UNIX/Linux Shell, and LaTeX.
   - Contributed to various open source projects.
@@ -175,7 +175,7 @@ experience:
     time: December 2020 - Present
     location: Beijing
     details:
-    - content: Currently building business test tool integration platforms and monitoring systems.
+    - content: Currently building platforms integrating various test tools and monitoring systems.
 
   - id: y-english
     employer: Beijing Y-English Education Consulting Co., Ltd.
