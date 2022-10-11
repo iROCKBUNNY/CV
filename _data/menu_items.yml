@@ -43,7 +43,7 @@
   id: skills
 
 - name: Github Stats
-  icon: gihtub
+  icon: github
   id: gihtub-stats
 
 - name: Additional Info
