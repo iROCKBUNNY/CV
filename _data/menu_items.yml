@@ -42,6 +42,10 @@
   icon: code
   id: skills
 
+- name: Github
+  icon: gihtub
+  id: gihtub
+
 - name: Additional Info
   icon: infinity
   id: additional-info
