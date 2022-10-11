@@ -42,9 +42,9 @@
   icon: code
   id: skills
 
-- name: Github
+- name: Github Stats
   icon: gihtub
-  id: gihtub
+  id: gihtub-stats
 
 - name: Additional Info
   icon: infinity
