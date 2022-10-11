@@ -5,3 +5,5 @@
 
 # CV
 Curriculum Vitæ
+
+[![iROCKBUNNY's GitHub stats](https://github-readme-stats.vercel.app/api?username=iROCKBUNNY&show_icons=true&theme=transparent&include_all_commits=true&count_private=true)](https://github.com/iROCKBUNNY)
