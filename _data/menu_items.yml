@@ -44,7 +44,7 @@
 
 - name: Github Stats
   icon: github
-  id: gihtub-stats
+  id: github-stats
 
 - name: Additional Info
   icon: infinity
