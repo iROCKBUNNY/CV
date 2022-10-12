@@ -14,6 +14,7 @@
 
 .ui.main.segment {
     padding-bottom: 6em;
+    border-top: none;
 }
 .ui.error.segment,
 .ui.footer.segment {
