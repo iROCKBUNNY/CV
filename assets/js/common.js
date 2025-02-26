@@ -25,7 +25,7 @@ function updateVersion(timestamp) {
 };
 var updateAt = $('meta[name=updated_at]').attr('content');
 updateVersion(updateAt);
-$('#version-icon').addClass('green');
+$('#version-icon').addClass('check green').removeClass('sync alternate');
 setInterval(function () {
     updateVersion(updateAt);
 }, 15000);
